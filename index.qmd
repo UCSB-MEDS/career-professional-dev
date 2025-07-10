@@ -1,7 +1,7 @@
 ---
-title: "Course Title"
+title: "Career & Professional Workshop series"
 subtitle: "Master of Environmental Data Science (MEDS)"
-description: "Winter 2025"
+description: "2025-2026"
 title-block-banner: false
 toc: false
 ---
@@ -11,71 +11,86 @@ toc: false
 :::
 
 ::: {.center-text .gray-text}
-*Add your own relevant image to the `images/` folder, then update the file name in `index.qmd` so that it points to the correct image.* 
+*[ADD ANY CAREER-RELATED IMAGERY / LOGO HERE]* 
 :::
 
 <br>
 
-::: {.callout-tip}
-### Some tips for getting started:
+## Description
 
-- make updates to this landing page by editing the `index.qmd` file in your repo's root directory
-- the landing page of your website *must* be named `index` -- do not change this name; it also should live in the root directory of your project
-- crop headshots in the shape of a circle before adding them to your repo (if you want them to appear as circles)
-:::
+tbd
 
-## Course Description
-
-Add your course description here (can be copied over from your syllabus or the affiliated Bren course page)
+Add info about the [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?usp=sharing){target="_blank"}
 
 ## Teaching Team
 
 <br>
 
-<!-- Create responsive grid with two columns, which stack vertically when browser window is made smaller (or when viewed on a mobile device) -->
-
 ::: {.grid}
 
-<!-- Left-hand column -->
-::: {.g-col-12 .g-col-md-6}
-::: {.center-text .body-text-l}
-**Instructor**
-:::
+::: {.g-col-12 .g-col-md-3}
 ```{r}
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
 #| out-width: "45%" 
-knitr::include_graphics("images/tbd.png")
+knitr::include_graphics("images/sam.png")
 ```
 ::: {.center-text}
-[**Instructor's Name**]{.teal-text}  
-**Email:** [email@ucsb.edu](mailto::email@bren.ucsb.edu)  
-**Learn more:** link to preferred online profile here  
+[**Sam Shanny-Csik**]{.teal-text}  
+**Email:** [scsik@ucsb.edu](mailto::scsik@ucsb.edu)  
+**Learn more:** [Personal website](https://samanthacsik.github.io/){target="_blank"}
 :::
 :::
 
-<!-- Right-hand column -->
-::: {.g-col-12 .g-col-md-6}
-::: {.center-text .body-text-l}
-**TA**
-:::
+::: {.g-col-12 .g-col-md-3}
 ```{r}
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
 #| out-width: "45%" 
-knitr::include_graphics("images/tbd.png")
+knitr::include_graphics("images/miya.png")
 ```
 ::: {.center-text}
-[**TA's Name**]{.teal-text}  
-**Email:** [email@bren.ucsb.edu](mailto::email@bren.ucsb.edu)   
-**Learn more:** link to preferred online profile here
+[**Miya Scheble**]{.teal-text}  
+**Email:** [miya@bren.ucsb.edu](mailto::miya@bren.ucsb.edu)  
+**Learn more:** [Bren profile](https://bren.ucsb.edu/people/miya-scheble){target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "45%" 
+knitr::include_graphics("images/amanda.png")
+```
+::: {.center-text}
+[**Amanda Asquith-Caya**]{.teal-text}  
+**Email:** [aasquith@ucsb.edu](mailto::aasquith@ucsb.edu)  
+**Learn more:** [Bren profile](https://bren.ucsb.edu/people/amanda-asquith-caya){target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "45%" 
+knitr::include_graphics("images/dave.png")
+```
+::: {.center-text}
+[**David Parker**]{.teal-text}  
+**Email:** [david@bren.ucsb.edu](mailto::miya@bren.ucsb.edu)  
+**Learn more:** [Bren profile](https://bren.ucsb.edu/people/david-parker){target="_blank"}
 :::
 :::
 
 :::
+
 
 ## Acknowledgements
 
-Add any acknowledgements here (e.g. any resources or people you drew lots of inspiration or help from when building your materials?)
+tbd

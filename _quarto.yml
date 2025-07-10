@@ -8,37 +8,55 @@ website:
     dismissable: false
     type: primary
     position: above-navbar
-    content: "This website is currently under development! (edit or remove this banner in `_quarto.yml`)"
-  title: "EDS 123"
-  favicon: images/bren-hex.png
+    content: "This website is currently under development!"
+  title: "MEDS Career & Professional Develoment"
+  favicon: images/bren-meds-hex.png
   navbar:
+    title: "MEDS"
     right:
       - href: index.qmd
         text: home
-      - text: syllabus
-        href: https://docs.google.com/document/d/1hoo2DEroXlqBhhc6LmnsYFe8_7IbHny5yk7yXLfQp-4/edit?usp=sharing
-        target: _blank
-      - text: course materials
+      - text: summer
         menu:
-          - text: week 1 (DD/MM)
+          - text: week 5 (09/03) 
             href: course-materials/week1.qmd
-          - text: week 2 (DD/MM)
+          - text: week 6 (09/10)
             href: course-materials/week2.qmd
-      - text: assignments
-        href: assignments.qmd
-      - text: resources
-        menu: 
-          - text: recommended readings & resources
-            href: resources.qmd
-          - text: MEDS installation guide
-            href: https://ucsb-meds.github.io/MEDS-installation-guide/
-            target: _blank
-      - icon: github
+      - text: fall
         menu:
-          - text: Source Code
-            url: https://github.com/UCSB-MEDS/EDS-website-template
-          - text: Report a Bug
-            url: https://github.com/UCSB-MEDS/EDS-website-template/issues
+          - text: orientation day 1 (09/22) 
+            href: course-materials/week2.qmd
+          - text: orientation day 2 (09/23) 
+            href: course-materials/week2.qmd
+          - text: orientation day 3 (09/24) 
+            href: course-materials/week2.qmd
+          - text: week 1 (10/01)
+            href: course-materials/week2.qmd
+          - text: week 2 (10/08)
+            href: course-materials/week2.qmd
+          - text: week 3 (10/15)
+            href: course-materials/week2.qmd
+          - text: week 4 (10/22)
+            href: course-materials/week2.qmd
+          - text: week 5 (10/29)
+            href: course-materials/week2.qmd
+          - text: week 6 (11/05)
+            href: course-materials/week2.qmd
+          - text: week 7 (11/12)
+            href: course-materials/week2.qmd
+          - text: week 8 (11/19)
+            href: course-materials/week2.qmd
+      - text: BrenConnect
+        href: https://ucsbbren.my.site.com/s/
+        target: _blank
+      - icon: github
+        href: https://github.com/UCSB-MEDS/EDS-website-template
+        target: _blank
+        # menu:
+        #   - text: Source Code
+        #     url: https://github.com/UCSB-MEDS/EDS-website-template
+        #   - text: Report a Bug
+        #     url: https://github.com/UCSB-MEDS/EDS-website-template/issues
   page-footer:
     background: dark
     right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/EDS-website-template) and [Quarto](https://quarto.org/)

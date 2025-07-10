@@ -65,16 +65,16 @@
   {
     "objectID": "index.html#teaching-team",
     "href": "index.html#teaching-team",
-    "title": "Course Title",
+    "title": "Career & Professional Workshop series",
     "section": "Teaching Team",
-    "text": "Teaching Team\n\n\n\n\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n\nInstructor’s Name\nEmail: email@ucsb.edu\nLearn more: link to preferred online profile here\n\n\n\n\n\nTA\n\n\n\n\n\n\n\n\n\n\n\nTA’s Name\nEmail: email@bren.ucsb.edu\nLearn more: link to preferred online profile here"
+    "text": "Teaching Team\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam Shanny-Csik\nEmail: scsik@ucsb.edu\nLearn more: Personal website\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiya Scheble\nEmail: miya@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmanda Asquith-Caya\nEmail: aasquith@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Parker\nEmail: david@bren.ucsb.edu\nLearn more: Bren profile"
   },
   {
     "objectID": "index.html#acknowledgements",
     "href": "index.html#acknowledgements",
-    "title": "Course Title",
+    "title": "Career & Professional Workshop series",
     "section": "Acknowledgements",
-    "text": "Acknowledgements\nAdd any acknowledgements here (e.g. any resources or people you drew lots of inspiration or help from when building your materials?)"
+    "text": "Acknowledgements\ntbd"
   },
   {
     "objectID": "assignments.html",
@@ -166,5 +166,12 @@
     "title": "EDS 123",
     "section": "",
     "text": "You can arrange content in columns\n\n\n\nLearn more about the MEDS program on the Bren website."
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "Career & Professional Workshop series",
+    "section": "Description",
+    "text": "Description\ntbd\nAdd info about the MEDS Data Science Portfolio Calendar"
   }
 ]
