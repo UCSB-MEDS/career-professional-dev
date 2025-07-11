@@ -1,0 +1,38 @@
+---
+title: "Mock hiring committee exercise"
+subtitle: "Orientation | Day 1"
+description: "Monday, September 22^nd^, 2025"
+---
+
+::: {.center-text .body-text-l}
+**ADD IMAGE HERE**
+:::
+
+<br>
+
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+TBD 
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*NA*
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+
+Please be sure to complete the following before class:
+
+### A. tbd
+### B. tbd
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Slides | Templates |  Etc |
+|----------------|------|------------|
+| tbd | tbd | tbd |
+: {.hover .bordered tbl-colwidths="[50,25,25]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+TBD

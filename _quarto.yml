@@ -19,33 +19,33 @@ website:
       - text: summer
         menu:
           - text: week 5 (09/03) 
-            href: course-materials/week1.qmd
+            href: materials/s-week5-intro.qmd
           - text: week 6 (09/10)
-            href: course-materials/week2.qmd
+            href: materials/s-week6-values.qmd
       - text: fall
         menu:
           - text: orientation day 1 (09/22) 
-            href: course-materials/week2.qmd
+            href: materials/o-day1-mock-hiring.qmd
           - text: orientation day 2 (09/23) 
-            href: course-materials/week2.qmd
+            href: materials/o-day2-resume.qmd
           - text: orientation day 3 (09/24) 
-            href: course-materials/week2.qmd
+            href: materials/o-day3-personal-brand.qmd
           - text: week 1 (10/01)
-            href: course-materials/week2.qmd
-          - text: week 2 (10/08)
-            href: course-materials/week2.qmd
-          - text: week 3 (10/15)
-            href: course-materials/week2.qmd
-          - text: week 4 (10/22)
-            href: course-materials/week2.qmd
-          - text: week 5 (10/29)
-            href: course-materials/week2.qmd
-          - text: week 6 (11/05)
-            href: course-materials/week2.qmd
-          - text: week 7 (11/12)
-            href: course-materials/week2.qmd
-          - text: week 8 (11/19)
-            href: course-materials/week2.qmd
+            href: materials/f-week1-personal-website.qmd
+          # - text: week 2 (10/08)
+          #   href: materials/week2.qmd
+          # - text: week 3 (10/15)
+          #   href: materials/week2.qmd
+          # - text: week 4 (10/22)
+          #   href: materials/week2.qmd
+          # - text: week 5 (10/29)
+          #   href: materials/week2.qmd
+          # - text: week 6 (11/05)
+          #   href: materials/week2.qmd
+          # - text: week 7 (11/12)
+          #   href: materials/week2.qmd
+          # - text: week 8 (11/19)
+          #   href: materials/week2.qmd
       - text: BrenConnect
         href: https://ucsbbren.my.site.com/s/
         target: _blank
@@ -60,7 +60,7 @@ website:
   page-footer:
     background: dark
     right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/EDS-website-template) and [Quarto](https://quarto.org/)
-    left: This work is licensed under \<your preferred license\> 
+    #left: This work is licensed under \<your preferred license\> 
 
 format:
   html:

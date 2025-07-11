@@ -1,0 +1,82 @@
+---
+title: "Creating your personal website using Quarto"
+subtitle: "Fall | Week 1"
+description: "Wednesday, October 1^st^, 2025"
+---
+
+::: {.center-text}
+![](../images/horst-quarto.png){width="65%" fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto."}
+
+*[Art by [Allison Horst](https://allisonhorst.com/allison-horst){target="_blank"}]{.body-text-s .gray-text}*
+:::
+
+
+<br>
+
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+TBD 
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+By the end of today’s workshop, you should have:
+
+- the scaffolding of a basic Quarto website built and deployed using GitHub Pages
+- a neatly-arranged landing page with your professional headshot and your chosen bio / info
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+
+Please be sure to complete the following before the workshop:
+
+### A. Install software / Create accounts
+
+MEDS students should already have the following installed / created from summer session (but it's worth double-checking!):
+
+::: {.callout-note collapse=true icon=false}
+## To follow along, you'll need:
+- [R](https://cloud.r-project.org/){target="_blank"} & [RStudio](https://posit.co/download/rstudio-desktop/#download){target="_blank"} installed
+- Quarto installed – **Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio**
+- [Git](https://git-scm.com/){target="_blank"} installed / configured
+- A [GitHub](https://github.com/){target="_blank"} account & a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#about-personal-access-tokens){target="_blank"} (PAT) set
+
+Please refer to the [MEDS Installation Guide](https://ucsb-meds.github.io/MEDS-installation-guide/) for detailed setup instructions.
+:::
+
+### B. Gather materials to add to your website's landing page
+
+During this session, you'll have the opportunity to add some personal information to your website's landing page. It'll help to have an idea of what you might want to include (at least as a starting point -- your website's content will most certainly evolve over time). Consider the following before attending the workshop:
+
+1. [**Have your professional headshot handy.**]{.teal-text} Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.
+2. [**Consider which landing page template to use.**]{.teal-text} We'll be applying one of Quarto's five available [built-in templates](https://quarto.org/docs/websites/website-about.html#templates) when we create our website's landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I'm currently a fan of `jolla`, but used `trestles` for a long while). Consider how you'd like to arrange your personal bio / info given the layout of your top choice template.
+3. [**Draft your personal bio / blurb.**]{.teal-text} Consider reusing parts of your Bren bio, or even drafting a shortened, catchy version of it for your landing page (and make note of the tips, below!). Save your text in a place you can quickly copy from during class (e.g. a Google Doc).
+
+::: {.callout-tip collapse=true icon=false}
+## Some considerations and example website bios
+- **Adjust your bio to fit your chosen landing page [template](https://quarto.org/docs/websites/website-about.html#templates).** For example, `jolla` works well with short bios or even taglines, while `trestles` might be a better choice if you're looking to add longer and / or multiple sections. 
+- **Check out a few example websites for bio inspiration.** Here are just a small handful fo websites, each with a slightly different approach to their landing page bios:
+    - [Samantha Shanny-Csik](https://samanthacsik.github.io/){target="_blank"} (yours truly)
+    - [Nick Lyon](https://njlyon0.github.io/){target="_blank"} (NCEAS Data Analyst)
+    - [Daphne Virlar-Knight](https://dvirlar2.github.io/){target="_blank"} (MESM 2020)
+    - [Ray Hunter](https://ramhunte.github.io/){target="_blank"} (MESM 2024)
+    - [Sam Muir](https://shmuir.github.io/){target="_blank"} (MEDS 2024)
+    - [Melissa Widas](https://mwidas.github.io/){target="_blank"} (MEDS 2024)
+    - [Marine Kochuten](https://marinakochuten.github.io/){target="_blank"} (MEDS 2025)
+    - [Haylee Oyler](https://haylee360.github.io/){target="_blank"} (MEDS 2025)
+    - [Brooke Grazda](https://bgrazda.github.io/){target="_blank"} (MEDS 2025)
+    - [Olivia Hemond](https://ohemond25.github.io/oliviahemond.github.io/){target="_blank"} (MESM 2025)
+
+:::
+
+4. [**Gather your important public profile links.**]{.teal-text} Your personal website is an excellent place to link out to your other public profiles in one, organized place. Bookmark / save the links you'd like to include (e.g. LinkedIn, GitHub, even your preferred email address)
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| {{< fa file-lines title="A file with lines of text on it" >}} Instructional Document | {{< fa note-sticky title="A blank sticky note" >}} Notes | 
+|------|------|
+| [Quarto website instructions](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"} | We'll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point |
+: {.hover .bordered tbl-colwidths="[40,60]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+TBD
