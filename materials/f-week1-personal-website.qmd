@@ -40,7 +40,7 @@ MEDS students should already have the following installed / created from summer 
 - [Git](https://git-scm.com/){target="_blank"} installed / configured
 - A [GitHub](https://github.com/){target="_blank"} account & a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#about-personal-access-tokens){target="_blank"} (PAT) set
 
-Please refer to the [MEDS Installation Guide](https://ucsb-meds.github.io/MEDS-installation-guide/) for detailed setup instructions.
+Please refer to the [MEDS Installation Guide](https://ucsb-meds.github.io/MEDS-installation-guide/){target="_blank"}  for detailed setup instructions.
 :::
 
 ### B. Gather materials to add to your website's landing page
@@ -48,12 +48,12 @@ Please refer to the [MEDS Installation Guide](https://ucsb-meds.github.io/MEDS-i
 During this session, you'll have the opportunity to add some personal information to your website's landing page. It'll help to have an idea of what you might want to include (at least as a starting point -- your website's content will most certainly evolve over time). Consider the following before attending the workshop:
 
 1. [**Have your professional headshot handy.**]{.teal-text} Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.
-2. [**Consider which landing page template to use.**]{.teal-text} We'll be applying one of Quarto's five available [built-in templates](https://quarto.org/docs/websites/website-about.html#templates) when we create our website's landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I'm currently a fan of `jolla`, but used `trestles` for a long while). Consider how you'd like to arrange your personal bio / info given the layout of your top choice template.
+2. [**Consider which landing page template to use.**]{.teal-text} We'll be applying one of Quarto's five available [built-in templates](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"}  when we create our website's landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I'm currently a fan of `jolla`, but used `trestles` for a long while). Consider how you'd like to arrange your personal bio / info given the layout of your top choice template.
 3. [**Draft your personal bio / blurb.**]{.teal-text} Consider reusing parts of your Bren bio, or even drafting a shortened, catchy version of it for your landing page (and make note of the tips, below!). Save your text in a place you can quickly copy from during class (e.g. a Google Doc).
 
 ::: {.callout-tip collapse=true icon=false}
 ## Some considerations and example website bios
-- **Adjust your bio to fit your chosen landing page [template](https://quarto.org/docs/websites/website-about.html#templates).** For example, `jolla` works well with short bios or even taglines, while `trestles` might be a better choice if you're looking to add longer and / or multiple sections. 
+- **Adjust your bio to fit your chosen landing page [template](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"} .** For example, `jolla` works well with short bios or even taglines, while `trestles` might be a better choice if you're looking to add longer and / or multiple sections. 
 - **Check out a few example websites for bio inspiration.** Here are just a small handful fo websites, each with a slightly different approach to their landing page bios:
     - [Samantha Shanny-Csik](https://samanthacsik.github.io/){target="_blank"} (yours truly)
     - [Nick Lyon](https://njlyon0.github.io/){target="_blank"} (NCEAS Data Analyst)
