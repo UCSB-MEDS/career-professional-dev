@@ -7,11 +7,13 @@ toc: false
 ---
 
 ::: {.center-text}
-![](images/bren-meds-hex.png){width="25%" fig-alt="Alt text here."}
+![](images/horst-bren.png){width="40%" fig-alt="Alt text here."}
 :::
 
-::: {.center-text .gray-text}
-*[ADD ANY CAREER-RELATED IMAGERY / LOGO HERE]* 
+<br>
+
+::: {.center-text .gray-text .body-text-s}
+*The Bren Logo, reimagined by [Allison Horst](https://allisonhorst.com/){target="_blank}* 
 :::
 
 <br>
