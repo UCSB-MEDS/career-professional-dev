@@ -10,8 +10,6 @@ toc: false
 ![](images/bren.png){width="100%" fig-alt="An aerial image overlooking Bren Hall with the ocean and palm trees in the background"}
 :::
 
-
-
 <!-- ::: {.center-text .gray-text .body-text-s}
 *The Bren Logo, reimagined by [Allison Horst](https://allisonhorst.com/){target="_blank}* 
 ::: -->
