@@ -18,19 +18,19 @@ website:
         text: home
       - text: summer
         menu:
-          - text: week 5 (09/03) 
+          - text: week 5 (09/03) - intro
             href: materials/s-week5-intro.qmd
-          - text: week 6 (09/10)
+          - text: week 6 (09/10) - values
             href: materials/s-week6-values.qmd
       - text: fall
         menu:
-          - text: orientation day 1 (09/22) 
+          - text: orientation day 1 (09/22) - mock hiring
             href: materials/o-day1-mock-hiring.qmd
-          - text: orientation day 2 (09/23) 
+          - text: orientation day 2 (09/23) - resume
             href: materials/o-day2-resume.qmd
-          - text: orientation day 3 (09/24) 
+          - text: orientation day 3 (09/24) - personal brand
             href: materials/o-day3-personal-brand.qmd
-          - text: week 1 (10/01)
+          - text: week 1 (10/01) - personal website
             href: materials/f-week1-personal-website.qmd
           # - text: week 2 (10/08)
           #   href: materials/week2.qmd
@@ -59,7 +59,7 @@ website:
         #     url: https://github.com/UCSB-MEDS/EDS-website-template/issues
   page-footer:
     background: dark
-    right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/EDS-website-template) and [Quarto](https://quarto.org/)
+    right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/career-professional-dev){target="_blank"} and [Quarto](https://quarto.org/){target="_blank"}
     #left: This work is licensed under \<your preferred license\> 
 
 format:

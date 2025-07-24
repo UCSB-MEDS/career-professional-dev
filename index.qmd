@@ -7,14 +7,14 @@ toc: false
 ---
 
 ::: {.center-text}
-![](images/horst-bren.png){width="40%" fig-alt="Alt text here."}
+![](images/bren.png){width="100%" fig-alt="An aerial image overlooking Bren Hall with the ocean and palm trees in the background"}
 :::
 
-<br>
 
-::: {.center-text .gray-text .body-text-s}
+
+<!-- ::: {.center-text .gray-text .body-text-s}
 *The Bren Logo, reimagined by [Allison Horst](https://allisonhorst.com/){target="_blank}* 
-:::
+::: -->
 
 <br>
 
@@ -35,7 +35,7 @@ Add info about the [MEDS Data Science Portfolio Calendar](https://docs.google.co
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "45%" 
+#| out-width: "55%" 
 knitr::include_graphics("images/sam.png")
 ```
 ::: {.center-text}
@@ -50,7 +50,7 @@ knitr::include_graphics("images/sam.png")
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "45%" 
+#| out-width: "55%" 
 knitr::include_graphics("images/miya.png")
 ```
 ::: {.center-text}
@@ -65,7 +65,7 @@ knitr::include_graphics("images/miya.png")
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "45%" 
+#| out-width: "55%" 
 knitr::include_graphics("images/amanda.png")
 ```
 ::: {.center-text}
@@ -80,7 +80,7 @@ knitr::include_graphics("images/amanda.png")
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "45%" 
+#| out-width: "55%" 
 knitr::include_graphics("images/dave.png")
 ```
 ::: {.center-text}
@@ -92,7 +92,6 @@ knitr::include_graphics("images/dave.png")
 
 :::
 
+<!-- ## Acknowledgements
 
-## Acknowledgements
-
-tbd
+tbd -->
