@@ -10,14 +10,13 @@ description: "Monday, September 22^nd^, 2025"
 
 <br>
 
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*NA*
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
 TBD 
-
-## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
-
-*NA*
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
@@ -28,10 +27,10 @@ Please be sure to complete the following before class:
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
-| Slides | Templates |  Etc |
-|----------------|------|------------|
-| tbd | tbd | tbd |
-: {.hover .bordered tbl-colwidths="[50,25,25]"} 
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| TBD          | TBD                    | TBD   |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 

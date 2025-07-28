@@ -34,21 +34,6 @@ Add info about the [MEDS Data Science Portfolio Calendar](https://docs.google.co
 #| echo: false
 #| fig-align: "center"
 #| out-width: "55%" 
-knitr::include_graphics("images/sam.png")
-```
-::: {.center-text}
-[**Sam Shanny-Csik**]{.teal-text}  
-**Email:** [scsik@ucsb.edu](mailto::scsik@ucsb.edu)  
-**Learn more:** [Personal website](https://samanthacsik.github.io/){target="_blank"}
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-```{r}
-#| eval: true 
-#| echo: false
-#| fig-align: "center"
-#| out-width: "55%" 
 knitr::include_graphics("images/miya.png")
 ```
 ::: {.center-text}
@@ -85,6 +70,21 @@ knitr::include_graphics("images/dave.png")
 [**David Parker**]{.teal-text}  
 **Email:** [david@bren.ucsb.edu](mailto::miya@bren.ucsb.edu)  
 **Learn more:** [Bren profile](https://bren.ucsb.edu/people/david-parker){target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "55%" 
+knitr::include_graphics("images/sam.png")
+```
+::: {.center-text}
+[**Sam Shanny-Csik**]{.teal-text}  
+**Email:** [scsik@ucsb.edu](mailto::scsik@ucsb.edu)  
+**Learn more:** [Personal website](https://samanthacsik.github.io/){target="_blank"}
 :::
 :::
 

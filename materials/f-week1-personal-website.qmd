@@ -7,23 +7,25 @@ description: "Wednesday, October 1^st^, 2025"
 ::: {.center-text}
 ![](../images/horst-quarto.png){width="65%" fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto."}
 
-*[Art by [Allison Horst](https://allisonhorst.com/allison-horst){target="_blank"}]{.body-text-s .gray-text}*
+*[Art by [Allison Horst](https://allisonhorst.com/allison-horst){target="_blank"}]{.gray-text}*
 :::
 
-
 <br>
-
-
-## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
-
-TBD 
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
 By the end of today’s workshop, you should have:
 
 - the scaffolding of a basic Quarto website built and deployed using GitHub Pages
-- a neatly-arranged landing page with your professional headshot and your chosen bio / info
+- a neatly-arranged landing page with your professional headshot and your chosen bio
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+By the end of today's workshop, you should be able to:
+
+- create a Quarto website from scratch in RStudio
+- understand the structure of a Quarto website, including how to add, rearrange and edit pages
+- *preview* a site to view iterative changes, *build* a site in preparation for (re)deployment, and *publish* a site using GitHub Pages
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
@@ -49,12 +51,14 @@ During this session, you'll have the opportunity to add some personal informatio
 
 1. [**Have your professional headshot handy.**]{.teal-text} Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.
 2. [**Consider which landing page template to use.**]{.teal-text} We'll be applying one of Quarto's five available [built-in templates](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"}  when we create our website's landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I'm currently a fan of `jolla`, but used `trestles` for a long while). Consider how you'd like to arrange your personal bio / info given the layout of your top choice template.
-3. [**Draft your personal bio / blurb.**]{.teal-text} Consider reusing parts of your Bren bio, or even drafting a shortened, catchy version of it for your landing page (and make note of the tips, below!). Save your text in a place you can quickly copy from during class (e.g. a Google Doc).
+3. [**Draft a personal bio or tagline for your landing page.**]{.teal-text} I recommend something that's *different* than your Bren bio -- a shorter, catchier one that's infused with a bit more of your personality -- though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).
 
 ::: {.callout-tip collapse=true icon=false}
 ## Some considerations and example website bios
-- **Adjust your bio to fit your chosen landing page [template](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"} .** For example, `jolla` works well with short bios or even taglines, while `trestles` might be a better choice if you're looking to add longer and / or multiple sections. 
-- **Check out a few example websites for bio inspiration.** Here are just a small handful fo websites, each with a slightly different approach to their landing page bios:
+- **Resepct your readers' time.** The average attention span of an internet user is [~8 seconds](https://time.com/3858309/attention-spans-goldfish/#:~:text=The%20average%20attention%20span%20for%20the%20notoriously,an%20increasingly%20digitalized%20lifestyle%20on%20the%20brain.){target="_blank"}, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate ["about" page](https://samanthacsik.github.io/about.html){target="_blank"} where I share about myself in a bit more detail)
+    - Here's a nice short post on [crafting a personal tagline](https://www.knitis.nyc/post/writing-a-personal-tagline){target="_blank"} and another with tips on [writing a personal bio](https://www.linkedin.com/advice/0/how-can-you-write-professional-bio-your-website-skills-writing){target="_blank"}
+- **Choose the right landing page [template](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"} for your bio.** For example, `jolla` works well with short bios or taglines, while `trestles` might be a better choice if you're looking to add longer and / or multiple sections. 
+- **Check out a few example websites for bio inspiration.** Here are just a small handful of websites, each with a slightly different approach to their landing page bios:
     - [Samantha Shanny-Csik](https://samanthacsik.github.io/){target="_blank"} (yours truly)
     - [Nick Lyon](https://njlyon0.github.io/){target="_blank"} (NCEAS Data Analyst)
     - [Daphne Virlar-Knight](https://dvirlar2.github.io/){target="_blank"} (MESM 2020)
@@ -68,15 +72,39 @@ During this session, you'll have the opportunity to add some personal informatio
 
 :::
 
-4. [**Gather your important public profile links.**]{.teal-text} Your personal website is an excellent place to link out to your other public profiles in one, organized place. Bookmark / save the links you'd like to include (e.g. LinkedIn, GitHub, even your preferred email address)
+4. [**Gather your important public profile links.**]{.teal-text} Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you'd like to include (e.g. LinkedIn, GitHub, even your preferred email address)
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
-| {{< fa file-lines title="A file with lines of text on it" >}} Instructional Document | {{< fa note-sticky title="A blank sticky note" >}} Notes | 
-|------|------|
-| [Quarto website instructions](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"} | We'll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point |
-: {.hover .bordered tbl-colwidths="[40,60]"} 
+<!-- {{< fa file title="a file" >}}
+{{< fa book-open title="An open book" >}}
+{{< fa note-sticky title="A blank sticky note" >}} -->
+
+| Content Type | Materials | Notes |
+|--------|------------------------|-------|
+| Instructional document | [Quarto website instructions](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"} | We'll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+- [**Revisit & seek feedback on your personal bio.**]{.teal-text} Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen [template](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"} suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.
+- [**Consider editing or adding additional pages.**]{.teal-text} Your website scaffolding includes an "about" page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.
+- [**Hide any pages that aren't "complete."**]{.teal-text} Want to include an "about" page (e.g. like [mine](https://samanthacsik.github.io/about.html){target="_blank"}) but don't quite have the content sorted out yet? It's best to hide this until you're ready to share something that's fairly polished. Comment out the necessary pages in `_quarto.yml` (see example below), then rebuild your site and push to GitHub *(though note that you **must keep `index.qmd`**)*. 
+
+```{r filename="_quarto.yml"}
+#| eval: false
+#| echo: true
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My website title"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      # - about.qmd
+
+# ~ additional metadata excluded for brevity ~
+```

@@ -1,7 +1,7 @@
 ---
-title: "Values and career decision-making"
-subtitle: "Summer | Week 6"
-description: "Wednesday, September 10^th^, 2025"
+title: "GitHub as a professional portfolio"
+subtitle: "Fall | Week 6"
+description: "Wednesday, November 5^th^, 2025"
 ---
 
 ::: {.center-text .body-text-l}
@@ -16,7 +16,7 @@ TBD
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD
+TBD 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 

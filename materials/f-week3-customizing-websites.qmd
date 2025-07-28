@@ -1,0 +1,49 @@
+---
+title: "Customizing Quarto websites"
+subtitle: "Fall | Week 3"
+description: "Wednesday, October 15^th^, 2025"
+---
+
+::: {.center-text}
+![](../images/sass-css.png){width="65%" fig-alt="The Sass and CSS logos"}
+
+*[The Sass & CSS logos]{.gray-text}*
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+- an updated `_quarto.yml` file, where you can modify your navbar, page footer, main font, theme, etc.
+- a stylesheet (`.scss` file) for customizing you website’s appearance
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+By the end of today's workshop, you should be able to:
+
+- be able to generally describe HTML and CSS 
+- identify which files to modify in order to apply styling to particular website elements
+- appropriately structure a `.scss` file 
+- define sass variables 
+- write basic CSS rules and identify resources for learning more
+- inspect a website to identify and target website elements and modify existing CSS rules
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+
+Please be sure to complete the following before class:
+
+### A. Have your personal branding guide ready to reference
+
+This is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, image assets, and personal logo and / or favicon (optional).
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides          | [Customing Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/){target="_blank"} | Have your personal branding guide ready to reference throughout! |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+- [**Finish applying your colors to different website elements using [Quarto’s Sass variables](https://quarto.org/docs/output-formats/html-themes.html#sass-variables){target="_blank"}.**]{.teal-text} And test out different color combos and / or fonts if you’re not totally satisfied with your original choices. This is arguably the most fun part of building your website and where you can really let your personality and brand shine through. It can take a while to settle on something that you feel really represents you, and that’s okay (I’ve changed my entire color scheme and fonts multiple times over the years).
+- [**Consider writing / borrowing / adapting CSS rules to refine your website styling.**]{.teal-text} You can take your website styling far just by defining Quarto’s Sass variables. However, if you’re looking to fine-tune the appearance of certain web page elements, you may consider turning to more CSS. Review the [workshop slides](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide){target="_blank"} for suggested approaches and tools to guide your CSS-writing journey.

@@ -1,0 +1,13 @@
+---
+title: "Holiday break"
+subtitle: "Fall | Week 9"
+description: "Wednesday, November 26^th^, 2025"
+---
+
+::: {.center-text .body-text-l}
+**ADD IMAGE HERE**
+:::
+
+<br>
+
+*No workshop or drop-in hour this week. Enjoy your holiday break!*
