@@ -1,5 +1,5 @@
 ---
-title: "Career & Professional Workshop Series"
+title: "Career & Professional Development Workshop Series"
 subtitle: "Master of Environmental Data Science (MEDS)"
 description: "2025-2026"
 title-block-banner: false
