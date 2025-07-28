@@ -4,10 +4,15 @@ subtitle: "Fall | Week 9"
 description: "Wednesday, November 26^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/henley-gate.png){width="100%"}
+
+::: {.gray-text}
+*Henley Gate, UCSB*
+<!-- https://bren.ucsb.edu/phd-environmental-science-and-management/phd-admissions/holistic-admissions-approach -->
+:::
 :::
 
 <br>
 
-*No workshop or drop-in hour this week. Enjoy your holiday break!*
+[*No workshop or drop-in hour this week. Enjoy your holiday break!*]{.body-text-m}

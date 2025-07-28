@@ -72,11 +72,12 @@ We'll update our GitHub profile picture during class, if you haven't done so alr
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Instructional document | [MEDS README Guidelines](https://ucsb-meds.github.io/README-guidelines/){target="_blank"} | You'll be asked to refer back to these throughout your time in MEDS! |
+| Instructional document | [MEDS README Guidelines](https://ucsb-meds.github.io/README-guidelines/){target="_blank"} | The "official" guidelines, assembed by MEDS instructors. You'll be asked to refer back to these throughout your time in MEDS! |
 | Slides          | [MEDS README Guidelines](){target="_blank"} | A slightly-more engaging version of the README guidelines, above, for teaching  |
 | Slides          | [GitHub Glowup](https://ucsb-meds.github.io/customize-github-profile/#/title-slide){target="_blank"} | *NA*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+- [**Put any finishing touches on your homework repo’s README.**]{.teal-text} If you’re feeling particularly inspired, you can also add / update READMEs for your other homework (or even personal) repositories as well. 
+- [**Complete your GitHub profile bio and README.**]{.teal-text} Remember, your README should evolve with you. Consider revisiting it a few times throughout the year to make updates as you start (and complete) projects. You can add / switch out your pinned repos as well.

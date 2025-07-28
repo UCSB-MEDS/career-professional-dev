@@ -4,10 +4,14 @@ subtitle: "Fall | Week 10"
 description: "Wednesday, December 3^rd^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/horst-bren.png){width="45%"}
+
+::: {.gray-text}
+*The Bren Logo, reimagined by [Allison Horst](https://allisonhorst.com/){target="_blank"}*
+:::
 :::
 
 <br>
 
-*No new content this week -- good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc.*
+[*No new content this week -- good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc.*]{.body-text-m}
