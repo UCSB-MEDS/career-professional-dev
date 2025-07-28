@@ -14,6 +14,8 @@ description: "Wednesday, October 15^th^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
+By the end of today’s workshop, you should have:
+
 - an updated `_quarto.yml` file, where you can modify your navbar, page footer, main font, theme, etc.
 - a stylesheet (`.scss` file) for customizing you website’s appearance
 
@@ -21,12 +23,12 @@ description: "Wednesday, October 15^th^, 2025"
 
 By the end of today's workshop, you should be able to:
 
-- be able to generally describe HTML and CSS 
-- identify which files to modify in order to apply styling to particular website elements
-- appropriately structure a `.scss` file 
-- define sass variables 
-- write basic CSS rules and identify resources for learning more
-- inspect a website to identify and target website elements and modify existing CSS rules
+- explain the role of HTML and CSS in structuring and styling web page content
+- identify which Quarto website files to edit in order to customize the appearance of various web page elements
+- create an appropriately-strcutured `.scss` file to organize custom styles for a Quarto website
+- define and use Sass variables to streamline theme development
+- write basic CSS rules for additional fine-tuned web page styling
+- use browser developer tools to inspect web page elements and override or extend existing CSS rules
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 

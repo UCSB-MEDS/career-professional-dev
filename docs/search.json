@@ -65,7 +65,7 @@
   {
     "objectID": "index.html#teaching-team",
     "href": "index.html#teaching-team",
-    "title": "Career & Professional Workshop series",
+    "title": "Career & Professional Workshop Series",
     "section": "Teaching Team",
     "text": "Teaching Team\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiya Scheble\nEmail: miya@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmanda Asquith-Caya\nEmail: aasquith@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Parker\nEmail: david@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam Shanny-Csik\nEmail: scsik@ucsb.edu\nLearn more: Personal website"
   },
@@ -170,7 +170,7 @@
   {
     "objectID": "index.html#description",
     "href": "index.html#description",
-    "title": "Career & Professional Workshop series",
+    "title": "Career & Professional Workshop Series",
     "section": "Description",
     "text": "Description\ntbd\nAdd info about the MEDS Data Science Portfolio Calendar"
   },
@@ -578,7 +578,7 @@
     "href": "materials/f-week1-personal-website.html#learning-objectives",
     "title": "Creating your personal website using Quarto",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch in RStudio\nunderstand the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch in RStudio\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
   },
   {
     "objectID": "materials/f-week1-personal-website.html#anticipated-deliverables",
@@ -606,7 +606,7 @@
     "href": "materials/f-week1-personal-website.html#continue-working",
     "title": "Creating your personal website using Quarto",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nRevisit & seek feedback on your personal bio. Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen template suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.\nConsider editing or adding additional pages. Your website scaffolding includes an “about” page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.\nHide any pages that aren’t “complete.” Want to include an “about” page (e.g. like mine) but don’t quite have the content sorted out yet? It’s best to hide this until you’re ready to share something that’s fairly polished. Comment out the necessary pages in _quarto.yml (see example below), then rebuild your site and push to GitHub (though note that you must keep index.qmd).\n\n\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"My website title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      # - about.qmd\n\n# ~ additional metadata excluded for brevity ~"
+    "text": "What should I continue working on?\n\nRevisit & seek feedback on your personal bio. Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen template suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.\nConsider editing or adding additional pages. Your website scaffolding includes an “about” page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.\nHide any pages that aren’t “complete.” Want to include an “about” page (e.g. like mine) but don’t quite have the content sorted out yet? It’s best to hide this until you’re ready to share something that’s fairly polished. Comment out the necessary pages in _quarto.yml (see example below), then rebuild your site and push to GitHub. Note that while you can do this for almost all in-progess pages, you must keep index.qmd “live” (i.e. don’t comment it out).\n\n\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"My website title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      # - about.qmd\n\n# ~ additional metadata excluded for brevity ~"
   },
   {
     "objectID": "materials/f-week2-networking.html",
@@ -662,14 +662,14 @@
     "href": "materials/f-week3-customizing-websites.html#anticipated-deliverables",
     "title": "Customizing Quarto websites",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\n\nan updated _quarto.yml file, where you can modify your navbar, page footer, main font, theme, etc.\na stylesheet (.scss file) for customizing you website’s appearance"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nan updated _quarto.yml file, where you can modify your navbar, page footer, main font, theme, etc.\na stylesheet (.scss file) for customizing you website’s appearance"
   },
   {
     "objectID": "materials/f-week3-customizing-websites.html#learning-objectives",
     "href": "materials/f-week3-customizing-websites.html#learning-objectives",
     "title": "Customizing Quarto websites",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nbe able to generally describe HTML and CSS\nidentify which files to modify in order to apply styling to particular website elements\nappropriately structure a .scss file\ndefine sass variables\nwrite basic CSS rules and identify resources for learning more\ninspect a website to identify and target website elements and modify existing CSS rules"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nexplain the role of HTML and CSS in structuring and styling web page content\nidentify which Quarto website files to edit in order to customize the appearance of various web page elements\ncreate an appropriately-strcutured .scss file to organize custom styles for a Quarto website\ndefine and use Sass variables to streamline theme development\nwrite basic CSS rules for additional fine-tuned web page styling\nuse browser developer tools to inspect web page elements and override or extend existing CSS rules"
   },
   {
     "objectID": "materials/f-week3-customizing-websites.html#pre-class-prep",
@@ -788,35 +788,35 @@
     "href": "materials/f-week6-github.html",
     "title": "GitHub as a professional portfolio",
     "section": "",
-    "text": "ADD IMAGE HERE"
+    "text": "#1 Original Ocotcat. See the full collection of octocats, or create your own"
   },
   {
     "objectID": "materials/f-week6-github.html#anticipated-deliverables",
     "href": "materials/f-week6-github.html#anticipated-deliverables",
     "title": "GitHub as a professional portfolio",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na polished and informative README added to one (or more) of your past MEDS homework assignments repositories\na thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a profile README that welcomes visitors and showcases your interests / work"
   },
   {
     "objectID": "materials/f-week6-github.html#learning-objectives",
     "href": "materials/f-week6-github.html#learning-objectives",
     "title": "GitHub as a professional portfolio",
     "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:"
   },
   {
     "objectID": "materials/f-week6-github.html#pre-class-prep",
     "href": "materials/f-week6-github.html#pre-class-prep",
     "title": "GitHub as a professional portfolio",
     "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Save it to an easy-to-find place (e.g your desktop)."
   },
   {
     "objectID": "materials/f-week6-github.html#workshop-materials",
     "href": "materials/f-week6-github.html#workshop-materials",
     "title": "GitHub as a professional portfolio",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nMEDS README Guidelines\nYou’ll be asked to refer back to these throughout your time in MEDS!\n\n\nSlides\nMEDS README Guidelines\nA slightly-more engaging version of the README guidelines, above, for teaching\n\n\nSlides\nGitHub Glowup\nNA"
   },
   {
     "objectID": "materials/f-week6-github.html#continue-working",

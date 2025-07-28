@@ -24,7 +24,7 @@ By the end of today’s workshop, you should have:
 By the end of today's workshop, you should be able to:
 
 - create a Quarto website from scratch in RStudio
-- understand the structure of a Quarto website, including how to add, rearrange and edit pages
+- understand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages
 - *preview* a site to view iterative changes, *build* a site in preparation for (re)deployment, and *publish* a site using GitHub Pages
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
@@ -89,8 +89,8 @@ During this session, you'll have the opportunity to add some personal informatio
 
 - [**Revisit & seek feedback on your personal bio.**]{.teal-text} Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen [template](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"} suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.
 - [**Consider editing or adding additional pages.**]{.teal-text} Your website scaffolding includes an "about" page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.
-- [**Hide any pages that aren't "complete."**]{.teal-text} Want to include an "about" page (e.g. like [mine](https://samanthacsik.github.io/about.html){target="_blank"}) but don't quite have the content sorted out yet? It's best to hide this until you're ready to share something that's fairly polished. Comment out the necessary pages in `_quarto.yml` (see example below), then rebuild your site and push to GitHub *(though note that you **must keep `index.qmd`**)*. 
-
+- [**Hide any pages that aren't "complete."**]{.teal-text} Want to include an "about" page (e.g. like [mine](https://samanthacsik.github.io/about.html){target="_blank"}) but don't quite have the content sorted out yet? It's best to hide this until you're ready to share something that's fairly polished. Comment out the necessary pages in `_quarto.yml` (see example below), then rebuild your site and push to GitHub. ***Note** that while you can do this for almost all in-progess pages, you **must keep `index.qmd`** "live" (i.e. don't comment it out).*
+ 
 ```{r filename="_quarto.yml"}
 #| eval: false
 #| echo: true

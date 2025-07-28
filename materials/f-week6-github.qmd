@@ -4,32 +4,77 @@ subtitle: "Fall | Week 6"
 description: "Wednesday, November 5^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/octocat-original.png){width="45%"}
+
+*[[#1 Original](https://octodex.github.com/original/){target="_blank"} Ocotcat. See the [full collection of octocats](https://octodex.github.com/){target="_blank"}, or [create your own](https://myoctocat.com/){target="_blank"}]{.gray-text}*
 :::
 
 <br>
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-TBD
+By the end of today’s workshop, you should have:
+
+- a polished and informative README added to one (or more) of your past MEDS homework assignments repositories
+- a thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a *profile* README that welcomes visitors and showcases your interests / work
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
 Please be sure to complete the following before class:
 
-### A. tbd
-### B. tbd
+### A. Watch Abigail Haddad's posit::conf(2024) talk, *GitHub: How To Tell Your Professional Story* (15 min)
+
+[Abigail Haddad](https://github.com/abigailhaddad){target="_blank"} is a Machine Learning Engineer at the US Department of Homeland Security. Her [posit::conf(2024)](https://posit.co/conference/){target="_blank"} talk, titled, [**GitHub: How To Tell Your Professional Story**](https://www.youtube.com/watch?v=R-bPjavai5A&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=26){target="_blank"} is an excellent primer for thinking about GitHub as a professional portfolio.
+
+### B. Choose a GitHub repo from a past homework assignment
+
+README files are used to provide essential information about software projects. We'll practice writing effective READMEs, using a past MEDS homework assignment as an example. [**Choose one of the GitHub repositories from the list of past homework assignments, below:**]{.teal-text}
+ 
+::: {.callout-note collapse=true}
+## Choose from these candidate GitHub repositories
+
+TBD 
+
+<!-- **From EDS 223: Geospatial Analysis & Remote Sensing**
+
+- [HW1: Map making practice](https://eds-223-geospatial.github.io/assignments/HW1.html){target="_blank"} (assigned 9/30, due 10/5)
+- [HW2: Exploring patterns of environmental justice](https://eds-223-geospatial.github.io/assignments/HW2.html){target="_blank"} (assigned 10/7, due 10/19)
+
+**For any non-MEDS students:** If you're enrolled in any data science-focused courses (MEDS or other) that have required you to create a GitHub repository(ies), I recommend choosing one of those. Otherwise, you can choose any repository you feel could use some added documentation. -->
+:::
+
+### C. Draft up text to add to your GitHub profile README
+
+A GitHub *profile* README is a special README that is displayed on your profile's landing page (e.g. see [mine](https://github.com/samanthacsik){target="_blank"}). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It's helpful to include a short bio and highlight some current projects / interests.
+
+Consider what content you might want to include in *your* GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then [**draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class**]{.teal-text} (it's okay if this is just a first pass -- you can continue to iterate!).
+
+::: {.callout-tip collapse=true}
+## A few example GitHub profile READMEs
+- [Allison Horst](https://github.com/allisonhorst){target="_blank"}
+- [Alex Phillips](https://github.com/alatleephillips){target="_blank"}
+- [Silvia Canelón](https://github.com/spcanelon){target="_blank"}
+- [Crystal Lewis](https://github.com/Cghlewis){target="_blank"}
+- [Marine Kochuten](https://github.com/marinakochuten){target="_blank"}
+- [Awesome GitHub Profile READMEs](https://zzetao.github.io/awesome-github-profile/){target="_blank"} (a collection of great profile READMEs)
+:::
+
+### D. Have a profile picture handy
+
+We'll update our GitHub profile picture during class, if you haven't done so already. [**Save it to an easy-to-find place (e.g your desktop).**]{.teal-text}
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| Instructional document | [MEDS README Guidelines](https://ucsb-meds.github.io/README-guidelines/){target="_blank"} | You'll be asked to refer back to these throughout your time in MEDS! |
+| Slides          | [MEDS README Guidelines](){target="_blank"} | A slightly-more engaging version of the README guidelines, above, for teaching  |
+| Slides          | [GitHub Glowup](https://ucsb-meds.github.io/customize-github-profile/#/title-slide){target="_blank"} | *NA*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
