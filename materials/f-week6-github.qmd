@@ -23,6 +23,8 @@ By the end of today’s workshop, you should have:
 
 By the end of today's workshop, you should be able to:
 
+- thoughtfully add content to your GitHub profile to better represent your interests, skill set, and areas to 
+
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
 Please be sure to complete the following before class:
@@ -73,7 +75,7 @@ We'll update our GitHub profile picture during class, if you haven't done so alr
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
 | Instructional document | [MEDS README Guidelines](https://ucsb-meds.github.io/README-guidelines/){target="_blank"} | The "official" guidelines, assembed by MEDS instructors. You'll be asked to refer back to these throughout your time in MEDS! |
-| Slides          | [MEDS README Guidelines](){target="_blank"} | A slightly-more engaging version of the README guidelines, above, for teaching  |
+| Slides          | [MEDS README Guidelines](https://ucsb-meds.github.io/README-guidelines-slides/){target="_blank"} | A slightly-more engaging version of the README guidelines, above, for teaching  |
 | Slides          | [GitHub Glowup](https://ucsb-meds.github.io/customize-github-profile/#/title-slide){target="_blank"} | *NA*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
