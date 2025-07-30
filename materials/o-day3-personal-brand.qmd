@@ -4,8 +4,11 @@ subtitle: "Orienatation | Day 3"
 description: "Wednesday, September 24^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/personal-brand-image.png){width="80%"}
+
+*[Image Source: [Devexperts](https://devexperts.com/blog/how-to-build-your-personal-brand-and-boost-your-career/){target="_blank"}]{.gray-text}*
+<!-- https://hbr.org/2011/03/reinventing-your-personal-brand -->
 :::
 
 <br>

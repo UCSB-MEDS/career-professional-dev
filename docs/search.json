@@ -529,7 +529,7 @@
     "href": "materials/o-day3-personal-brand.html",
     "title": "Personal Branding for Environmental Data Scientists",
     "section": "",
-    "text": "ADD IMAGE HERE"
+    "text": "Image Source: Devexperts"
   },
   {
     "objectID": "materials/o-day3-personal-brand.html#learning-objectives",
@@ -837,21 +837,21 @@
     "href": "materials/f-week7-blog.html#anticipated-deliverables",
     "title": "Adding a blog to your Quarto website",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na blog listing page as a new navbar tab on your Quarto website\nthe skeleton of your first blog post"
   },
   {
     "objectID": "materials/f-week7-blog.html#learning-objectives",
     "href": "materials/f-week7-blog.html#learning-objectives",
     "title": "Adding a blog to your Quarto website",
     "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate the appropriate folder and files structure to add a new blog post to your Quarto website\nconfigure your blog post using various YAML options\nadd footnotes, citations, and a bibiliography\ncreate additional listing pages to organize and display content on your website"
   },
   {
     "objectID": "materials/f-week7-blog.html#pre-class-prep",
     "href": "materials/f-week7-blog.html#pre-class-prep",
     "title": "Adding a blog to your Quarto website",
     "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Choose your listing page style\nA blog listing page is a web page that displays all of a blog’s posts. Quarto provides three built-in listing page styles to choose from. Check out the previews and identify which you might want to use ahead of class."
   },
   {
     "objectID": "materials/f-week7-blog.html#workshop-materials",
@@ -865,7 +865,7 @@
     "href": "materials/f-week7-blog.html#continue-working",
     "title": "Adding a blog to your Quarto website",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
+    "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n(Very much optional, but encouraged!) Add potential blog post topics / ideas to your personal branding guide You’ll be asked to write blog posts as part of your MEDS coursework, but that shouldn’t stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics:\n\nWhat do your personal branding adjectives and key messages say about you and your interests?\nWhat topics blend your current interests and expertise with your future learning goals?\nWhat might draw someone to your website over a different website? Consider how your brand can help to define your niche.\nNot all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.\nUltimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!\n\n\n\n\n\n\n\n\nNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
   },
   {
     "objectID": "materials/f-week8-linkedin.html",

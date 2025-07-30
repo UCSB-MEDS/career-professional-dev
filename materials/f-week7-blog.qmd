@@ -14,18 +14,27 @@ description: "Wednesday, November 12^th^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-TBD
+By the end of today's workshop, you should have:
+
+- a blog listing page as a new navbar tab on your Quarto website
+- the skeleton of your first blog post
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+By the end of today's workshop, you should be able to: 
+
+- create the appropriate folder and files structure to add a new blog post to your Quarto website
+- configure your blog post using various YAML options
+- add footnotes, citations, and a bibiliography 
+- create additional listing pages to organize and display content on your website
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
 Please be sure to complete the following before class:
 
-### A. tbd
-### B. tbd
+### A. Choose your listing page style
+
+A blog listing page is a web page that displays all of a blog’s posts. Quarto provides [three built-in listing page styles](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} to choose from. [**Check out the previews and identify which you might want to use ahead of class.**]{.teal-text}
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -36,4 +45,67 @@ Please be sure to complete the following before class:
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+- [**Check out some data science blogs!**]{.teal-text} Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:
+
+::: {.callout-tip collapse="true"}
+## A small collection of bloggers to peruse:
+A handful of posts to showcase some different writing styles and topics areas:
+
+- [An introduction to Python for R Users](https://rebeccabarter.com/blog/2023-09-11-from_r_to_python){target="_blank"}, by [Rebecca Barter](https://rebeccabarter.com/about){target="_blank"}
+- [My first live coding interview](https://maya.rbind.io/posts/live-coding-interview/){target="_blank"}, by [Maya Gans](https://maya.rbind.io/){target="_blank"}
+- [Notes from live code review of `{soils}`](https://jadeyryan.com/blog/2024-01-22_package-review/){target="_blank"}, by [Jadey Ryan](https://jadeyryan.com/){target="_blank"}
+- [Creating typewriter-styled maps in `{ggplot2}`](https://nrennie.rbind.io/blog/creating-typewriter-maps-r/){target="_blank"}, by [Nicola Rennie](https://nrennie.rbind.io/){target="_blank"}
+- [Porting the Openscapes website from blogdown to Quarto](https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/){target="_blank"}, by [Sam Shanny-Csik](https://samanthacsik.github.io){target="_blank"}
+- [Using Amazon S3 with R](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/){target="_blank"}, by [Danielle Navarro](https://djnavarro.net/){target="_blank"}
+- [Slidecrafting 101: Layout](https://emilhvitfeldt.com/post/slidecraft-layout/){target="_blank"}, by [Emil Hvitfeldt](https://emilhvitfeldt.com/){target="_blank"}
+
+And a few additional fun blogs to keep an eye on:
+
+- [Meghan Hall](https://meghan.rbind.io/blog/){target="_blank"}
+- [Meghan Harris](https://thetidytrekker.com/blog){target="_blank"}
+- [Crystal Lewis](https://cghlewis.com/blog/){target="_blank"}
+- [Cosima Meyer](https://cosimameyer.com/#post){target="_blank"}
+- [Beatriz Milz](https://beamilz.com/posts/en){target="_blank"}
+- [Shannon Pileggi](https://www.pipinghotdata.com/blog){target="_blank"}
+- [Albert Rapp](https://albert-rapp.de/blog){target="_blank"}
+- [Nicola Rennie](https://nrennie.rbind.io/blog/){target="_blank"}
+- [Cédric Scherer](https://www.cedricscherer.com/){target="_blank"}
+- [Cara Thompson](https://www.cararthompson.com/posts){target="_blank"}
+- [Nick Tierney](https://www.njtierney.com/){target="_blank"}
+- [Isabella Velásquez](https://ivelasq.rbind.io/){target="_blank"}
+- [rostrum.blog](https://www.rostrum.blog/){target="_blank"} (by [Matt Dray](https://www.matt-dray.com/){target="_blank"} and [Adriana De Palma](https://adrianadepalma.com/){target="_blank"})
+
+<!-- This is only a small sampling of the *many* rad data science bloggers out there -- if you stumble upon others that you enjoy, be sure to share them in the class Slack channel! -->
+
+Some bloggers have a really recgonizable brand, including: 
+
+- **[Cédric Scherer's blog](https://www.cedricscherer.com/)** is one of the first places I turn to when I'm looking for **data viz / `{ggplot2}` content**
+- **[Crystal Lewis' blog](https://cghlewis.com/blog/)** features lots of tutorials and conversations about **data management practices**
+- **[Danielle Navarro's blog](https://blog.djnavarro.net/)** largely chronicles her experiences **learning new tools** and **creating generative art**
+
+**NOTE:** You (most likely) will not have your brand identity fully sorted and solidified by this point (and that's perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.
+:::
+
+- [***(Very much optional, but encouraged!)* Add potential blog post topics / ideas to your personal branding guide**]{.teal-text} You'll be asked to write blog posts as part of your MEDS coursework, but that shouldn't stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics: 
+    - What do your personal branding adjectives and key messages say about you and your interests?
+    - What topics blend your current interests and expertise with your future learning goals?
+    - What might draw someone to your website over a different website? Consider how your brand can help to define your niche.
+    - Not all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.
+    - Ultimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!
+
+::: {.callout-tip collapse="true"}
+## Need some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:
+- how your past professional or personal interests led you to pursue a degree in environmental data science
+- non-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)
+- advice you wish you had before beginning a data science graduate program
+- writing a data product-focused MEDS Capstone or MESM Group Project proposal
+- reflecting on the MEDS 6-week summer coding bootcamp
+- your journey towards discovering your personal brand identity / building your website(!)
+- what early data science skills you’ve found most valuable or surprising (so far), and why
+- a mini tutorial on a focused data science skill / topic, e.g. 
+- how a particular function(s) or package has helped you overcome a data challenge, and why / how
+- a data science workflow or organizational procedure you’ve adopted, and why
+- building a data visualization or other creative product
+
+It’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity.
+:::
