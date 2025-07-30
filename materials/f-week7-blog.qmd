@@ -4,8 +4,10 @@ subtitle: "Fall | Week 7"
 description: "Wednesday, November 12^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/blog-icon.png){width="35%"}
+
+*[Blog icon, by [Brendan Mitchell](https://theblogicon.wordpress.com/about/){target="_blank"}]{.gray-text}*
 :::
 
 <br>
@@ -29,7 +31,7 @@ Please be sure to complete the following before class:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| Blog post    | [Adding a blog to your existing Quarto website](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/){target="_blank"} | Instructions for adding a blog to your existing Quarto website take the form of – you guessed it – a blog post {{< fa face-smile-wink title="A winking smiling face" >}} |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
