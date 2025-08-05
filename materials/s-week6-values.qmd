@@ -4,9 +4,12 @@ subtitle: "Summer | Week 6"
 description: "Wednesday, September 10^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/values.png){width="80%"}
+
+*[Image source: [LinkedIn](https://www.linkedin.com/pulse/importance-values-career-decision-making-marwan-shrm-cp-acc-/){target="_blank"}]{.gray-text}*
 :::
+
 
 <br>
 

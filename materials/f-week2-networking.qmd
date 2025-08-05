@@ -4,8 +4,10 @@ subtitle: "Fall | Week 2"
 description: "Thursday, October 9^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/mingling.png){width="60%"}
+
+*[Image source: [iStock](https://www.istockphoto.com/vector/flat-style-vector-illustration-discuss-social-network-news-chat-dialogue-speech-gm1014903134-273175022){target="_blank"}]{.gray-text}*
 :::
 
 <br>

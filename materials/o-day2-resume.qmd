@@ -4,8 +4,10 @@ subtitle: "Orienatation | Day 2"
 description: "Tuesday, September 23^rd^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/resume.png){width="40%"}
+
+*[Image source: [Free Clipart Library](https://clipart-library.com/clipart/resume-clipart_40.html#google_vignette){target="_blank"}]{.gray-text}*
 :::
 
 <br>

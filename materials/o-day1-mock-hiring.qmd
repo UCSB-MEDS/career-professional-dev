@@ -1,11 +1,13 @@
 ---
-title: "Mock hiring committee exercise"
+title: "Mock hiring committee"
 subtitle: "Orientation | Day 1"
 description: "Monday, September 22^nd^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/hiring.png){width="80%"}
+
+*[Image source: [Shutterstock](https://www.shutterstock.com/image-vector/candidate-waiting-job-interview-flat-color-1949166841){target="_blank"}]{.gray-text}*
 :::
 
 <br>

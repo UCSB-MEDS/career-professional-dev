@@ -1,6 +1,6 @@
 # MEDS Career & Professional Development Workshop series
 
-This repository houses the code for the [workshop series website]().
+This respository houses the code for the [MEDS Career & Professional Development Workshop Series website](https://ucsb-meds.github.io/career-professional-dev/).
 
 ## Description
 

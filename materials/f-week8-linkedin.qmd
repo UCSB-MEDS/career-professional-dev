@@ -4,8 +4,8 @@ subtitle: "Fall | Week 8"
 description: "Wednesday, November 19^th^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/linkedin.png){width="60%"}
 :::
 
 <br>
