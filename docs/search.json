@@ -7,564 +7,46 @@
     "text": "Consider adding helpful resources (e.g. online text books, blogs, people in the field to follow, videos, etc.) here. See EDS 240’s resources page as an example."
   },
   {
-    "objectID": "course-materials/keys/key1.1.html",
-    "href": "course-materials/keys/key1.1.html",
-    "title": "Lab 1.1 KEY",
+    "objectID": "materials/f-week3-customizing-websites.html",
+    "href": "materials/f-week3-customizing-websites.html",
+    "title": "Customizing Quarto websites",
     "section": "",
-    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
+    "text": "The Sass & CSS logos"
   },
   {
-    "objectID": "course-materials/keys/key1.1.html#setup",
-    "href": "course-materials/keys/key1.1.html#setup",
-    "title": "Lab 1.1 KEY",
-    "section": "",
-    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
-  },
-  {
-    "objectID": "course-materials/keys/key1.1.html#tidy-data-review",
-    "href": "course-materials/keys/key1.1.html#tidy-data-review",
-    "title": "Lab 1.1 KEY",
-    "section": "Tidy Data Review",
-    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\ntemp_data_wide &lt;- tribble(\n  ~date, ~station1, ~station2,  ~station3,\n  \"2023-10-01\", 30.1, 29.8,  31.2,\n  \"2023-11-01\", 28.6, 29.1,  33.4,\n  \"2023-12-01\", 29.9, 28.5,  32.3\n)\n\n# print it out ----\nprint(temp_data_wide)\n\n# A tibble: 3 × 4\n  date       station1 station2 station3\n  &lt;chr&gt;         &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1 2023-10-01     30.1     29.8     31.2\n2 2023-11-01     28.6     29.1     33.4\n3 2023-12-01     29.9     28.5     32.3\n\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\ntemp_data_long &lt;- temp_data_wide |&gt; \n  pivot_longer(cols = starts_with(\"station\"),\n               names_to = \"station_id\",\n               values_to = \"temp_c\")\n\n# print it out ----\nprint(temp_data_long)\n\n# A tibble: 9 × 3\n  date       station_id temp_c\n  &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;\n1 2023-10-01 station1     30.1\n2 2023-10-01 station2     29.8\n3 2023-10-01 station3     31.2\n4 2023-11-01 station1     28.6\n5 2023-11-01 station2     29.1\n6 2023-11-01 station3     33.4\n7 2023-12-01 station1     29.9\n8 2023-12-01 station2     28.5\n9 2023-12-01 station3     32.3"
-  },
-  {
-    "objectID": "course-materials/week1.html",
-    "href": "course-materials/week1.html",
-    "title": "This week’s topic(s)",
-    "section": "",
-    "text": "The following layout is only a suggestion\n\n\n\nAdd / arrange content in whatever way is best your course – be sure to check out examples of other MEDS course websites for inspiration!"
-  },
-  {
-    "objectID": "course-materials/week1.html#lecture-materials",
-    "href": "course-materials/week1.html#lecture-materials",
-    "title": "This week’s topic(s)",
-    "section": " Lecture Materials",
-    "text": "Lecture Materials\nConsider linking to lecture materials in a table. Check out this Markdown Tables Generator for quickly formatting tables.\n\n\n\n\n\n\n\n\nLecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1.1: topic X\nLab 1.1\nLab 1.1 Key\n\n\nLecture 1.2: topic X\nNA\nNA"
-  },
-  {
-    "objectID": "course-materials/week1.html#discussion-materials",
-    "href": "course-materials/week1.html#discussion-materials",
-    "title": "This week’s topic(s)",
-    "section": " Discussion Materials",
-    "text": "Discussion Materials\nYou can also create buttons that link to content.\n\nThis week’s discussion topic here\n Discussion 1 slides"
-  },
-  {
-    "objectID": "course-materials/week1.html#assignment-reminders",
-    "href": "course-materials/week1.html#assignment-reminders",
-    "title": "This week’s topic(s)",
-    "section": " Assignment Reminders",
-    "text": "Assignment Reminders\n\n\n\n\n\n\n\n\n\nAssignment Type\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHW\nHomework Assignment #1\nDD/MM/YYYY\nDD/MM/YYYY, 11:59pm PT"
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Course Title",
-    "section": "Course Description",
-    "text": "Course Description\nAdd your course description here (can be copied over from your syllabus or the affiliated Bren course page)"
-  },
-  {
-    "objectID": "index.html#teaching-team",
-    "href": "index.html#teaching-team",
-    "title": "Career & Professional Development Workshop Series",
-    "section": "Teaching Team",
-    "text": "Teaching Team\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiya Scheble\nEmail: miya@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmanda Asquith-Caya\nEmail: aasquith@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Parker\nEmail: david@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam Shanny-Csik\nEmail: scsik@ucsb.edu\nLearn more: Personal website"
-  },
-  {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "Career & Professional Workshop series",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\ntbd"
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
-  },
-  {
-    "objectID": "course-materials/labs/lab1.1.html",
-    "href": "course-materials/labs/lab1.1.html",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "course-materials/labs/lab1.1.html#setup",
-    "href": "course-materials/labs/lab1.1.html#setup",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "course-materials/labs/lab1.1.html#tidy-data-review",
-    "href": "course-materials/labs/lab1.1.html#tidy-data-review",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "Tidy Data Review",
-    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\n\n# print it out ----\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\n\n# print it out ----"
-  },
-  {
-    "objectID": "course-materials/discussion-materials/week1-discussion-slides.html#title-slide",
-    "href": "course-materials/discussion-materials/week1-discussion-slides.html#title-slide",
-    "title": "EDS 123",
-    "section": "",
-    "text": "EDS 240: Discussion 1\nToday’s topic here\n\nWeek 1 | January 7th, 2024"
-  },
-  {
-    "objectID": "course-materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
-    "href": "course-materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
-    "title": "EDS 123",
-    "section": "",
-    "text": "Slide title"
-  },
-  {
-    "objectID": "course-materials/week2.html",
-    "href": "course-materials/week2.html",
-    "title": "This week’s topic(s)",
-    "section": "",
-    "text": "Week 2 materials coming soon!"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#title-slide",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#title-slide",
-    "title": "EDS 123",
-    "section": "",
-    "text": "EDS 123: Lecture 1\nToday’s topic here\n\nWeek 1 | January 6th, 2025"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#welcome",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#welcome",
-    "title": "EDS 123",
-    "section": "",
-    "text": "Welcome to EDS 123!\n\n\nThis is the default text size\n\n\n\n\nI can apply a class selector from meds-slides-styles.scss to change the size of this text\n\n\n\nSimilarly, I can apply a class selector(s) to modify the appearance of a subset of text\n\nCheck out this demo presentation for examples of all the cool capabilities of Revealjs"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
-    "title": "EDS 123",
-    "section": "",
-    "text": "You can also apply styles to blocks of content\n\nWe can use divs to apply styling to all content within the div gates (:::):\n::: {.selector1 .selector2}\nSome content\n:::\n\nFor example:\n\nThis text is bolded\nThis text is italicized"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#embedded-code",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#embedded-code",
-    "title": "EDS 123",
-    "section": "",
-    "text": "Here is some embedded & rendered code\n\n\nlibrary(palmerpenguins)\nlibrary(ggplot2)\n\nggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +\n  geom_point()"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#rendered-code",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#rendered-code",
-    "title": "EDS 123",
-    "section": "",
-    "text": "Alternatively, we can render just the output"
-  },
-  {
-    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#columns",
-    "href": "course-materials/lecture-slides/lecture1.1-slides.html#columns",
-    "title": "EDS 123",
-    "section": "",
-    "text": "You can arrange content in columns\n\n\n\nLearn more about the MEDS program on the Bren website."
-  },
-  {
-    "objectID": "index.html#description",
-    "href": "index.html#description",
-    "title": "Career & Professional Development Workshop Series",
-    "section": "Description",
-    "text": "Description\ntbd\nAdd info about the MEDS Data Science Portfolio Calendar"
-  },
-  {
-    "objectID": "course-materials/s-week5-intro.html#pre-class-prep",
-    "href": "course-materials/s-week5-intro.html#pre-class-prep",
-    "title": "Introduction to career and professional development",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. something\n\n\nB. something else"
-  },
-  {
-    "objectID": "course-materials/s-week5-intro.html#workshop-materials",
-    "href": "course-materials/s-week5-intro.html#workshop-materials",
-    "title": "Introduction to career and professional development",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nSlides\nTemplates\nEtc\n\n\n\n\ntbd\ntbd\ntbd"
-  },
-  {
-    "objectID": "course-materials/s-week5-intro.html#continue-working",
-    "href": "course-materials/s-week5-intro.html#continue-working",
-    "title": "Introduction to career and professional development",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "course-materials/s-week5-intro.html",
-    "href": "course-materials/s-week5-intro.html",
-    "title": "Introduction to career and professional development",
-    "section": "",
-    "text": "ADD IMAGE HERE"
-  },
-  {
-    "objectID": "course-materials/s-week5-intro.html#anticipated-deliverables",
-    "href": "course-materials/s-week5-intro.html#anticipated-deliverables",
-    "title": "Introduction to career and professional development",
+    "objectID": "materials/f-week3-customizing-websites.html#anticipated-deliverables",
+    "href": "materials/f-week3-customizing-websites.html#anticipated-deliverables",
+    "title": "Customizing Quarto websites",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nNA"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nan updated _quarto.yml file, where you can modify your navbar, page footer, main font, theme, etc.\na stylesheet (.scss file) for customizing you website’s appearance"
   },
   {
-    "objectID": "course-materials/s-week5-intro.html#learning-objectives",
-    "href": "course-materials/s-week5-intro.html#learning-objectives",
-    "title": "Introduction to career and professional development",
+    "objectID": "materials/f-week3-customizing-websites.html#learning-objectives",
+    "href": "materials/f-week3-customizing-websites.html#learning-objectives",
+    "title": "Customizing Quarto websites",
     "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nexplain the role of HTML and CSS in structuring and styling web page content\nidentify which Quarto website files to edit in order to customize the appearance of various web page elements\ncreate an appropriately-strcutured .scss file to organize custom styles for a Quarto website\ndefine and use Sass variables to streamline theme development\nwrite basic CSS rules for additional fine-tuned web page styling\nuse browser developer tools to inspect web page elements and override or extend existing CSS rules"
   },
   {
-    "objectID": "course-materials/s-week6-values.html",
-    "href": "course-materials/s-week6-values.html",
-    "title": "Values and career decision-making",
-    "section": "",
-    "text": "ADD IMAGE HERE"
-  },
-  {
-    "objectID": "course-materials/s-week6-values.html#learning-objectives",
-    "href": "course-materials/s-week6-values.html#learning-objectives",
-    "title": "Values and career decision-making",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "course-materials/s-week6-values.html#anticipated-deliverables",
-    "href": "course-materials/s-week6-values.html#anticipated-deliverables",
-    "title": "Values and career decision-making",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nNA"
-  },
-  {
-    "objectID": "course-materials/s-week6-values.html#pre-class-prep",
-    "href": "course-materials/s-week6-values.html#pre-class-prep",
-    "title": "Values and career decision-making",
+    "objectID": "materials/f-week3-customizing-websites.html#pre-class-prep",
+    "href": "materials/f-week3-customizing-websites.html#pre-class-prep",
+    "title": "Customizing Quarto websites",
     "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. something\n\n\nB. something else"
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Have your personal branding guide ready to reference\nThis is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, image assets, and personal logo and / or favicon (optional)."
   },
   {
-    "objectID": "course-materials/s-week6-values.html#workshop-materials",
-    "href": "course-materials/s-week6-values.html#workshop-materials",
-    "title": "Values and career decision-making",
+    "objectID": "materials/f-week3-customizing-websites.html#workshop-materials",
+    "href": "materials/f-week3-customizing-websites.html#workshop-materials",
+    "title": "Customizing Quarto websites",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nSlides\nTemplates\nEtc\n\n\n\n\ntbd\ntbd\ntbd"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nCustoming Quarto websites using Sass & CSS\nHave your personal branding guide ready to reference throughout!"
   },
   {
-    "objectID": "course-materials/s-week6-values.html#continue-working",
-    "href": "course-materials/s-week6-values.html#continue-working",
-    "title": "Values and career decision-making",
+    "objectID": "materials/f-week3-customizing-websites.html#continue-working",
+    "href": "materials/f-week3-customizing-websites.html#continue-working",
+    "title": "Customizing Quarto websites",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#title-slide",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#title-slide",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "EDS 123: Lecture 1\nToday’s topic here\n\nWeek 1 | January 6th, 2025"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#welcome",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#welcome",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "Welcome to EDS 123!\n\n\nThis is the default text size\n\n\n\n\nI can apply a class selector from meds-slides-styles.scss to change the size of this text\n\n\n\nSimilarly, I can apply a class selector(s) to modify the appearance of a subset of text\n\nCheck out this demo presentation for examples of all the cool capabilities of Revealjs"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "You can also apply styles to blocks of content\n\nWe can use divs to apply styling to all content within the div gates (:::):\n::: {.selector1 .selector2}\nSome content\n:::\n\nFor example:\n\nThis text is bolded\nThis text is italicized"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#embedded-code",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#embedded-code",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "Here is some embedded & rendered code\n\n\nlibrary(palmerpenguins)\nlibrary(ggplot2)\n\nggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +\n  geom_point()"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#rendered-code",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#rendered-code",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "Alternatively, we can render just the output"
-  },
-  {
-    "objectID": "materials/lecture-slides/lecture1.1-slides.html#columns",
-    "href": "materials/lecture-slides/lecture1.1-slides.html#columns",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "You can arrange content in columns\n\n\n\nLearn more about the MEDS program on the Bren website."
-  },
-  {
-    "objectID": "materials/s-week6-values.html",
-    "href": "materials/s-week6-values.html",
-    "title": "Values and career decision-making",
-    "section": "",
-    "text": "Image source: LinkedIn"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#learning-objectives",
-    "href": "materials/s-week6-values.html#learning-objectives",
-    "title": "Values and career decision-making",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#anticipated-deliverables",
-    "href": "materials/s-week6-values.html#anticipated-deliverables",
-    "title": "Values and career decision-making",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#pre-class-prep",
-    "href": "materials/s-week6-values.html#pre-class-prep",
-    "title": "Values and career decision-making",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#workshop-materials",
-    "href": "materials/s-week6-values.html#workshop-materials",
-    "title": "Values and career decision-making",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#continue-working",
-    "href": "materials/s-week6-values.html#continue-working",
-    "title": "Values and career decision-making",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html",
-    "href": "materials/s-week5-intro.html",
-    "title": "Introduction to career and professional development",
-    "section": "",
-    "text": "ADD IMAGE HERE"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#learning-objectives",
-    "href": "materials/s-week5-intro.html#learning-objectives",
-    "title": "Introduction to career and professional development",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#anticipated-deliverables",
-    "href": "materials/s-week5-intro.html#anticipated-deliverables",
-    "title": "Introduction to career and professional development",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nNA"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#pre-class-prep",
-    "href": "materials/s-week5-intro.html#pre-class-prep",
-    "title": "Introduction to career and professional development",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#workshop-materials",
-    "href": "materials/s-week5-intro.html#workshop-materials",
-    "title": "Introduction to career and professional development",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMaximizing Your Impact [LINK]\nNA"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#continue-working",
-    "href": "materials/s-week5-intro.html#continue-working",
-    "title": "Introduction to career and professional development",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/labs/lab1.1.html",
-    "href": "materials/labs/lab1.1.html",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "materials/labs/lab1.1.html#setup",
-    "href": "materials/labs/lab1.1.html#setup",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "materials/labs/lab1.1.html#tidy-data-review",
-    "href": "materials/labs/lab1.1.html#tidy-data-review",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "Tidy Data Review",
-    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\n\n# print it out ----\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\n\n# print it out ----"
-  },
-  {
-    "objectID": "materials/discussion-materials/week1-discussion-slides.html#title-slide",
-    "href": "materials/discussion-materials/week1-discussion-slides.html#title-slide",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "EDS 240: Discussion 1\nToday’s topic here\n\nWeek 1 | January 7th, 2024"
-  },
-  {
-    "objectID": "materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
-    "href": "materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
-    "title": "MEDS Career & Professional Develoment",
-    "section": "",
-    "text": "Slide title"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html",
-    "href": "materials/o-day1-mock-hiring.html",
-    "title": "Mock hiring committee",
-    "section": "",
-    "text": "Image source: Shutterstock"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#learning-objectives",
-    "href": "materials/o-day1-mock-hiring.html#learning-objectives",
-    "title": "Mock hiring committee",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
-    "href": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
-    "title": "Mock hiring committee",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nNA"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#pre-class-prep",
-    "href": "materials/o-day1-mock-hiring.html#pre-class-prep",
-    "title": "Mock hiring committee",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#workshop-materials",
-    "href": "materials/o-day1-mock-hiring.html#workshop-materials",
-    "title": "Mock hiring committee",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#continue-working",
-    "href": "materials/o-day1-mock-hiring.html#continue-working",
-    "title": "Mock hiring committee",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/keys/key1.1.html",
-    "href": "materials/keys/key1.1.html",
-    "title": "Lab 1.1 KEY",
-    "section": "",
-    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
-  },
-  {
-    "objectID": "materials/keys/key1.1.html#setup",
-    "href": "materials/keys/key1.1.html#setup",
-    "title": "Lab 1.1 KEY",
-    "section": "",
-    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
-  },
-  {
-    "objectID": "materials/keys/key1.1.html#tidy-data-review",
-    "href": "materials/keys/key1.1.html#tidy-data-review",
-    "title": "Lab 1.1 KEY",
-    "section": "Tidy Data Review",
-    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\ntemp_data_wide &lt;- tribble(\n  ~date, ~station1, ~station2,  ~station3,\n  \"2023-10-01\", 30.1, 29.8,  31.2,\n  \"2023-11-01\", 28.6, 29.1,  33.4,\n  \"2023-12-01\", 29.9, 28.5,  32.3\n)\n\n# print it out ----\nprint(temp_data_wide)\n\n# A tibble: 3 × 4\n  date       station1 station2 station3\n  &lt;chr&gt;         &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1 2023-10-01     30.1     29.8     31.2\n2 2023-11-01     28.6     29.1     33.4\n3 2023-12-01     29.9     28.5     32.3\n\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\ntemp_data_long &lt;- temp_data_wide |&gt; \n  pivot_longer(cols = starts_with(\"station\"),\n               names_to = \"station_id\",\n               values_to = \"temp_c\")\n\n# print it out ----\nprint(temp_data_long)\n\n# A tibble: 9 × 3\n  date       station_id temp_c\n  &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;\n1 2023-10-01 station1     30.1\n2 2023-10-01 station2     29.8\n3 2023-10-01 station3     31.2\n4 2023-11-01 station1     28.6\n5 2023-11-01 station2     29.1\n6 2023-11-01 station3     33.4\n7 2023-12-01 station1     29.9\n8 2023-12-01 station2     28.5\n9 2023-12-01 station3     32.3"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html",
-    "href": "materials/o-day2-resume.html",
-    "title": "Building your resume",
-    "section": "",
-    "text": "Image source: Free Clipart Library"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html#learning-objectives",
-    "href": "materials/o-day2-resume.html#learning-objectives",
-    "title": "Building your resume",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html#anticipated-deliverables",
-    "href": "materials/o-day2-resume.html#anticipated-deliverables",
-    "title": "Building your resume",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\n\na first draft of your professional resume"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html#pre-class-prep",
-    "href": "materials/o-day2-resume.html#pre-class-prep",
-    "title": "Building your resume",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html#workshop-materials",
-    "href": "materials/o-day2-resume.html#workshop-materials",
-    "title": "Building your resume",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/o-day2-resume.html#continue-working",
-    "href": "materials/o-day2-resume.html#continue-working",
-    "title": "Building your resume",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html",
-    "href": "materials/o-day3-personal-brand.html",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": "",
-    "text": "Image Source: Devexperts"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#learning-objectives",
-    "href": "materials/o-day3-personal-brand.html#learning-objectives",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#anticipated-deliverables",
-    "href": "materials/o-day3-personal-brand.html#anticipated-deliverables",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nyour personal branding guide"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#pre-class-prep",
-    "href": "materials/o-day3-personal-brand.html#pre-class-prep",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#workshop-materials",
-    "href": "materials/o-day3-personal-brand.html#workshop-materials",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nDeveloping you Personal Brand\nTBD"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#continue-working",
-    "href": "materials/o-day3-personal-brand.html#continue-working",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nSeek feedback on your personal brand from those who know you well. Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s important to remember that your personal brand can (and should) evolve with you!\n(Optional) Read more about developing your personal brand Check out the resources in the dropdown, below:\n\n\n\n\n\n\n\nSome helpful personal brand readings & resources:\n\n\n\n\n\n\nHow to build your personal brand as a newbie data analyst., by Bright\nBuilding a Personal Brand in Data Science: Your Key to Career Advancement, by Kannan Kasi\nUsing data science to build a personal brand, by Abigail (Abby) Shockley\nHow To Build a Personal Brand: 10 Tips, by Shayna Joubert\nHow to Build a Personal Brand Website: 5 Essentials to Include, by Kathryn Lang\nBuilding a Data Science Brand, by Kate Strachnyi\nPersonal Branding: What is is and why it matters, by Catherine Cote\nHow to craft your personal brand statement, by William Arruda"
+    "text": "What should I continue working on?\n\nFinish applying your colors to different website elements using Quarto’s Sass variables. And test out different color combos and / or fonts if you’re not totally satisfied with your original choices. This is arguably the most fun part of building your website and where you can really let your personality and brand shine through. It can take a while to settle on something that you feel really represents you, and that’s okay (I’ve changed my entire color scheme and fonts multiple times over the years).\nConsider writing / borrowing / adapting CSS rules to refine your website styling. You can take your website styling far just by defining Quarto’s Sass variables. However, if you’re looking to fine-tune the appearance of certain web page elements, you may consider turning to more CSS. Review the workshop slides for suggested approaches and tools to guide your CSS-writing journey."
   },
   {
     "objectID": "materials/f-week1-personal-website.html",
@@ -574,18 +56,18 @@
     "text": "Art by Allison Horst"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#learning-objectives",
-    "href": "materials/f-week1-personal-website.html#learning-objectives",
-    "title": "Creating your personal website using Quarto",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch in RStudio\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
-  },
-  {
     "objectID": "materials/f-week1-personal-website.html#anticipated-deliverables",
     "href": "materials/f-week1-personal-website.html#anticipated-deliverables",
     "title": "Creating your personal website using Quarto",
     "section": " Anticipated deliverable(s)",
     "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nthe scaffolding of a basic Quarto website built and deployed using GitHub Pages\na neatly-arranged landing page with your professional headshot and your chosen bio"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#learning-objectives",
+    "href": "materials/f-week1-personal-website.html#learning-objectives",
+    "title": "Creating your personal website using Quarto",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch in RStudio\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
   },
   {
     "objectID": "materials/f-week1-personal-website.html#pre-class-prep",
@@ -607,6 +89,48 @@
     "title": "Creating your personal website using Quarto",
     "section": " What should I continue working on?",
     "text": "What should I continue working on?\n\nRevisit & seek feedback on your personal bio. Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen template suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.\nConsider editing or adding additional pages. Your website scaffolding includes an “about” page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.\nHide any pages that aren’t “complete.” Want to include an “about” page (e.g. like mine) but don’t quite have the content sorted out yet? It’s best to hide this until you’re ready to share something that’s fairly polished. Comment out the necessary pages in _quarto.yml (see example below), then rebuild your site and push to GitHub. Note that while you can do this for almost all in-progess pages, you must keep index.qmd “live” (i.e. don’t comment it out).\n\n\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"My website title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      # - about.qmd\n\n# ~ additional metadata excluded for brevity ~"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html",
+    "href": "materials/o-day2-resume.html",
+    "title": "Building your resume",
+    "section": "",
+    "text": "Image source: Free Clipart Library"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#anticipated-deliverables",
+    "href": "materials/o-day2-resume.html#anticipated-deliverables",
+    "title": "Building your resume",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\n\na first draft of your professional resume"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#learning-objectives",
+    "href": "materials/o-day2-resume.html#learning-objectives",
+    "title": "Building your resume",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nTBD"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#pre-class-prep",
+    "href": "materials/o-day2-resume.html#pre-class-prep",
+    "title": "Building your resume",
+    "section": " Pre-class Prep",
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#workshop-materials",
+    "href": "materials/o-day2-resume.html#workshop-materials",
+    "title": "Building your resume",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#continue-working",
+    "href": "materials/o-day2-resume.html#continue-working",
+    "title": "Building your resume",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\nTBD"
   },
   {
     "objectID": "materials/f-week2-networking.html",
@@ -651,132 +175,6 @@
     "text": "What should I continue working on?\nTBD"
   },
   {
-    "objectID": "materials/f-week3-customizing-websites.html",
-    "href": "materials/f-week3-customizing-websites.html",
-    "title": "Customizing Quarto websites",
-    "section": "",
-    "text": "The Sass & CSS logos"
-  },
-  {
-    "objectID": "materials/f-week3-customizing-websites.html#anticipated-deliverables",
-    "href": "materials/f-week3-customizing-websites.html#anticipated-deliverables",
-    "title": "Customizing Quarto websites",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nan updated _quarto.yml file, where you can modify your navbar, page footer, main font, theme, etc.\na stylesheet (.scss file) for customizing you website’s appearance"
-  },
-  {
-    "objectID": "materials/f-week3-customizing-websites.html#learning-objectives",
-    "href": "materials/f-week3-customizing-websites.html#learning-objectives",
-    "title": "Customizing Quarto websites",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nexplain the role of HTML and CSS in structuring and styling web page content\nidentify which Quarto website files to edit in order to customize the appearance of various web page elements\ncreate an appropriately-strcutured .scss file to organize custom styles for a Quarto website\ndefine and use Sass variables to streamline theme development\nwrite basic CSS rules for additional fine-tuned web page styling\nuse browser developer tools to inspect web page elements and override or extend existing CSS rules"
-  },
-  {
-    "objectID": "materials/f-week3-customizing-websites.html#pre-class-prep",
-    "href": "materials/f-week3-customizing-websites.html#pre-class-prep",
-    "title": "Customizing Quarto websites",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Have your personal branding guide ready to reference\nThis is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, image assets, and personal logo and / or favicon (optional)."
-  },
-  {
-    "objectID": "materials/f-week3-customizing-websites.html#workshop-materials",
-    "href": "materials/f-week3-customizing-websites.html#workshop-materials",
-    "title": "Customizing Quarto websites",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nCustoming Quarto websites using Sass & CSS\nHave your personal branding guide ready to reference throughout!"
-  },
-  {
-    "objectID": "materials/f-week3-customizing-websites.html#continue-working",
-    "href": "materials/f-week3-customizing-websites.html#continue-working",
-    "title": "Customizing Quarto websites",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nFinish applying your colors to different website elements using Quarto’s Sass variables. And test out different color combos and / or fonts if you’re not totally satisfied with your original choices. This is arguably the most fun part of building your website and where you can really let your personality and brand shine through. It can take a while to settle on something that you feel really represents you, and that’s okay (I’ve changed my entire color scheme and fonts multiple times over the years).\nConsider writing / borrowing / adapting CSS rules to refine your website styling. You can take your website styling far just by defining Quarto’s Sass variables. However, if you’re looking to fine-tune the appearance of certain web page elements, you may consider turning to more CSS. Review the workshop slides for suggested approaches and tools to guide your CSS-writing journey."
-  },
-  {
-    "objectID": "materials/f-week4-panel.html",
-    "href": "materials/f-week4-panel.html",
-    "title": "Career panel",
-    "section": "",
-    "text": "ADD IMAGE HERE"
-  },
-  {
-    "objectID": "materials/f-week4-panel.html#anticipated-deliverables",
-    "href": "materials/f-week4-panel.html#anticipated-deliverables",
-    "title": "Career panel",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
-  },
-  {
-    "objectID": "materials/f-week4-panel.html#learning-objectives",
-    "href": "materials/f-week4-panel.html#learning-objectives",
-    "title": "Career panel",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/f-week4-panel.html#pre-class-prep",
-    "href": "materials/f-week4-panel.html#pre-class-prep",
-    "title": "Career panel",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/f-week4-panel.html#workshop-materials",
-    "href": "materials/f-week4-panel.html#workshop-materials",
-    "title": "Career panel",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/f-week4-panel.html#continue-working",
-    "href": "materials/f-week4-panel.html#continue-working",
-    "title": "Career panel",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html",
-    "href": "materials/f-week2-networking copy.html",
-    "title": "Networking & Art of Mingling",
-    "section": "",
-    "text": "ADD IMAGE HERE"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html#anticipated-deliverables",
-    "href": "materials/f-week2-networking copy.html#anticipated-deliverables",
-    "title": "Networking & Art of Mingling",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html#learning-objectives",
-    "href": "materials/f-week2-networking copy.html#learning-objectives",
-    "title": "Networking & Art of Mingling",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nTBD"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html#pre-class-prep",
-    "href": "materials/f-week2-networking copy.html#pre-class-prep",
-    "title": "Networking & Art of Mingling",
-    "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html#workshop-materials",
-    "href": "materials/f-week2-networking copy.html#workshop-materials",
-    "title": "Networking & Art of Mingling",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/f-week2-networking copy.html#continue-working",
-    "href": "materials/f-week2-networking copy.html#continue-working",
-    "title": "Networking & Art of Mingling",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\nTBD"
-  },
-  {
     "objectID": "materials/f-week5-drop-ins.html",
     "href": "materials/f-week5-drop-ins.html",
     "title": "Drop-in hour",
@@ -784,46 +182,67 @@
     "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week – good luck on any mid-term exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
   },
   {
-    "objectID": "materials/f-week6-github.html",
-    "href": "materials/f-week6-github.html",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html",
+    "href": "materials/o-day3-personal-brand.html",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": "",
-    "text": "#1 Original Ocotcat. See the full collection of octocats, or create your own"
+    "text": "Image Source: Devexperts"
   },
   {
-    "objectID": "materials/f-week6-github.html#anticipated-deliverables",
-    "href": "materials/f-week6-github.html#anticipated-deliverables",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html#anticipated-deliverables",
+    "href": "materials/o-day3-personal-brand.html#anticipated-deliverables",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na polished and informative README added to one (or more) of your past MEDS homework assignments repositories\na thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a profile README that welcomes visitors and showcases your interests / work"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nyour personal branding guide"
   },
   {
-    "objectID": "materials/f-week6-github.html#learning-objectives",
-    "href": "materials/f-week6-github.html#learning-objectives",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html#learning-objectives",
+    "href": "materials/o-day3-personal-brand.html#learning-objectives",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nwrite clear, informative READMEs that help others understand, navigate, and use the contents of yhour GitHub repositories or software products\ncurate your GitHub profile to showcase your skills, interests, accomplishments, and personality(!)\nenhance the accessibility of your GitHub content by applying web accessibilty best practices when writing READMEs"
+    "text": "Learning objectives\nTBD"
   },
   {
-    "objectID": "materials/f-week6-github.html#pre-class-prep",
-    "href": "materials/f-week6-github.html#pre-class-prep",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html#pre-class-prep",
+    "href": "materials/o-day3-personal-brand.html#pre-class-prep",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": " Pre-class Prep",
-    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Save it to an easy-to-find place (e.g your desktop)."
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
   },
   {
-    "objectID": "materials/f-week6-github.html#workshop-materials",
-    "href": "materials/f-week6-github.html#workshop-materials",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html#workshop-materials",
+    "href": "materials/o-day3-personal-brand.html#workshop-materials",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nMEDS README Guidelines\nThe “official” guidelines, assembed by MEDS instructors. You’ll be asked to refer back to these throughout your time in MEDS!\n\n\nSlides\nMEDS README Guidelines\nA slightly-more engaging version of the README guidelines (above) for teaching\n\n\nSlides\nGitHub Glowup\nNA"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nDeveloping you Personal Brand\nTBD"
   },
   {
-    "objectID": "materials/f-week6-github.html#continue-working",
-    "href": "materials/f-week6-github.html#continue-working",
-    "title": "GitHub as a professional portfolio",
+    "objectID": "materials/o-day3-personal-brand.html#continue-working",
+    "href": "materials/o-day3-personal-brand.html#continue-working",
+    "title": "Personal Branding for Environmental Data Scientists",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nPut any finishing touches on your homework repo’s README. If you’re feeling particularly inspired, you can also add / update READMEs for your other homework (or even personal) repositories as well.\nComplete your GitHub profile bio and README. Remember, your README should evolve with you. Consider revisiting it a few times throughout the year to make updates as you start (and complete) projects. You can add / switch out your pinned repos as well."
+    "text": "What should I continue working on?\n\nSeek feedback on your personal brand from those who know you well. Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s important to remember that your personal brand can (and should) evolve with you!\n(Optional) Read more about developing your personal brand Check out the resources in the dropdown, below:\n\n\n\n\n\n\n\nSome helpful personal brand readings & resources:\n\n\n\n\n\n\nHow to build your personal brand as a newbie data analyst., by Bright\nBuilding a Personal Brand in Data Science: Your Key to Career Advancement, by Kannan Kasi\nUsing data science to build a personal brand, by Abigail (Abby) Shockley\nHow To Build a Personal Brand: 10 Tips, by Shayna Joubert\nHow to Build a Personal Brand Website: 5 Essentials to Include, by Kathryn Lang\nBuilding a Data Science Brand, by Kate Strachnyi\nPersonal Branding: What is is and why it matters, by Catherine Cote\nHow to craft your personal brand statement, by William Arruda"
+  },
+  {
+    "objectID": "materials/f-week10-drop-ins.html",
+    "href": "materials/f-week10-drop-ins.html",
+    "title": "Drop-in hour",
+    "section": "",
+    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week – good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+  },
+  {
+    "objectID": "materials/f-week8-drop-ins.html",
+    "href": "materials/f-week8-drop-ins.html",
+    "title": "Drop-in hour",
+    "section": "",
+    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
   },
   {
     "objectID": "materials/f-week7-blog.html",
@@ -868,44 +287,205 @@
     "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n(Very much optional, but encouraged!) Add potential blog post topics / ideas to your personal branding guide You’ll be asked to write blog posts as part of your MEDS coursework, but that shouldn’t stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics:\n\nWhat do your personal branding adjectives and key messages say about you and your interests?\nWhat topics blend your current interests and expertise with your future learning goals?\nWhat might draw someone to your website over a different website? Consider how your brand can help to define your niche.\nNot all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.\nUltimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!\n\n\n\n\n\n\n\n\nNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
   },
   {
-    "objectID": "materials/f-week8-linkedin.html",
-    "href": "materials/f-week8-linkedin.html",
-    "title": "Drop-in hour",
-    "section": "",
-    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
-  },
-  {
-    "objectID": "materials/f-week8-linkedin.html#anticipated-deliverables",
-    "href": "materials/f-week8-linkedin.html#anticipated-deliverables",
-    "title": "Creating your LinkedIn profile",
+    "objectID": "materials/s-week5-intro.html#anticipated-deliverables",
+    "href": "materials/s-week5-intro.html#anticipated-deliverables",
+    "title": "Introduction to career and professional development",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nTBD"
+    "text": "Anticipated deliverable(s)\nNA"
   },
   {
-    "objectID": "materials/f-week8-linkedin.html#learning-objectives",
-    "href": "materials/f-week8-linkedin.html#learning-objectives",
-    "title": "Creating your LinkedIn profile",
+    "objectID": "materials/s-week5-intro.html#learning-objectives",
+    "href": "materials/s-week5-intro.html#learning-objectives",
+    "title": "Introduction to career and professional development",
     "section": " Learning objectives",
     "text": "Learning objectives\nTBD"
   },
   {
-    "objectID": "materials/f-week8-linkedin.html#pre-class-prep",
-    "href": "materials/f-week8-linkedin.html#pre-class-prep",
-    "title": "Creating your LinkedIn profile",
+    "objectID": "materials/s-week5-intro.html#pre-class-prep",
+    "href": "materials/s-week5-intro.html#pre-class-prep",
+    "title": "Introduction to career and professional development",
     "section": " Pre-class Prep",
     "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
   },
   {
-    "objectID": "materials/f-week8-linkedin.html#workshop-materials",
-    "href": "materials/f-week8-linkedin.html#workshop-materials",
-    "title": "Creating your LinkedIn profile",
+    "objectID": "materials/s-week5-intro.html#workshop-materials",
+    "href": "materials/s-week5-intro.html#workshop-materials",
+    "title": "Introduction to career and professional development",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMaximizing Your Impact [LINK]\nNA"
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#continue-working",
+    "href": "materials/s-week5-intro.html#continue-working",
+    "title": "Introduction to career and professional development",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\nTBD"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html",
+    "href": "materials/o-day1-mock-hiring.html",
+    "title": "Mock hiring committee",
+    "section": "",
+    "text": "Image source: Shutterstock"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
+    "href": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
+    "title": "Mock hiring committee",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nNA"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#learning-objectives",
+    "href": "materials/o-day1-mock-hiring.html#learning-objectives",
+    "title": "Mock hiring committee",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nTBD"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#pre-class-prep",
+    "href": "materials/o-day1-mock-hiring.html#pre-class-prep",
+    "title": "Mock hiring committee",
+    "section": " Pre-class Prep",
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#workshop-materials",
+    "href": "materials/o-day1-mock-hiring.html#workshop-materials",
+    "title": "Mock hiring committee",
     "section": " Workshop Materials",
     "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
   },
   {
-    "objectID": "materials/f-week8-linkedin.html#continue-working",
-    "href": "materials/f-week8-linkedin.html#continue-working",
-    "title": "Creating your LinkedIn profile",
+    "objectID": "materials/o-day1-mock-hiring.html#continue-working",
+    "href": "materials/o-day1-mock-hiring.html#continue-working",
+    "title": "Mock hiring committee",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\nTBD"
+  },
+  {
+    "objectID": "materials/s-week6-values.html",
+    "href": "materials/s-week6-values.html",
+    "title": "Values and career decision-making",
+    "section": "",
+    "text": "Image source: LinkedIn"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#anticipated-deliverables",
+    "href": "materials/s-week6-values.html#anticipated-deliverables",
+    "title": "Values and career decision-making",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\n2-3 values that resonate with you when thinking about your future career"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#learning-objectives",
+    "href": "materials/s-week6-values.html#learning-objectives",
+    "title": "Values and career decision-making",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nclarify top professional and / or personal values\nlearn the CASVE method of decision-making\nunderstand how values play into academic and career decision-making"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#pre-class-prep",
+    "href": "materials/s-week6-values.html#pre-class-prep",
+    "title": "Values and career decision-making",
+    "section": " Pre-class Prep",
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Background reading\nRead through this brief article, Values, Passion, or Purpose – Which Should guide your Career?, by Irina Cozma."
+  },
+  {
+    "objectID": "materials/s-week6-values.html#workshop-materials",
+    "href": "materials/s-week6-values.html#workshop-materials",
+    "title": "Values and career decision-making",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nNA\nNA\nNA"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#continue-working",
+    "href": "materials/s-week6-values.html#continue-working",
+    "title": "Values and career decision-making",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nContinue refining your values by taking the Life Values Inventory. Instructions: \n\nCreate a Life Values Inventory account using any email address of your preference\nComplete the assessment online by following the prompts on the screen\nInstantly review your results through an online report"
+  },
+  {
+    "objectID": "materials/f-week6-github.html",
+    "href": "materials/f-week6-github.html",
+    "title": "GitHub as a professional portfolio",
+    "section": "",
+    "text": "#1 Original Ocotcat. See the full collection of octocats, or create your own"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#anticipated-deliverables",
+    "href": "materials/f-week6-github.html#anticipated-deliverables",
+    "title": "GitHub as a professional portfolio",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na polished and informative README added to one (or more) of your past MEDS homework assignments repositories\na thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a profile README that welcomes visitors and showcases your interests / work"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#learning-objectives",
+    "href": "materials/f-week6-github.html#learning-objectives",
+    "title": "GitHub as a professional portfolio",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nwrite clear, informative READMEs that help others understand, navigate, and use the contents of yhour GitHub repositories or software products\ncurate your GitHub profile to showcase your skills, interests, accomplishments, and personality(!)\nenhance the accessibility of your GitHub content by applying web accessibilty best practices when writing READMEs"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#pre-class-prep",
+    "href": "materials/f-week6-github.html#pre-class-prep",
+    "title": "GitHub as a professional portfolio",
+    "section": " Pre-class Prep",
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Save it to an easy-to-find place (e.g your desktop)."
+  },
+  {
+    "objectID": "materials/f-week6-github.html#workshop-materials",
+    "href": "materials/f-week6-github.html#workshop-materials",
+    "title": "GitHub as a professional portfolio",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nMEDS README Guidelines\nThe “official” guidelines, assembed by MEDS instructors. You’ll be asked to refer back to these throughout your time in MEDS!\n\n\nSlides\nMEDS README Guidelines\nA slightly-more engaging version of the README guidelines (above) for teaching\n\n\nSlides\nGitHub Glowup\nNA"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#continue-working",
+    "href": "materials/f-week6-github.html#continue-working",
+    "title": "GitHub as a professional portfolio",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nPut any finishing touches on your homework repo’s README. If you’re feeling particularly inspired, you can also add / update READMEs for your other homework (or even personal) repositories as well.\nComplete your GitHub profile bio and README. Remember, your README should evolve with you. Consider revisiting it a few times throughout the year to make updates as you start (and complete) projects. You can add / switch out your pinned repos as well."
+  },
+  {
+    "objectID": "materials/f-week4-panel.html",
+    "href": "materials/f-week4-panel.html",
+    "title": "Career panel",
+    "section": "",
+    "text": "ADD IMAGE HERE"
+  },
+  {
+    "objectID": "materials/f-week4-panel.html#anticipated-deliverables",
+    "href": "materials/f-week4-panel.html#anticipated-deliverables",
+    "title": "Career panel",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nTBD"
+  },
+  {
+    "objectID": "materials/f-week4-panel.html#learning-objectives",
+    "href": "materials/f-week4-panel.html#learning-objectives",
+    "title": "Career panel",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nTBD"
+  },
+  {
+    "objectID": "materials/f-week4-panel.html#pre-class-prep",
+    "href": "materials/f-week4-panel.html#pre-class-prep",
+    "title": "Career panel",
+    "section": " Pre-class Prep",
+    "text": "Pre-class Prep\nPlease be sure to complete the following before class:\n\nA. tbd\n\n\nB. tbd"
+  },
+  {
+    "objectID": "materials/f-week4-panel.html#workshop-materials",
+    "href": "materials/f-week4-panel.html#workshop-materials",
+    "title": "Career panel",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+  },
+  {
+    "objectID": "materials/f-week4-panel.html#continue-working",
+    "href": "materials/f-week4-panel.html#continue-working",
+    "title": "Career panel",
     "section": " What should I continue working on?",
     "text": "What should I continue working on?\nTBD"
   },
@@ -917,17 +497,17 @@
     "text": "Henley Gate, UCSB \n\n\n\nNo workshop or drop-in hour this week. Enjoy your holiday break!"
   },
   {
-    "objectID": "materials/f-week10-drop-ins.html",
-    "href": "materials/f-week10-drop-ins.html",
-    "title": "Drop-in hour",
-    "section": "",
-    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week – good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "Career & Professional Development Workshop Series",
+    "section": "Description",
+    "text": "Description\ntbd\nAdd info about the MEDS Data Science Portfolio Calendar"
   },
   {
-    "objectID": "materials/f-week8-drop-ins.html",
-    "href": "materials/f-week8-drop-ins.html",
-    "title": "Drop-in hour",
-    "section": "",
-    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+    "objectID": "index.html#teaching-team",
+    "href": "index.html#teaching-team",
+    "title": "Career & Professional Development Workshop Series",
+    "section": "Teaching Team",
+    "text": "Teaching Team\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiya Scheble\nEmail: miya@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmanda Asquith-Caya\nEmail: aasquith@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Parker\nEmail: david@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam Shanny-Csik\nEmail: scsik@ucsb.edu\nLearn more: Personal website"
   }
 ]

@@ -15,26 +15,36 @@ description: "Wednesday, September 10^th^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-TBD
+By the end of today’s workshop, you should have:
+
+- 2-3 values that resonate with you when thinking about your future career
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD
+By the end of today's workshop, you should be able to:
+
+- clarify top professional and / or personal values
+- learn the CASVE method of decision-making
+- understand how values play into academic and career decision-making
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
 
 Please be sure to complete the following before class:
 
-### A. tbd
-### B. tbd
+### A. Background reading 
+
+Read through this brief article, [Values, Passion, or Purpose – Which Should guide your Career?](https://hbr.org/2023/10/values-passion-or-purpose-which-should-guide-your-career){target="_blank"}, by Irina Cozma.  
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| *NA*          | *NA*                    | *NA*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+- [**Continue refining your values by taking the *Life Values Inventory*.**]{.teal-text} Instructions:  
+    - [Create a Life Values Inventory account](https://www.lifevaluesinventory.org/){target="_blank"} using any email address of your preference 
+    - Complete the assessment online by following the prompts on the screen 
+    - Instantly review your results through an online report 
