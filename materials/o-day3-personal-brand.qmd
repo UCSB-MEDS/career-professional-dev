@@ -34,13 +34,14 @@ Please be sure to complete the following before class:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | [Developing you Personal Brand](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | TBD   |
+| Slides          | [Developing you Personal Brand](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | *NA*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-- [**Seek feedback on your personal brand from those who know you well.**]{.teal-text} Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s important to remember that your personal brand can (and should) evolve with you! 
-- [**(Optional) Read more about developing your personal brand**]{.teal-text} Check out the resources in the dropdown, below:
+- [**Continue iterating on your personal brand and seek feedback from those who know you well.**]{.teal-text} Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s also important to remember that your personal brand can (and should) evolve with you! 
+- [**Aim to have a complete personal branding guide by October 15, 2025**]{.teal-text} for reference during our website customization workshop. Specifically, we'll be calling on your color palette & [Google Font](https://fonts.google.com/){target="_blank"} selections to apply styling to your website (so it'll be helpful to at least have those defined). 
+- [**Read more about developing your personal brand**]{.teal-text} Check out the resources in the dropdown, below:
 
 ::: {.callout-tip collapse="true"}
 ## Some helpful personal brand readings & resources:
