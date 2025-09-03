@@ -28,7 +28,7 @@ By the end of today's workshop, you should be able to:
 - add footnotes, citations, and a bibiliography 
 - create additional listing pages to organize and display content on your website
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 Please be sure to complete the following before class:
 

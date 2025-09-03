@@ -1,5 +1,5 @@
 ---
-title: "Introduction to career and professional development"
+title: "Maximizing Your Impact: Introduction to Career Development + BrenConnect"
 subtitle: "Summer | Week 5"
 description: "Wednesday, September 3^rd^, 2025"
 ---
@@ -12,26 +12,44 @@ description: "Wednesday, September 3^rd^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*NA*
+By the end of today’s workshop, you should have: 
+
+- Access to [BrenConnect](https://ucsbbren.my.site.com/s/){target="_blank"} 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+By the end of today's workshop, you should be able to:
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+- Describe the Bren Career Development Program and identify a roadmap for career success at Bren and beyond. 
+- Understand the full range of career services and resources available to full-time Bren students. 
+- Understand how to access Bren Career Services and reach out to the MEDS Career Team (Miya, Dave, and Amanda) 
+- Understand the [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?gid=457321000#gid=457321000) and how coursework and career development offerings contribute to building a professional portfolio aligned with career goals. 
+- Articulate the Bren School career ethos and the importance of engaging in career development as part of their experience in a community of change-makers. 
 
-Please be sure to complete the following before class:
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-### A. tbd
-### B. tbd
+*No preparation required for this session*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials | Notes |
 |--------|------------------------|-------|
-| Slides | Maximizing Your Impact [LINK] | *NA* |
+| Slides | Maximizing Your Impact [link coming soon] | *NA* |
+| Calendar  | [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?usp=sharing){target="_blank"} | This is a living document! You may see updates as the year progresses. |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+- [**Sign up for BrenConnect**]{.teal-text}. Steps:
+    - Access BrenConnect at [https://brenconnect.force.com/s/](https://brenconnect.force.com/s/){target="_blank"} 
+    - Create an account using either:
+        - SSO (use your UCSB Google account) 
+        - Unique username & password (use @ucsb.edu email, NOT @bren.ucsb.edu email) 
+    -  Update your BrenConnect profile with:
+        - Your work & education history 
+        - A professional headshot 
+    - Start exploring! 
+- [**Accept invitations**]{.teal-text} to your shared career Box folder and Google Calendar career events 
+    - You’ll get invitations via email from our Career Coordinator, Daisy Martinez 
+- [**Download Microsoft Word**]{.teal-text} (desktop version). Follw [these instructions](https://www.connect.ucsb.edu/messaging-collaboration-services/microsoft-office-365){target="_blank"} to download and start using Microsoft Office 365 with your UCSB credentials
+- [**Upload your initial resume**]{.teal-text} to your shared career Box folder before **Monday, September 22nd** 

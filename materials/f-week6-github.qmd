@@ -27,7 +27,7 @@ By the end of today's workshop, you should be able to:
 - curate your GitHub profile to showcase your skills, interests, accomplishments, and personality(!)
 - enhance the accessibility of your GitHub content by applying web accessibilty best practices when writing READMEs
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 Please be sure to complete the following before class:
 

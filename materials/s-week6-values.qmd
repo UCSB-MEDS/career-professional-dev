@@ -27,7 +27,7 @@ By the end of today's workshop, you should be able to:
 - learn the CASVE method of decision-making
 - understand how values play into academic and career decision-making
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 Please be sure to complete the following before class:
 
@@ -44,7 +44,7 @@ Read through this brief article, [Values, Passion, or Purpose – Which Should g
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-- [**Continue refining your values by taking the *Life Values Inventory*.**]{.teal-text} Instructions:  
+- [**Continue refining your values by taking the *Life Values Inventory*.**]{.teal-text} Steps:  
     - [Create a Life Values Inventory account](https://www.lifevaluesinventory.org/){target="_blank"} using any email address of your preference 
     - Complete the assessment online by following the prompts on the screen 
     - Instantly review your results through an online report 

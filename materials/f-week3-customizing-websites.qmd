@@ -30,7 +30,7 @@ By the end of today's workshop, you should be able to:
 - write basic CSS rules for additional fine-tuned web page styling
 - use browser developer tools to inspect web page elements and override or extend existing CSS rules
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 Please be sure to complete the following before class:
 

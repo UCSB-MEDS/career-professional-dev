@@ -23,7 +23,7 @@ By the end of today's workshop, you should have:
 
 TBD 
 
-## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-class Prep {#pre-class-prep}
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 Please be sure to complete the following before class:
 
