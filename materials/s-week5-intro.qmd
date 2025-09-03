@@ -51,5 +51,5 @@ By the end of today's workshop, you should be able to:
     - Start exploring! 
 - [**Accept invitations**]{.teal-text} to your shared career Box folder and Google Calendar career events 
     - You’ll get invitations via email from our Career Coordinator, Daisy Martinez 
-- [**Download Microsoft Word**]{.teal-text} (desktop version). Follw [these instructions](https://www.connect.ucsb.edu/messaging-collaboration-services/microsoft-office-365){target="_blank"} to download and start using Microsoft Office 365 with your UCSB credentials
+- [**Download Microsoft Word**]{.teal-text} (desktop version). Follow [these instructions](https://www.connect.ucsb.edu/messaging-collaboration-services/microsoft-office-365){target="_blank"} to download and start using Microsoft Office 365 with your UCSB credentials
 - [**Upload your initial resume**]{.teal-text} to your shared career Box folder before **Monday, September 22nd** 
