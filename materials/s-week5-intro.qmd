@@ -34,7 +34,7 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials | Notes |
 |--------|------------------------|-------|
-| Slides | Maximizing Your Impact [link coming soon] | *NA* |
+| Slides | [Maximizing Your Impact](https://ucsb.box.com/s/e4onk0cj4rw6qw70v92304g7rhoz4pmc){target="_blank"} | *NA* |
 | Calendar  | [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?usp=sharing){target="_blank"} | This is a living document! You may see updates as the year progresses. |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
