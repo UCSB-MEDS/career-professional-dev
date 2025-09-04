@@ -1,13 +1,15 @@
 ---
-title: "Building your resume"
-subtitle: "Orienatation | Day 2"
-description: "Tuesday, September 23^rd^, 2025"
+title: "EDF Climate Corps Info Session"
+subtitle: "Fall | Week 8"
+description: "Wednesday, November 19^th^, 2025"
 ---
 
 ::: {.center-text}
-![](../images/resume.png){width="40%"}
+![](../images/edf-logo.png){width="35%"}
 
-*[Image source: [Free Clipart Library](https://clipart-library.com/clipart/resume-clipart_40.html#google_vignette){target="_blank"}]{.gray-text}*
+::: {.gray-text}
+*The [Environmental Defense Fund](https://www.edf.org/){target="_blank"} Logo*
+:::
 :::
 
 <br>
@@ -16,20 +18,17 @@ description: "Tuesday, September 23^rd^, 2025"
 
 <!-- By the end of today’s workshop, you should have: -->
 
-<!-- - a first draft of your professional resume -->
-
 *coming soon*
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+<!-- By the end of today's workshop, you should be able to: -->
 
 *coming soon*
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class:
-
-### A. tbd
-### B. tbd -->
+<!-- Please be sure to complete the following before class: -->
 
 *coming soon*
 
@@ -43,3 +42,6 @@ description: "Tuesday, September 23^rd^, 2025"
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
 *coming soon*
+
+
+<!-- [*No new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc.*]{.body-text-m} -->

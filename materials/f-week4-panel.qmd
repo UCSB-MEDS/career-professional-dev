@@ -4,26 +4,32 @@ subtitle: "Fall | Week 2"
 description: "Wednesday, October 22^nd^, 2025"
 ---
 
-::: {.center-text .body-text-l}
-**ADD IMAGE HERE**
+::: {.center-text}
+![](../images/panel.jpg){width="65%"}
+
+::: {.gray-text}
+*Image source: [Freep!k](https://www.freepik.com/premium-vector/panel-discussion-conference-concept_275444063.htm){target="_blank"}*
+:::
 :::
 
 <br>
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-TBD
+*coming soon*
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+*coming soon*
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
+<!-- Please be sure to complete the following before class:
 
 ### A. tbd
-### B. tbd
+### B. tbd -->
+
+*coming soon*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -34,4 +40,4 @@ Please be sure to complete the following before class:
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+*coming soon*

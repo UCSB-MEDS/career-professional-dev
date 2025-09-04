@@ -17,18 +17,20 @@ description: "Wednesday, September 24^th^, 2025"
 
 By the end of today's workshop, you should have:
 
-- your personal branding guide
+- a first draft of your personal branding guide
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+*coming soon*
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
+<!-- Please be sure to complete the following before class:
 
 ### A. tbd
-### B. tbd
+### B. tbd -->
+
+*coming soon*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 

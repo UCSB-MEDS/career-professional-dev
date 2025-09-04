@@ -14,18 +14,20 @@ description: "Thursday, October 9^th^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-TBD
+*coming soon*
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-TBD 
+*coming soon*
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
+<!-- Please be sure to complete the following before class:
 
 ### A. tbd
-### B. tbd
+### B. tbd -->
+
+*coming soon*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -36,4 +38,4 @@ Please be sure to complete the following before class:
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-TBD
+*coming soon*

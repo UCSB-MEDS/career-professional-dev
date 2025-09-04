@@ -38,14 +38,14 @@ website:
             href: materials/f-week3-customizing-websites.qmd
           - text: week 4 (10/22) - **career panel**
             href: materials/f-week4-panel.qmd
-          - text: week 5 (10/29) - **drop-in hour**
-            href: materials/f-week5-drop-ins.qmd
+          - text: week 5 (10/29) - **CV (optional)**
+            href: materials/f-week5-cv.qmd
           - text: week 6 (11/05) - **GitHub portfolio**
             href: materials/f-week6-github.qmd
           - text: week 7 (11/12) - **integrating a blog**
             href: materials/f-week7-blog.qmd
-          - text: week 8 (11/19) - **drop-in hour**
-            href: materials/f-week8-drop-ins.qmd
+          - text: week 8 (11/19) - **EDF Climate Corps (optional)**
+            href: materials/f-week8-edf-cc.qmd
           - text: week 9 (11/26) - ***holiday break***
             href: materials/f-week9-na.qmd
           - text: week 10 (12/03) - **drop-in hour**
