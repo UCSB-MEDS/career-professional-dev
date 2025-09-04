@@ -1,0 +1,55 @@
+---
+title: "Drop-in hour" #"EDF Climate Corps Info Session"
+subtitle: "Fall | Week 8"
+description: "Wednesday, November 19^th^, 2025"
+---
+
+<!-- ::: {.center-text}
+![](../images/edf-logo.png){width="35%"}
+
+::: {.gray-text}
+*The [Environmental Defense Fund](https://www.edf.org/){target="_blank"} Logo*
+:::
+::: -->
+
+::: {.center-text}
+![](../images/horst-bren.png){width="45%"}
+
+::: {.gray-text}
+*The Bren Logo, reimagined by [Allison Horst](https://allisonhorst.com/){target="_blank"}*
+:::
+:::
+
+<br>
+
+<!-- ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables} -->
+
+<!-- By the end of today’s workshop, you should have: -->
+
+<!-- *coming soon* -->
+
+<!-- ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives} -->
+
+<!-- By the end of today's workshop, you should be able to: -->
+
+<!-- *coming soon* -->
+
+<!-- ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep} -->
+
+<!-- Please be sure to complete the following before class: -->
+
+<!-- *coming soon* -->
+
+<!-- ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| TBD          | TBD                    | TBD   |
+: {.hover .bordered tbl-colwidths="[20,30,50]"}  -->
+
+<!-- ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working} -->
+
+<!-- *coming soon* -->
+
+
+[*No new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc.*]{.body-text-m}
