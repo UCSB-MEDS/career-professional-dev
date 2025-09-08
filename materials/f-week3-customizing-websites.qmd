@@ -38,6 +38,16 @@ Please be sure to complete the following before class:
 
 This is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, image assets, and personal logo and / or favicon (optional).
 
+
+<!-- One of the most exciting parts of building a website is deciding on which colors you’ll use. This can take some time and tweaking, so it’s helpful to think a bit about your palette beforehand. We’ll consider updating colors for the following website elements:
+
+Navigation Bar: navbar background color, foreground (text) color, hover highlight color
+Main Body: body background color, body text color, hyperlink color, in-line code color, inline-code background color
+Page Footer: footer background color
+We’ll be using a language called Sass to create variables for each of the colors we plan to use throughout our websites (more on that soon!).
+
+It’s helpful to draft up your color variables ahead of time (and save them to your personal branding guide) so that you easily copy them into your stylesheet during class. Define your color variables using the syntax, $variable-name: value;, where you decide on your variable-name, and value is a HEX color code (htmlcolorcodes.com is my favorite site for grabbing HEX codes). -->
+
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |

@@ -21,22 +21,23 @@ By the end of today's workshop, you should have:
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon*
+By the end of today's workshop, you should be able to:
+
+- define what a personal brand is, and explain why personal branding matters for environmental data scientists
+- identify elements that make a strong and memorable personal brand
+- reflect on your professional values, strengths, and target audiences to begin shaping your own personal brand
+- draft elements of your personal branding guide, including defining your adjectives, core messages, target audiences, and visual style 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class:
-
-### A. tbd
-### B. tbd -->
-
-*coming soon*
+*No preparation required for this session*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | [Developing you Personal Brand](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | *NA*   |
+| Slides          | [Personal Branding for Environmental Data Scientists](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | *NA*   |
+| Template          | [Personal Branding Guide Template](https://docs.google.com/document/d/1_GDgYPRR5hZzodwXyJV2aBWKU_OTBY3JOwi0dlSyBAQ/edit?tab=t.0){target="_blank"}  | Copy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop.  |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}

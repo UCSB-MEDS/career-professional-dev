@@ -61,13 +61,10 @@ During this session, you'll have the opportunity to add some personal informatio
 - **Check out a few example websites for bio inspiration.** Here are just a small handful of websites, each with a slightly different approach to their landing page bios:
     - [Samantha Shanny-Csik](https://samanthacsik.github.io/){target="_blank"} (yours truly)
     - [Nick Lyon](https://njlyon0.github.io/){target="_blank"} (NCEAS Data Analyst)
-    - [Daphne Virlar-Knight](https://dvirlar2.github.io/){target="_blank"} (MESM 2020)
     - [Ray Hunter](https://ramhunte.github.io/){target="_blank"} (MESM 2024)
     - [Sam Muir](https://shmuir.github.io/){target="_blank"} (MEDS 2024)
     - [Melissa Widas](https://mwidas.github.io/){target="_blank"} (MEDS 2024)
     - [Marine Kochuten](https://marinakochuten.github.io/){target="_blank"} (MEDS 2025)
-    - [Haylee Oyler](https://haylee360.github.io/){target="_blank"} (MEDS 2025)
-    - [Brooke Grazda](https://bgrazda.github.io/){target="_blank"} (MEDS 2025)
     - [Olivia Hemond](https://ohemond25.github.io/oliviahemond.github.io/){target="_blank"} (MESM 2025)
 
 :::
