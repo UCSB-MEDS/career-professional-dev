@@ -39,7 +39,7 @@ Read through this brief article, [Values, Passion, or Purpose – Which Should g
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | [Why We Care About What We Do: Values & Career Decision-Making Workshop](https://ucsb.account.box.com/login?redirect_url=https%3A%2F%2Fucsb.app.box.com%2Fs%2Fu88n8e4ro0j7w3z2r2iz7cr5gkjoe418)                    | *NA*   |
+| Slides          | [Why We Care About What We Do: Values & Career Decision-Making Workshop](https://ucsb.account.box.com/login?redirect_url=https%3A%2F%2Fucsb.app.box.com%2Fs%2Fu88n8e4ro0j7w3z2r2iz7cr5gkjoe418){target="_blank"} | *NA*  |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
