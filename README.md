@@ -2,6 +2,8 @@
 
 This respository houses the code for the [MEDS Career & Professional Development Workshop Series website](https://ucsb-meds.github.io/career-professional-dev/).
 
+![bren](https://github.com/user-attachments/assets/5bb17736-01e0-4e17-ad1c-0dac10255f4f)
+
 ## Description
 
 The MEDS Career & Professional Development Workshop Series is a core component of the Bren School’s Career Development Program for Master of Environmental Data Science (MEDS) students. This series is designed to support your [career readiness](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined) by helping you build the skills, awareness, and confidence you’ll need to launch your career as an environmental data scientist.
