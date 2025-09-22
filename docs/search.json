@@ -74,7 +74,7 @@
     "href": "materials/f-week1-personal-website.html#pre-workshop-prep",
     "title": "Creating your personal website using Quarto",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\nLeilanie Rubinstein (MEDS 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
   },
   {
     "objectID": "materials/f-week1-personal-website.html#workshop-materials",
@@ -93,44 +93,44 @@
   {
     "objectID": "materials/o-day2-resume.html",
     "href": "materials/o-day2-resume.html",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": "",
     "text": "Image source: Free Clipart Library"
   },
   {
     "objectID": "materials/o-day2-resume.html#anticipated-deliverables",
     "href": "materials/o-day2-resume.html#anticipated-deliverables",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\n\n\ncoming soon"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nA working draft of your traditional 1 or 2-page resume"
   },
   {
     "objectID": "materials/o-day2-resume.html#learning-objectives",
     "href": "materials/o-day2-resume.html#learning-objectives",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": " Learning objectives",
-    "text": "Learning objectives\ncoming soon"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nFormat and design their resumes using Bren best practices.\nTailor their resumes to specific job positions, focusing on marketing their resumes for positions they want rather than positions they’ve had.\nExplain the role of a strong resume within the overall job search process\nWrite clear, accomplishment-focused bullet points that effectively highlight their skills and impact."
   },
   {
     "objectID": "materials/o-day2-resume.html#pre-workshop-prep",
     "href": "materials/o-day2-resume.html#pre-workshop-prep",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\n\ncoming soon"
+    "text": "Pre-workshop Prep\nBefore this workshop, please:\n\nA. Upload your current resume to your shared career Box folder\nPlease note that we’re just looking for you to submit your current resume as-is; do not worry about editing it.\n\n\nB. Download Microsoft Word (desktop version)\nUCSB provides Microsoft Office 365 to all current students. Visit the UCSB-Microsoft Office 365 Resources page to get started.\n\n\nC. Bring a copy of your resume\nBring an electronic or hard copy of your current resume to edit and/or annotate during the session."
   },
   {
     "objectID": "materials/o-day2-resume.html#workshop-materials",
     "href": "materials/o-day2-resume.html#workshop-materials",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
   },
   {
     "objectID": "materials/o-day2-resume.html#continue-working",
     "href": "materials/o-day2-resume.html#continue-working",
-    "title": "Building your resume",
+    "title": "Building a stand-out data science resume",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\ncoming soon"
+    "text": "What should I continue working on?\n\nContinue revising your resume with the intent of submitting it to the Career Team for feedback ahead of your fall “Career Goals + Resume Discussion” appointment.\nSign up for your Career Goals + Resume Discussion Appointment by Friday, September 26 at 5 PM. Look out for an email from your assigned career advisor (Dave, Amanda, or Miya) by the end of the week with instructions on how to schedule."
   },
   {
     "objectID": "materials/f-week6-github.html",
@@ -352,44 +352,44 @@
   {
     "objectID": "materials/o-day1-mock-hiring.html",
     "href": "materials/o-day1-mock-hiring.html",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": "",
     "text": "Image source: Shutterstock"
   },
   {
     "objectID": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
     "href": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\ncoming soon"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nHands-on experience reviewing and evaluating candidate materials\nGreater awareness of the factors that could shape hiring decisions\nPractical insights you can apply to your own job search"
   },
   {
     "objectID": "materials/o-day1-mock-hiring.html#learning-objectives",
     "href": "materials/o-day1-mock-hiring.html#learning-objectives",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": " Learning objectives",
-    "text": "Learning objectives\ncoming soon"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nAnalyze application materials from an employer’s perspective\nIdentify factors that influence whether candidates stand out (either positively or negatively) in the hiring process\nRecognize how bias may influence hiring decisions and consider strategies for more equitable candidate evaluation\nApply insights from the hiring process to enhance their own application documents (resumes, cover letters), interview performance, and online professional presence"
   },
   {
     "objectID": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
     "href": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\n\ncoming soon"
+    "text": "Pre-workshop Prep\nNo preparation required for this session"
   },
   {
     "objectID": "materials/o-day1-mock-hiring.html#workshop-materials",
     "href": "materials/o-day1-mock-hiring.html#workshop-materials",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\ncoming soon\nStep into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets."
   },
   {
     "objectID": "materials/o-day1-mock-hiring.html#continue-working",
     "href": "materials/o-day1-mock-hiring.html#continue-working",
-    "title": "Mock hiring committee",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\ncoming soon"
+    "text": "What should I continue working on?\n\nContinue to reflect on this activity and how your experience as a mock hiring committee member may shape the way you approach your own applications.\nAs current or aspiring environmental leaders, you may serve on hiring committees during your career. Continue exploring how bias can appear in hiring and consider strategies for more inclusive, equitable practices. (See: Maine Land Trust Network on “Creating a More Equitable Recruitment and Hiring Process”)"
   },
   {
     "objectID": "materials/f-week2-networking.html",

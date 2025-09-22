@@ -1,5 +1,5 @@
 ---
-title: "Mock hiring committee"
+title: "Understanding the Hiring Process: A Mock Hiring Committee Activity"
 subtitle: "Orientation | Day 1"
 description: "Monday, September 22^nd^, 2025"
 ---
@@ -14,28 +14,33 @@ description: "Monday, September 22^nd^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon*
+By the end of today's workshop, you should have:
+
+- Hands-on experience reviewing and evaluating candidate materials 
+- Greater awareness of the factors that could shape hiring decisions 
+- Practical insights you can apply to your own job search 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon*
+By the end of today's workshop, you should be able to:
+
+- Analyze application materials from an employer’s perspective 
+- Identify factors that influence whether candidates stand out (either positively or negatively) in the hiring process 
+- Recognize how bias may influence hiring decisions and consider strategies for more equitable candidate evaluation 
+- Apply insights from the hiring process to enhance their own application documents (resumes, cover letters), interview performance, and online professional presence 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class:
-
-### A. tbd
-### B. tbd -->
-
-*coming soon*
+*No preparation required for this session*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| Slides          | *coming soon*       | Step into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets.    |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon*
+- [**Continue to reflect on this activity**]{.teal-text} and how your experience as a mock hiring committee member may shape the way you approach your own applications. 
+- As current or aspiring environmental leaders, you may serve on hiring committees during your career. [**Continue exploring how bias can appear in hiring and consider strategies for more inclusive, equitable practices.**]{.teal-text} (See: Maine Land Trust Network on “[Creating a More Equitable Recruitment and Hiring Process](https://www.mltn.org/wp-content/uploads/2021/10/Equitable-Recruitment-and-Hiring-Process_Oct2021.pdf){target="_blank"}") 
