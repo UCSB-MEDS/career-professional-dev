@@ -37,7 +37,9 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | *coming soon*       | Step into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets.    |
+| Slides          | [Understanding the Hiring Process: A Mock Hiring Committee Activity](https://ucsb.box.com/s/cal35ygeoc863jksz0muucaazul403lb){target="_blank"}       | Step into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets.    |
+| Feedback Form| [Feedback: Mock hiring committee activity](https://docs.google.com/forms/d/e/1FAIpQLSe6Mvz6KMMVJFiG4idPY_sV3NfNop30k-ITE6PpdyMr62xbUA/viewform?usp=sharing&ouid=105167388992459969097){target="_blank"} | Thank you for sharing your thoughts!
+ |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}

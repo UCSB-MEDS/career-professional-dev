@@ -37,7 +37,8 @@ By the end of today's workshop, you should be able to:
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
 | Slides          | [Personal Branding for Environmental Data Scientists](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | *NA*   |
-| Template          | [Personal Branding Guide Template](https://docs.google.com/document/d/1_GDgYPRR5hZzodwXyJV2aBWKU_OTBY3JOwi0dlSyBAQ/edit?tab=t.0){target="_blank"}  | Copy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop.  |
+| Template          | [Personal Branding Guide Template](https://docs.google.com/document/d/1_GDgYPRR5hZzodwXyJV2aBWKU_OTBY3JOwi0dlSyBAQ/edit?tab=t.0){target="_blank"}  | Copy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop. |
+| Feedback Form | [Feedback: Personal branding](https://forms.gle/mQ51iuXcp92iw47a6){target="_blank"} | Thank you for sharing your thoughts! |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
