@@ -43,16 +43,16 @@ UCSB provides Microsoft Office 365 to all current students. Visit the [UCSB-Micr
 
 Bring an electronic or hard copy of your current resume to edit and/or annotate during the session.
 
-
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides       | *coming soon*          | *coming soon* |
+| Slides       | [Market Your Resume for the Positions You Want](https://ucsb.box.com/s/lii1watvv5quulfxsa9f7l9cvg9rdscg){target="_blank"}          | NA |
 | Template    | [Resume Template](https://ucsbbren.my.site.com/s/login/?ec=302&startURL=%2Fs%2Farticle%2FResume-Cover-Letter-Templates){target="_blank"}   | Download resume (and cover letter) templates |
+| Feedback Form | [Feedback: Resume workshop](https://docs.google.com/forms/d/e/1FAIpQLSfhbOHKdiqbckce2mjiwzQpLNQZytdihd3JgMhrcqj6Tbws5A/viewform){target="_blank"} | Thank you for sharing your thoughts! |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-- [**Continue revising your resume**]{.teal-text} with the intent of submitting it to the Career Team for feedback ahead of your fall "Career Goals + Resume Discussion" appointment. 
-- [**Sign up for your Career Goals + Resume Discussion Appointment by Friday, September 26 at 5 PM.**]{.teal-text} Look out for an email from your assigned career advisor (Dave, Amanda, or Miya) by the end of the week with instructions on how to schedule. 
+- [**Continue revising your resume**]{.teal-text} with the intent of submitting it to the Career Team for feedback ahead of your Fall Career Appointment. 
+- [**Sign up for your Fall Career Appointment by Friday, October 3 at 5 PM.**]{.teal-text} Look out for an email from your assigned career advisor (Dave, Amanda, or Miya) by the end of the week with instructions on how to schedule. 
