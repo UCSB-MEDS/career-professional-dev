@@ -67,7 +67,7 @@
     "href": "materials/f-week1-personal-website.html#learning-objectives",
     "title": "Creating your personal website using Quarto",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch in RStudio\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
   },
   {
     "objectID": "materials/f-week1-personal-website.html#pre-workshop-prep",

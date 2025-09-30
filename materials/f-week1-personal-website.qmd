@@ -23,7 +23,7 @@ By the end of today’s workshop, you should have:
 
 By the end of today's workshop, you should be able to:
 
-- create a Quarto website from scratch in RStudio
+- create a Quarto website from scratch 
 - understand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages
 - *preview* a site to view iterative changes, *build* a site in preparation for (re)deployment, and *publish* a site using GitHub Pages
 
