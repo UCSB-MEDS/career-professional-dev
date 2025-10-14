@@ -1,6 +1,6 @@
 ---
 title: "Personal Branding for Environmental Data Scientists"
-subtitle: "Orienatation | Day 3"
+subtitle: "Orientation | Day 3"
 description: "Wednesday, September 24^th^, 2025"
 ---
 

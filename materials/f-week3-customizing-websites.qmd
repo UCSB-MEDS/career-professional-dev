@@ -32,11 +32,11 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
+Please be sure to complete the following before the workshop:
 
 ### A. Have your personal branding guide ready to reference
 
-This is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, image assets, and personal logo and / or favicon (optional).
+This is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, and personal logo and / or favicon (optional). Take a look back at the [personal branding workshop slides](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}, if necessary.
 
 
 <!-- One of the most exciting parts of building a website is deciding on which colors you’ll use. This can take some time and tweaking, so it’s helpful to think a bit about your palette beforehand. We’ll consider updating colors for the following website elements:

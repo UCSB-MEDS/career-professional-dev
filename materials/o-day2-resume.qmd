@@ -1,6 +1,6 @@
 ---
 title: "Building a stand-out data science resume "
-subtitle: "Orienatation | Day 2"
+subtitle: "Orientation | Day 2"
 description: "Tuesday, September 23^rd^, 2025"
 ---
 
