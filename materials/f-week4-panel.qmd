@@ -1,6 +1,6 @@
 ---
-title: "Career panel"
-subtitle: "Fall | Week 2"
+title: "Fall Environmental Data Science Career Panel "
+subtitle: "Fall | Week 4"
 description: "Wednesday, October 22^nd^, 2025"
 ---
 
@@ -16,28 +16,34 @@ description: "Wednesday, October 22^nd^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon*
+By the end of today’s workshop, you should have: 
+
+- An understanding of various environmental data science careers across a variety of sectors 
+- A brief overview of how to conduct informational interviews (including how to reach out to contacts and how to leverage and maintain these connections over time). 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon*
+By the end of today's workshop, you should be able to: 
+
+- Describe various careers in environmental data science. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class:
+Please be sure to complete the following before the workshop:
 
-### A. tbd
-### B. tbd -->
+### A. Read this [BrenConnect Article](https://ucsbbren.my.site.com/s/article/The-411-on-Conducting-Following-Up-On-and-Leveraging-Informational-Interviews-And-Why-Not-to-Call-Them-That){target="_blank"} 
 
-*coming soon*
+If you haven't already, please read or review the following BrenConnect article: [The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)](https://ucsbbren.my.site.com/s/article/The-411-on-Conducting-Following-Up-On-and-Leveraging-Informational-Interviews-And-Why-Not-to-Call-Them-That){target="_blank"} 
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| NA           | NA                     | NA    |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon*
+- [**After the Fall EDS Career Panel, continue to reflect on the types of roles, organizations, and industries that interest you.**]{.teal-text} Think about what excites you—whether that’s the kind of work you’d like to do, the impact you’d like to make, or the environment you’d like to work in. It’s okay if your ideas are still broad or evolving. Use this time to explore and stay curious; this early reflection will help you approach your job search with more focus later on. 
+- [**Once you have a few areas or organizations in mind, start identifying people you could talk to—such as alumni, current students, or professionals in your network.**]{.teal-text} Use the [BrenConnect Alumni & Student Finder](https://ucsbbren.my.site.com/s/find-alumni){target="_blank"}, LinkedIn, and personal/professional connections to find potential contacts. 
+- [**Over the next few weeks, reach out to 1-3 people to request short informational interviews.**]{.teal-text} These conversations are a great way to learn more about different career paths, get advice, and begin building your professional network. 
