@@ -39,8 +39,9 @@ If you haven't already, please read or review the following BrenConnect article:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| NA           | NA                     | NA    |
-: {.hover .bordered tbl-colwidths="[20,30,50]"} 
+| Slides | [Using Informational Meetings to Grow, Get Advice, & Build Intentional Connections](https://ucsb.app.box.com/s/l00jyhp4ziqzlkeehqsfpxmlu1spnb5d){target="_blank"}  | NA |
+| Feedback form | [Feedback: Informational Interviews Workshop + Fall EDS Career Panel](https://docs.google.com/forms/d/e/1FAIpQLSc4bUtcXmUfHfeawA5EFOqWbRpmTknEJrDV7cIfygdwzV6esw/viewform){target="_blank"}  | NA |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
