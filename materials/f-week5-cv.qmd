@@ -16,33 +16,32 @@ description: "Thursday, October 30^th^, 2025"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-<!-- By the end of today’s workshop, you should have:
+By the end of today’s workshop, you should have:
 
-- a first draft of your curriculum vitae (CV) -->
-
-*coming soon*
+- A working draft of your CV 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-<!-- By the end of today's workshop, you should be able to: -->
+By the end of today's workshop, you should be able to:
 
-*coming soon*
+- Format and design your CV using Bren best practices, including knowing how CV formatting differs slightly from resume formatting. 
+- Understand the content typically included in a CV and begin making choices about which content to include in your own CVs. 
+- Understand how to assess the audience for your CV, including making formatting, organizational, and content choices to best market your qualifications for the specific audience. 
+- Convert an existing resume into a more detailed and/or more academically focused CV, and/or edit an existing CV to create a draft CV for applications that require it (such as for PhD programs, research-focused jobs, or certain fellowships). 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class: -->
+### A. Bring an electronic or hard copy of your current resume or CV 
 
-*coming soon*
+You'll be editing and/or annotating it during the session. 
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| *coming soon*          | *coming soon*                    | *coming soon*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon*
-
-<!-- [*No new content this week -- good luck on any mid-term exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc.*]{.body-text-m} -->
+- [**If having a CV is relevant to your career goals, continue refining it**]{.teal-text} using what you’ve learned in this workshop and by referring to the [Ultimate Bren CV Guide](https://ucsbbren.my.site.com/s/article/Curriculum-Vitae-CV-Guidelines-and-Examples){target="_blank"}. When you’re ready, you’re welcome to request a document review by emailing [medscareer@bren.ucsb.edu](mailto:medscareer@bren.ucsb.edu). We’d be happy to help you further develop and tailor your CV for the positions that interest you. 
