@@ -70,7 +70,7 @@ Consider what content you might want to include in *your* GitHub profile README 
 
 ### D. Have a profile picture handy
 
-We'll update our GitHub profile picture during class, if you haven't done so already. [**Save it to an easy-to-find place (e.g your desktop).**]{.teal-text}
+We'll update our GitHub profile picture during class, if you haven't done so already. Ideally, this profile picture matches the one you've used for your other online portfolios (e.g. your personal website, LinkedIn, etc.). [**Save it to an easy-to-find place (e.g your desktop).**]{.teal-text}
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
