@@ -1,0 +1,38 @@
+---
+title: "Winter Environmental Data Science Career Panel"
+subtitle: "Winter | Week 4"
+description: "Wednesday, February 28^th^, 2026"
+---
+
+::: {.center-text}
+![](../images/panel.jpg){width="65%"}
+
+::: {.gray-text}
+*Image source: [Freep!k](https://www.freepik.com/premium-vector/panel-discussion-conference-concept_275444063.htm){target="_blank"}*
+:::
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*coming soon!*
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+*coming soon!*
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+*coming soon!*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| *coming soon*| *coming soon*          | *coming soon* |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+*coming soon!*

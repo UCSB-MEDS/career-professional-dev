@@ -1,0 +1,38 @@
+---
+title: "LinkedIn Workshop"
+subtitle: "Winter | Week 6"
+description: "Wednesday, February 11^th^, 2026"
+---
+
+::: {.center-text}
+![](../images/linkedin-logo.png){width="65%"}
+
+::: {.gray-text}
+*The [LinkedIn](https://www.linkedin.com/){target="_blank"} logo*
+:::
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*coming soon!*
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+*coming soon!*
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+*coming soon!*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| *coming soon*| *coming soon*          | *coming soon* |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+*coming soon!*

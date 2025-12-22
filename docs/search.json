@@ -49,389 +49,88 @@
     "text": "What should I continue working on?\n\nFinish applying your colors to different website elements using Quarto’s Sass variables. And test out different color combos and / or fonts if you’re not totally satisfied with your original choices. This is arguably the most fun part of building your website and where you can really let your personality and brand shine through. It can take a while to settle on something that you feel really represents you, and that’s okay (I’ve changed my entire color scheme and fonts multiple times over the years).\nConsider writing / borrowing / adapting CSS rules to refine your website styling. You can take your website styling far just by defining Quarto’s Sass variables. However, if you’re looking to fine-tune the appearance of certain web page elements, you may consider turning to more CSS. Review the workshop slides for suggested approaches and tools to guide your CSS-writing journey."
   },
   {
-    "objectID": "materials/f-week1-personal-website.html",
-    "href": "materials/f-week1-personal-website.html",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html",
+    "href": "materials/w-week2-professional-dev.html",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": "",
-    "text": "Art by Allison Horst"
+    "text": "Image Source: iStock"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#anticipated-deliverables",
-    "href": "materials/f-week1-personal-website.html#anticipated-deliverables",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html#anticipated-deliverables",
+    "href": "materials/w-week2-professional-dev.html#anticipated-deliverables",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nthe scaffolding of a basic Quarto website built and deployed using GitHub Pages\na neatly-arranged landing page with your professional headshot and your chosen bio"
+    "text": "Anticipated deliverable(s)\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#learning-objectives",
-    "href": "materials/f-week1-personal-website.html#learning-objectives",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html#learning-objectives",
+    "href": "materials/w-week2-professional-dev.html#learning-objectives",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
+    "text": "Learning objectives\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#pre-workshop-prep",
-    "href": "materials/f-week1-personal-website.html#pre-workshop-prep",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html#pre-workshop-prep",
+    "href": "materials/w-week2-professional-dev.html#pre-workshop-prep",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\nLeilanie Rubinstein (MEDS 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
+    "text": "Pre-workshop Prep\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#workshop-materials",
-    "href": "materials/f-week1-personal-website.html#workshop-materials",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html#workshop-materials",
+    "href": "materials/w-week2-professional-dev.html#workshop-materials",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nQuarto website instructions\nWe’ll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point\n\n\nFeedback form\nFeedback: Building a personal website\nThank you for sharing your thoughts!"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
   },
   {
-    "objectID": "materials/f-week1-personal-website.html#continue-working",
-    "href": "materials/f-week1-personal-website.html#continue-working",
-    "title": "Creating your personal website using Quarto",
+    "objectID": "materials/w-week2-professional-dev.html#continue-working",
+    "href": "materials/w-week2-professional-dev.html#continue-working",
+    "title": "Future Ready: Professional Development Skills Workshop",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nRevisit & seek feedback on your personal bio. Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen template suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.\nConsider editing or adding additional pages. Your website scaffolding includes an “about” page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.\nHide any pages that aren’t “complete.” Want to include an “about” page (e.g. like mine) but don’t quite have the content sorted out yet? It’s best to hide this until you’re ready to share something that’s fairly polished. Comment out the necessary pages in _quarto.yml (see example below), then rebuild your site and push to GitHub. Note that while you can do this for almost all in-progess pages, you must keep index.qmd “live” (i.e. don’t comment it out).\n\n\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"My website title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      # - about.qmd\n\n# ~ additional metadata excluded for brevity ~"
+    "text": "What should I continue working on?\ncoming soon!"
   },
   {
-    "objectID": "materials/o-day2-resume.html",
-    "href": "materials/o-day2-resume.html",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html",
+    "href": "materials/f-week4-panel.html",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": "",
-    "text": "Image source: Free Clipart Library"
+    "text": "Image source: Freep!k"
   },
   {
-    "objectID": "materials/o-day2-resume.html#anticipated-deliverables",
-    "href": "materials/o-day2-resume.html#anticipated-deliverables",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html#anticipated-deliverables",
+    "href": "materials/f-week4-panel.html#anticipated-deliverables",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nA working draft of your traditional 1 or 2-page resume"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nAn understanding of various environmental data science careers across a variety of sectors\nA brief overview of how to conduct informational interviews (including how to reach out to contacts and how to leverage and maintain these connections over time)."
   },
   {
-    "objectID": "materials/o-day2-resume.html#learning-objectives",
-    "href": "materials/o-day2-resume.html#learning-objectives",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html#learning-objectives",
+    "href": "materials/f-week4-panel.html#learning-objectives",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nFormat and design their resumes using Bren best practices.\nTailor their resumes to specific job positions, focusing on marketing their resumes for positions they want rather than positions they’ve had.\nExplain the role of a strong resume within the overall job search process\nWrite clear, accomplishment-focused bullet points that effectively highlight their skills and impact."
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nDescribe various careers in environmental data science."
   },
   {
-    "objectID": "materials/o-day2-resume.html#pre-workshop-prep",
-    "href": "materials/o-day2-resume.html#pre-workshop-prep",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html#pre-workshop-prep",
+    "href": "materials/f-week4-panel.html#pre-workshop-prep",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nBefore this workshop, please:\n\nA. Upload your current resume to your shared career Box folder\nPlease note that we’re just looking for you to submit your current resume as-is; do not worry about editing it.\n\n\nB. Download Microsoft Word (desktop version)\nUCSB provides Microsoft Office 365 to all current students. Visit the UCSB-Microsoft Office 365 Resources page to get started.\n\n\nC. Bring a copy of your resume\nBring an electronic or hard copy of your current resume to edit and/or annotate during the session."
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Read this BrenConnect Article\nIf you haven’t already, please read or review the following BrenConnect article: The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)"
   },
   {
-    "objectID": "materials/o-day2-resume.html#workshop-materials",
-    "href": "materials/o-day2-resume.html#workshop-materials",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html#workshop-materials",
+    "href": "materials/f-week4-panel.html#workshop-materials",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMarket Your Resume for the Positions You Want\nNA\n\n\nTemplate\nResume Template\nDownload resume (and cover letter) templates\n\n\nFeedback Form\nFeedback: Resume workshop\nThank you for sharing your thoughts!"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nUsing Informational Meetings to Grow, Get Advice, & Build Intentional Connections\nNA\n\n\nFeedback form\nFeedback: Informational Interviews Workshop + Fall EDS Career Panel\nNA"
   },
   {
-    "objectID": "materials/o-day2-resume.html#continue-working",
-    "href": "materials/o-day2-resume.html#continue-working",
-    "title": "Building a stand-out data science resume",
+    "objectID": "materials/f-week4-panel.html#continue-working",
+    "href": "materials/f-week4-panel.html#continue-working",
+    "title": "Fall Environmental Data Science Career Panel",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nContinue revising your resume with the intent of submitting it to the Career Team for feedback ahead of your Fall Career Appointment.\nSign up for your Fall Career Appointment by Friday, October 3 at 5 PM. Look out for an email from your assigned career advisor (Dave, Amanda, or Miya) by the end of the week with instructions on how to schedule."
-  },
-  {
-    "objectID": "materials/f-week6-github.html",
-    "href": "materials/f-week6-github.html",
-    "title": "GitHub as a professional portfolio",
-    "section": "",
-    "text": "#1 Original Ocotcat. See the full collection of octocats, or create your own"
-  },
-  {
-    "objectID": "materials/f-week6-github.html#anticipated-deliverables",
-    "href": "materials/f-week6-github.html#anticipated-deliverables",
-    "title": "GitHub as a professional portfolio",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na polished and informative README added to one (or more) of your past MEDS homework assignments repositories\na thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a profile README that welcomes visitors and showcases your interests / work"
-  },
-  {
-    "objectID": "materials/f-week6-github.html#learning-objectives",
-    "href": "materials/f-week6-github.html#learning-objectives",
-    "title": "GitHub as a professional portfolio",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nwrite clear, informative READMEs that help others understand, navigate, and use the contents of yhour GitHub repositories or software products\ncurate your GitHub profile to showcase your skills, interests, accomplishments, and personality(!)\nenhance the accessibility of your GitHub content by applying web accessibilty best practices when writing READMEs"
-  },
-  {
-    "objectID": "materials/f-week6-github.html#pre-workshop-prep",
-    "href": "materials/f-week6-github.html#pre-workshop-prep",
-    "title": "GitHub as a professional portfolio",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Ideally, this profile picture matches the one you’ve used for your other online portfolios (e.g. your personal website, LinkedIn, etc.). Save it to an easy-to-find place (e.g your desktop)."
-  },
-  {
-    "objectID": "materials/f-week6-github.html#workshop-materials",
-    "href": "materials/f-week6-github.html#workshop-materials",
-    "title": "GitHub as a professional portfolio",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nMEDS README Guidelines\nThe “official” guidelines, assembed by MEDS instructors. You’ll be asked to refer back to these throughout your time in MEDS!\n\n\nSlides\nMEDS README Guidelines\nA slightly-more engaging version of the README guidelines (above) for teaching\n\n\nSlides\nGitHub Glowup\nNA"
-  },
-  {
-    "objectID": "materials/f-week6-github.html#continue-working",
-    "href": "materials/f-week6-github.html#continue-working",
-    "title": "GitHub as a professional portfolio",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nPut any finishing touches on your homework repo’s README. If you’re feeling particularly inspired, you can also add / update READMEs for your other homework (or even personal) repositories as well.\nComplete your GitHub profile bio and README. Remember, your README should evolve with you. Consider revisiting it a few times throughout the year to make updates as you start (and complete) projects. You can add / switch out your pinned repos as well."
-  },
-  {
-    "objectID": "materials/s-week6-values.html",
-    "href": "materials/s-week6-values.html",
-    "title": "Values and career decision-making",
-    "section": "",
-    "text": "Image source: LinkedIn"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#anticipated-deliverables",
-    "href": "materials/s-week6-values.html#anticipated-deliverables",
-    "title": "Values and career decision-making",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\n2-3 values that resonate with you when thinking about your future career"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#learning-objectives",
-    "href": "materials/s-week6-values.html#learning-objectives",
-    "title": "Values and career decision-making",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nclarify top professional and / or personal values\nlearn the CASVE method of decision-making\nunderstand how values play into academic and career decision-making"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#pre-workshop-prep",
-    "href": "materials/s-week6-values.html#pre-workshop-prep",
-    "title": "Values and career decision-making",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Background reading\nRead through this brief article, Values, Passion, or Purpose – Which Should guide your Career?, by Irina Cozma."
-  },
-  {
-    "objectID": "materials/s-week6-values.html#workshop-materials",
-    "href": "materials/s-week6-values.html#workshop-materials",
-    "title": "Values and career decision-making",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nWhy We Care About What We Do: Values & Career Decision-Making Workshop\nNA\n\n\nFeedback Form\nFeedback: Values and career decision-making workshop\nThank you for providing us with feedback on our values workshop!"
-  },
-  {
-    "objectID": "materials/s-week6-values.html#continue-working",
-    "href": "materials/s-week6-values.html#continue-working",
-    "title": "Values and career decision-making",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nContinue refining your values by taking the Life Values Inventory. Steps: \n\nCreate a Life Values Inventory account using any email address of your preference\nComplete the assessment online by following the prompts on the screen\nInstantly review your results through an online report"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html",
-    "href": "materials/o-day3-personal-brand.html",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": "",
-    "text": "Image Source: Devexperts"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#anticipated-deliverables",
-    "href": "materials/o-day3-personal-brand.html#anticipated-deliverables",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na first draft of your personal branding guide"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#learning-objectives",
-    "href": "materials/o-day3-personal-brand.html#learning-objectives",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ndefine what a personal brand is, and explain why personal branding matters for environmental data scientists\nidentify elements that make a strong and memorable personal brand\nreflect on your professional values, strengths, and target audiences to begin shaping your own personal brand\ndraft elements of your personal branding guide, including defining your adjectives, core messages, target audiences, and visual style"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#pre-workshop-prep",
-    "href": "materials/o-day3-personal-brand.html#pre-workshop-prep",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nNo preparation required for this session"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#workshop-materials",
-    "href": "materials/o-day3-personal-brand.html#workshop-materials",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nPersonal Branding for Environmental Data Scientists\nNA\n\n\nTemplate\nPersonal Branding Guide Template\nCopy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop.\n\n\nFeedback Form\nFeedback: Personal branding\nThank you for sharing your thoughts!"
-  },
-  {
-    "objectID": "materials/o-day3-personal-brand.html#continue-working",
-    "href": "materials/o-day3-personal-brand.html#continue-working",
-    "title": "Personal Branding for Environmental Data Scientists",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nContinue iterating on your personal brand and seek feedback from those who know you well. Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s also important to remember that your personal brand can (and should) evolve with you!\nAim to have a complete personal branding guide by October 15, 2025 for reference during our website customization workshop. Specifically, we’ll be calling on your color palette & Google Font selections to apply styling to your website (so it’ll be helpful to at least have those defined).\nRead more about developing your personal brand Check out the resources in the dropdown, below:\n\n\n\n\n\n\n\nSome helpful personal brand readings & resources:\n\n\n\n\n\n\nHow to build your personal brand as a newbie data analyst., by Bright\nBuilding a Personal Brand in Data Science: Your Key to Career Advancement, by Kannan Kasi\nUsing data science to build a personal brand, by Abigail (Abby) Shockley\nHow To Build a Personal Brand: 10 Tips, by Shayna Joubert\nHow to Build a Personal Brand Website: 5 Essentials to Include, by Kathryn Lang\nBuilding a Data Science Brand, by Kate Strachnyi\nPersonal Branding: What is is and why it matters, by Catherine Cote\nHow to craft your personal brand statement, by William Arruda"
-  },
-  {
-    "objectID": "materials/f-week10-drop-ins.html",
-    "href": "materials/f-week10-drop-ins.html",
-    "title": "Drop-in hour",
-    "section": "",
-    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week – good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
-  },
-  {
-    "objectID": "materials/f-week8-drop-ins.html",
-    "href": "materials/f-week8-drop-ins.html",
-    "title": "Drop-in hour",
-    "section": "",
-    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
-  },
-  {
-    "objectID": "materials/f-week7-blog.html",
-    "href": "materials/f-week7-blog.html",
-    "title": "Adding a blog to your Quarto website",
-    "section": "",
-    "text": "Blog icon, by Brendan Mitchell"
-  },
-  {
-    "objectID": "materials/f-week7-blog.html#anticipated-deliverables",
-    "href": "materials/f-week7-blog.html#anticipated-deliverables",
-    "title": "Adding a blog to your Quarto website",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na blog listing page as a new navbar tab on your Quarto website\nthe skeleton of your first blog post"
-  },
-  {
-    "objectID": "materials/f-week7-blog.html#learning-objectives",
-    "href": "materials/f-week7-blog.html#learning-objectives",
-    "title": "Adding a blog to your Quarto website",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate the appropriate folder and files structure to add a new blog post to your Quarto website\nconfigure your blog post using various YAML options\nadd footnotes, citations, and a bibiliography\ncreate additional listing pages to organize and display content on your website"
-  },
-  {
-    "objectID": "materials/f-week7-blog.html#pre-workshop-prep",
-    "href": "materials/f-week7-blog.html#pre-workshop-prep",
-    "title": "Adding a blog to your Quarto website",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Choose your listing page style\nA blog listing page is a web page that displays all of a blog’s posts. Quarto provides three built-in listing page styles to choose from. Check out the previews and identify which you might want to use ahead of class."
-  },
-  {
-    "objectID": "materials/f-week7-blog.html#workshop-materials",
-    "href": "materials/f-week7-blog.html#workshop-materials",
-    "title": "Adding a blog to your Quarto website",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nBlog post\nAdding a blog to your existing Quarto website\nInstructions for adding a blog to your existing Quarto website take the form of – you guessed it – a blog post"
-  },
-  {
-    "objectID": "materials/f-week7-blog.html#continue-working",
-    "href": "materials/f-week7-blog.html#continue-working",
-    "title": "Adding a blog to your Quarto website",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n(Very much optional, but encouraged!) Add potential blog post topics / ideas to your personal branding guide You’ll be asked to write blog posts as part of your MEDS coursework, but that shouldn’t stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics:\n\nWhat do your personal branding adjectives and key messages say about you and your interests?\nWhat topics blend your current interests and expertise with your future learning goals?\nWhat might draw someone to your website over a different website? Consider how your brand can help to define your niche.\nNot all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.\nUltimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!\n\n\n\n\n\n\n\n\nNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#anticipated-deliverables",
-    "href": "materials/s-week5-intro.html#anticipated-deliverables",
-    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nAccess to BrenConnect"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#learning-objectives",
-    "href": "materials/s-week5-intro.html#learning-objectives",
-    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nDescribe the Bren Career Development Program and identify a roadmap for career success at Bren and beyond.\nUnderstand the full range of career services and resources available to full-time Bren students.\nUnderstand how to access Bren Career Services and reach out to the MEDS Career Team (Miya, Dave, and Amanda)\nUnderstand the MEDS Data Science Portfolio Calendar and how coursework and career development offerings contribute to building a professional portfolio aligned with career goals.\nArticulate the Bren School career ethos and the importance of engaging in career development as part of their experience in a community of change-makers."
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#pre-workshop-prep",
-    "href": "materials/s-week5-intro.html#pre-workshop-prep",
-    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nNo preparation required for this session"
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#workshop-materials",
-    "href": "materials/s-week5-intro.html#workshop-materials",
-    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMaximizing Your Impact\nNA\n\n\nCalendar\nMEDS Data Science Portfolio Calendar\nThis is a living document! You may see updates as the year progresses."
-  },
-  {
-    "objectID": "materials/s-week5-intro.html#continue-working",
-    "href": "materials/s-week5-intro.html#continue-working",
-    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nSign up for BrenConnect. Steps:\n\nAccess BrenConnect at https://brenconnect.force.com/s/\nCreate an account using either:\n\nSSO (use your UCSB Google account)\nUnique username & password (use @ucsb.edu email, NOT @bren.ucsb.edu email)\n\nUpdate your BrenConnect profile with:\n\nYour work & education history\nA professional headshot\n\nStart exploring!\n\nAccept invitations to your shared career Box folder and Google Calendar career events\n\nYou’ll get invitations via email from our Career Coordinator, Daisy Martinez\n\nDownload Microsoft Word (desktop version). Follow these instructions to download and start using Microsoft Office 365 with your UCSB credentials\nUpload your initial resume to your shared career Box folder before Monday, September 22nd"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html",
-    "href": "materials/o-day1-mock-hiring.html",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": "",
-    "text": "Image source: Shutterstock"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
-    "href": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nHands-on experience reviewing and evaluating candidate materials\nGreater awareness of the factors that could shape hiring decisions\nPractical insights you can apply to your own job search"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#learning-objectives",
-    "href": "materials/o-day1-mock-hiring.html#learning-objectives",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nAnalyze application materials from an employer’s perspective\nIdentify factors that influence whether candidates stand out (either positively or negatively) in the hiring process\nRecognize how bias may influence hiring decisions and consider strategies for more equitable candidate evaluation\nApply insights from the hiring process to enhance their own application documents (resumes, cover letters), interview performance, and online professional presence"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
-    "href": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nNo preparation required for this session"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#workshop-materials",
-    "href": "materials/o-day1-mock-hiring.html#workshop-materials",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nUnderstanding the Hiring Process: A Mock Hiring Committee Activity\nStep into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets.\n\n\nFeedback Form\nFeedback: Mock hiring committee activity\nThank you for sharing your thoughts!"
-  },
-  {
-    "objectID": "materials/o-day1-mock-hiring.html#continue-working",
-    "href": "materials/o-day1-mock-hiring.html#continue-working",
-    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nContinue to reflect on this activity and how your experience as a mock hiring committee member may shape the way you approach your own applications.\nAs current or aspiring environmental leaders, you may serve on hiring committees during your career. Continue exploring how bias can appear in hiring and consider strategies for more inclusive, equitable practices. (See: Maine Land Trust Network on “Creating a More Equitable Recruitment and Hiring Process”)"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html",
-    "href": "materials/f-week2-networking.html",
-    "title": "Networking & Art of Mingling",
-    "section": "",
-    "text": "Image source: iStock"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html#anticipated-deliverables",
-    "href": "materials/f-week2-networking.html#anticipated-deliverables",
-    "title": "Networking & Art of Mingling",
-    "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\ncoming soon"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html#learning-objectives",
-    "href": "materials/f-week2-networking.html#learning-objectives",
-    "title": "Networking & Art of Mingling",
-    "section": " Learning objectives",
-    "text": "Learning objectives\ncoming soon"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html#pre-workshop-prep",
-    "href": "materials/f-week2-networking.html#pre-workshop-prep",
-    "title": "Networking & Art of Mingling",
-    "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\n\ncoming soon"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html#workshop-materials",
-    "href": "materials/f-week2-networking.html#workshop-materials",
-    "title": "Networking & Art of Mingling",
-    "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "materials/f-week2-networking.html#continue-working",
-    "href": "materials/f-week2-networking.html#continue-working",
-    "title": "Networking & Art of Mingling",
-    "section": " What should I continue working on?",
-    "text": "What should I continue working on?\ncoming soon"
+    "text": "What should I continue working on?\n\nAfter the Fall EDS Career Panel, continue to reflect on the types of roles, organizations, and industries that interest you. Think about what excites you—whether that’s the kind of work you’d like to do, the impact you’d like to make, or the environment you’d like to work in. It’s okay if your ideas are still broad or evolving. Use this time to explore and stay curious; this early reflection will help you approach your job search with more focus later on.\nOnce you have a few areas or organizations in mind, start identifying people you could talk to—such as alumni, current students, or professionals in your network. Use the BrenConnect Alumni & Student Finder, LinkedIn, and personal/professional connections to find potential contacts.\nOver the next few weeks, reach out to 1-3 people to request short informational interviews. These conversations are a great way to learn more about different career paths, get advice, and begin building your professional network."
   },
   {
     "objectID": "materials/f-week5-cv.html",
@@ -476,46 +175,606 @@
     "text": "What should I continue working on?\n\nIf having a CV is relevant to your career goals, continue refining it using what you’ve learned in this workshop and by referring to the Ultimate Bren CV Guide. When you’re ready, you’re welcome to request a document review by emailing medscareer@bren.ucsb.edu. We’d be happy to help you further develop and tailor your CV for the positions that interest you."
   },
   {
-    "objectID": "materials/f-week4-panel.html",
-    "href": "materials/f-week4-panel.html",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week6-linkedin.html",
+    "href": "materials/w-week6-linkedin.html",
+    "title": "LinkedIn Workshop",
+    "section": "",
+    "text": "The LinkedIn logo"
+  },
+  {
+    "objectID": "materials/w-week6-linkedin.html#anticipated-deliverables",
+    "href": "materials/w-week6-linkedin.html#anticipated-deliverables",
+    "title": "LinkedIn Workshop",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week6-linkedin.html#learning-objectives",
+    "href": "materials/w-week6-linkedin.html#learning-objectives",
+    "title": "LinkedIn Workshop",
+    "section": " Learning objectives",
+    "text": "Learning objectives\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week6-linkedin.html#pre-workshop-prep",
+    "href": "materials/w-week6-linkedin.html#pre-workshop-prep",
+    "title": "LinkedIn Workshop",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week6-linkedin.html#workshop-materials",
+    "href": "materials/w-week6-linkedin.html#workshop-materials",
+    "title": "LinkedIn Workshop",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
+  },
+  {
+    "objectID": "materials/w-week6-linkedin.html#continue-working",
+    "href": "materials/w-week6-linkedin.html#continue-working",
+    "title": "LinkedIn Workshop",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\ncoming soon!"
+  },
+  {
+    "objectID": "materials/s-week6-values.html",
+    "href": "materials/s-week6-values.html",
+    "title": "Values and career decision-making",
+    "section": "",
+    "text": "Image source: LinkedIn"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#anticipated-deliverables",
+    "href": "materials/s-week6-values.html#anticipated-deliverables",
+    "title": "Values and career decision-making",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\n2-3 values that resonate with you when thinking about your future career"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#learning-objectives",
+    "href": "materials/s-week6-values.html#learning-objectives",
+    "title": "Values and career decision-making",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nclarify top professional and / or personal values\nlearn the CASVE method of decision-making\nunderstand how values play into academic and career decision-making"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#pre-workshop-prep",
+    "href": "materials/s-week6-values.html#pre-workshop-prep",
+    "title": "Values and career decision-making",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Background reading\nRead through this brief article, Values, Passion, or Purpose – Which Should guide your Career?, by Irina Cozma."
+  },
+  {
+    "objectID": "materials/s-week6-values.html#workshop-materials",
+    "href": "materials/s-week6-values.html#workshop-materials",
+    "title": "Values and career decision-making",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nWhy We Care About What We Do: Values & Career Decision-Making Workshop\nNA\n\n\nFeedback Form\nFeedback: Values and career decision-making workshop\nThank you for providing us with feedback on our values workshop!"
+  },
+  {
+    "objectID": "materials/s-week6-values.html#continue-working",
+    "href": "materials/s-week6-values.html#continue-working",
+    "title": "Values and career decision-making",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nContinue refining your values by taking the Life Values Inventory. Steps: \n\nCreate a Life Values Inventory account using any email address of your preference\nComplete the assessment online by following the prompts on the screen\nInstantly review your results through an online report"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html",
+    "href": "materials/o-day1-mock-hiring.html",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": "",
+    "text": "Image source: Shutterstock"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
+    "href": "materials/o-day1-mock-hiring.html#anticipated-deliverables",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nHands-on experience reviewing and evaluating candidate materials\nGreater awareness of the factors that could shape hiring decisions\nPractical insights you can apply to your own job search"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#learning-objectives",
+    "href": "materials/o-day1-mock-hiring.html#learning-objectives",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nAnalyze application materials from an employer’s perspective\nIdentify factors that influence whether candidates stand out (either positively or negatively) in the hiring process\nRecognize how bias may influence hiring decisions and consider strategies for more equitable candidate evaluation\nApply insights from the hiring process to enhance their own application documents (resumes, cover letters), interview performance, and online professional presence"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
+    "href": "materials/o-day1-mock-hiring.html#pre-workshop-prep",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nNo preparation required for this session"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#workshop-materials",
+    "href": "materials/o-day1-mock-hiring.html#workshop-materials",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nUnderstanding the Hiring Process: A Mock Hiring Committee Activity\nStep into the role of a hiring committee member and explore the factors that influence hiring decisions. By experiencing the process from the employer’s perspective, you’ll gain valuable insights into how candidates are assessed—and what helps an application stand out. In this interactive workshop, you’ll review resumes, interviews, and other candidate materials to understand how hiring decisions are made and the different considerations that shape them. This simulation is designed to give you deeper insights into the hiring process, strengthen your understanding of how tailored materials stand out, and prepare you to stand out in competitive job markets.\n\n\nFeedback Form\nFeedback: Mock hiring committee activity\nThank you for sharing your thoughts!"
+  },
+  {
+    "objectID": "materials/o-day1-mock-hiring.html#continue-working",
+    "href": "materials/o-day1-mock-hiring.html#continue-working",
+    "title": "Understanding the Hiring Process: A Mock Hiring Committee Activity",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nContinue to reflect on this activity and how your experience as a mock hiring committee member may shape the way you approach your own applications.\nAs current or aspiring environmental leaders, you may serve on hiring committees during your career. Continue exploring how bias can appear in hiring and consider strategies for more inclusive, equitable practices. (See: Maine Land Trust Network on “Creating a More Equitable Recruitment and Hiring Process”)"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html",
+    "href": "materials/o-day3-personal-brand.html",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": "",
+    "text": "Image Source: Devexperts"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html#anticipated-deliverables",
+    "href": "materials/o-day3-personal-brand.html#anticipated-deliverables",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na first draft of your personal branding guide"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html#learning-objectives",
+    "href": "materials/o-day3-personal-brand.html#learning-objectives",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ndefine what a personal brand is, and explain why personal branding matters for environmental data scientists\nidentify elements that make a strong and memorable personal brand\nreflect on your professional values, strengths, and target audiences to begin shaping your own personal brand\ndraft elements of your personal branding guide, including defining your adjectives, core messages, target audiences, and visual style"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html#pre-workshop-prep",
+    "href": "materials/o-day3-personal-brand.html#pre-workshop-prep",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nNo preparation required for this session"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html#workshop-materials",
+    "href": "materials/o-day3-personal-brand.html#workshop-materials",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nPersonal Branding for Environmental Data Scientists\nNA\n\n\nTemplate\nPersonal Branding Guide Template\nCopy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop.\n\n\nFeedback Form\nFeedback: Personal branding\nThank you for sharing your thoughts!"
+  },
+  {
+    "objectID": "materials/o-day3-personal-brand.html#continue-working",
+    "href": "materials/o-day3-personal-brand.html#continue-working",
+    "title": "Personal Branding for Environmental Data Scientists",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nContinue iterating on your personal brand and seek feedback from those who know you well. Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s also important to remember that your personal brand can (and should) evolve with you!\nAim to have a complete personal branding guide by October 15, 2025 for reference during our website customization workshop. Specifically, we’ll be calling on your color palette & Google Font selections to apply styling to your website (so it’ll be helpful to at least have those defined).\nRead more about developing your personal brand Check out the resources in the dropdown, below:\n\n\n\n\n\n\n\nSome helpful personal brand readings & resources:\n\n\n\n\n\n\nHow to build your personal brand as a newbie data analyst., by Bright\nBuilding a Personal Brand in Data Science: Your Key to Career Advancement, by Kannan Kasi\nUsing data science to build a personal brand, by Abigail (Abby) Shockley\nHow To Build a Personal Brand: 10 Tips, by Shayna Joubert\nHow to Build a Personal Brand Website: 5 Essentials to Include, by Kathryn Lang\nBuilding a Data Science Brand, by Kate Strachnyi\nPersonal Branding: What is is and why it matters, by Catherine Cote\nHow to craft your personal brand statement, by William Arruda"
+  },
+  {
+    "objectID": "materials/w-week4-panel.html",
+    "href": "materials/w-week4-panel.html",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": "",
     "text": "Image source: Freep!k"
   },
   {
-    "objectID": "materials/f-week4-panel.html#anticipated-deliverables",
-    "href": "materials/f-week4-panel.html#anticipated-deliverables",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week4-panel.html#anticipated-deliverables",
+    "href": "materials/w-week4-panel.html#anticipated-deliverables",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nAn understanding of various environmental data science careers across a variety of sectors\nA brief overview of how to conduct informational interviews (including how to reach out to contacts and how to leverage and maintain these connections over time)."
+    "text": "Anticipated deliverable(s)\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week4-panel.html#learning-objectives",
-    "href": "materials/f-week4-panel.html#learning-objectives",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week4-panel.html#learning-objectives",
+    "href": "materials/w-week4-panel.html#learning-objectives",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": " Learning objectives",
-    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nDescribe various careers in environmental data science."
+    "text": "Learning objectives\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week4-panel.html#pre-workshop-prep",
-    "href": "materials/f-week4-panel.html#pre-workshop-prep",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week4-panel.html#pre-workshop-prep",
+    "href": "materials/w-week4-panel.html#pre-workshop-prep",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Read this BrenConnect Article\nIf you haven’t already, please read or review the following BrenConnect article: The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)"
+    "text": "Pre-workshop Prep\ncoming soon!"
   },
   {
-    "objectID": "materials/f-week4-panel.html#workshop-materials",
-    "href": "materials/f-week4-panel.html#workshop-materials",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week4-panel.html#workshop-materials",
+    "href": "materials/w-week4-panel.html#workshop-materials",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nUsing Informational Meetings to Grow, Get Advice, & Build Intentional Connections\nNA\n\n\nFeedback form\nFeedback: Informational Interviews Workshop + Fall EDS Career Panel\nNA"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
   },
   {
-    "objectID": "materials/f-week4-panel.html#continue-working",
-    "href": "materials/f-week4-panel.html#continue-working",
-    "title": "Fall Environmental Data Science Career Panel",
+    "objectID": "materials/w-week4-panel.html#continue-working",
+    "href": "materials/w-week4-panel.html#continue-working",
+    "title": "Winter Environmental Data Science Career Panel",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nAfter the Fall EDS Career Panel, continue to reflect on the types of roles, organizations, and industries that interest you. Think about what excites you—whether that’s the kind of work you’d like to do, the impact you’d like to make, or the environment you’d like to work in. It’s okay if your ideas are still broad or evolving. Use this time to explore and stay curious; this early reflection will help you approach your job search with more focus later on.\nOnce you have a few areas or organizations in mind, start identifying people you could talk to—such as alumni, current students, or professionals in your network. Use the BrenConnect Alumni & Student Finder, LinkedIn, and personal/professional connections to find potential contacts.\nOver the next few weeks, reach out to 1-3 people to request short informational interviews. These conversations are a great way to learn more about different career paths, get advice, and begin building your professional network."
+    "text": "What should I continue working on?\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html",
+    "href": "materials/w-week1-job-search.html",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": "",
+    "text": "Image Source: CareerAddict"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html#anticipated-deliverables",
+    "href": "materials/w-week1-job-search.html#anticipated-deliverables",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html#learning-objectives",
+    "href": "materials/w-week1-job-search.html#learning-objectives",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": " Learning objectives",
+    "text": "Learning objectives\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html#pre-workshop-prep",
+    "href": "materials/w-week1-job-search.html#pre-workshop-prep",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html#workshop-materials",
+    "href": "materials/w-week1-job-search.html#workshop-materials",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
+  },
+  {
+    "objectID": "materials/w-week1-job-search.html#continue-working",
+    "href": "materials/w-week1-job-search.html#continue-working",
+    "title": "Job Search Strategy Kickoff + Intro to Interveiw Query",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\ncoming soon!"
+  },
+  {
+    "objectID": "materials/f-week7-blog.html",
+    "href": "materials/f-week7-blog.html",
+    "title": "Adding a blog to your Quarto website",
+    "section": "",
+    "text": "Blog icon, by Brendan Mitchell"
+  },
+  {
+    "objectID": "materials/f-week7-blog.html#anticipated-deliverables",
+    "href": "materials/f-week7-blog.html#anticipated-deliverables",
+    "title": "Adding a blog to your Quarto website",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na blog listing page as a new navbar tab on your Quarto website\nthe skeleton of your first blog post"
+  },
+  {
+    "objectID": "materials/f-week7-blog.html#learning-objectives",
+    "href": "materials/f-week7-blog.html#learning-objectives",
+    "title": "Adding a blog to your Quarto website",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate the appropriate folder and files structure to add a new blog post to your Quarto website\nconfigure your blog post using various YAML options\nadd footnotes, citations, and a bibiliography\ncreate additional listing pages to organize and display content on your website"
+  },
+  {
+    "objectID": "materials/f-week7-blog.html#pre-workshop-prep",
+    "href": "materials/f-week7-blog.html#pre-workshop-prep",
+    "title": "Adding a blog to your Quarto website",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Choose your listing page style\nA blog listing page is a web page that displays all of a blog’s posts. Quarto provides three built-in listing page styles to choose from. Check out the previews and identify which you might want to use ahead of class."
+  },
+  {
+    "objectID": "materials/f-week7-blog.html#workshop-materials",
+    "href": "materials/f-week7-blog.html#workshop-materials",
+    "title": "Adding a blog to your Quarto website",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nBlog post\nAdding a blog to your existing Quarto website\nInstructions for adding a blog to your existing Quarto website take the form of – you guessed it – a blog post"
+  },
+  {
+    "objectID": "materials/f-week7-blog.html#continue-working",
+    "href": "materials/f-week7-blog.html#continue-working",
+    "title": "Adding a blog to your Quarto website",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n(Very much optional, but encouraged!) Add potential blog post topics / ideas to your personal branding guide You’ll be asked to write blog posts as part of your MEDS coursework, but that shouldn’t stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics:\n\nWhat do your personal branding adjectives and key messages say about you and your interests?\nWhat topics blend your current interests and expertise with your future learning goals?\nWhat might draw someone to your website over a different website? Consider how your brand can help to define your niche.\nNot all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.\nUltimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!\n\n\n\n\n\n\n\n\nNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
+  },
+  {
+    "objectID": "materials/f-week8-drop-ins.html",
+    "href": "materials/f-week8-drop-ins.html",
+    "title": "Drop-in hour",
+    "section": "",
+    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo new content this week. We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html",
+    "href": "materials/w-week5-resume-cover-letter.html",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": "",
+    "text": "Image Source: Shutterstock"
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html#anticipated-deliverables",
+    "href": "materials/w-week5-resume-cover-letter.html#anticipated-deliverables",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html#learning-objectives",
+    "href": "materials/w-week5-resume-cover-letter.html#learning-objectives",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": " Learning objectives",
+    "text": "Learning objectives\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html#pre-workshop-prep",
+    "href": "materials/w-week5-resume-cover-letter.html#pre-workshop-prep",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html#workshop-materials",
+    "href": "materials/w-week5-resume-cover-letter.html#workshop-materials",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
+  },
+  {
+    "objectID": "materials/w-week5-resume-cover-letter.html#continue-working",
+    "href": "materials/w-week5-resume-cover-letter.html#continue-working",
+    "title": "Resume Updates & Cover Letter Workshop",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\ncoming soon!"
+  },
+  {
+    "objectID": "materials/f-week10-drop-ins.html",
+    "href": "materials/f-week10-drop-ins.html",
+    "title": "Drop-in hour",
+    "section": "",
+    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\nNo new content this week – good luck on any final exams and projects! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#anticipated-deliverables",
+    "href": "materials/s-week5-intro.html#anticipated-deliverables",
+    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nAccess to BrenConnect"
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#learning-objectives",
+    "href": "materials/s-week5-intro.html#learning-objectives",
+    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nDescribe the Bren Career Development Program and identify a roadmap for career success at Bren and beyond.\nUnderstand the full range of career services and resources available to full-time Bren students.\nUnderstand how to access Bren Career Services and reach out to the MEDS Career Team (Miya, Dave, and Amanda)\nUnderstand the MEDS Data Science Portfolio Calendar and how coursework and career development offerings contribute to building a professional portfolio aligned with career goals.\nArticulate the Bren School career ethos and the importance of engaging in career development as part of their experience in a community of change-makers."
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#pre-workshop-prep",
+    "href": "materials/s-week5-intro.html#pre-workshop-prep",
+    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nNo preparation required for this session"
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#workshop-materials",
+    "href": "materials/s-week5-intro.html#workshop-materials",
+    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMaximizing Your Impact\nNA\n\n\nCalendar\nMEDS Data Science Portfolio Calendar\nThis is a living document! You may see updates as the year progresses."
+  },
+  {
+    "objectID": "materials/s-week5-intro.html#continue-working",
+    "href": "materials/s-week5-intro.html#continue-working",
+    "title": "Maximizing Your Impact: Introduction to Career Development + BrenConnect",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nSign up for BrenConnect. Steps:\n\nAccess BrenConnect at https://brenconnect.force.com/s/\nCreate an account using either:\n\nSSO (use your UCSB Google account)\nUnique username & password (use @ucsb.edu email, NOT @bren.ucsb.edu email)\n\nUpdate your BrenConnect profile with:\n\nYour work & education history\nA professional headshot\n\nStart exploring!\n\nAccept invitations to your shared career Box folder and Google Calendar career events\n\nYou’ll get invitations via email from our Career Coordinator, Daisy Martinez\n\nDownload Microsoft Word (desktop version). Follow these instructions to download and start using Microsoft Office 365 with your UCSB credentials\nUpload your initial resume to your shared career Box folder before Monday, September 22nd"
+  },
+  {
+    "objectID": "materials/w-week8-drop-ins.html",
+    "href": "materials/w-week8-drop-ins.html",
+    "title": "Drop-in hour",
+    "section": "",
+    "text": "The Bren Logo, reimagined by Allison Horst\n\n\n\n\nNo new content this week! We will be available for drop-in meetings during our normal meeting time. Come with requests for feedback, to talk through ideas, technical support, etc."
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html",
+    "href": "materials/w-week3-tbd.html",
+    "title": "tbd",
+    "section": "",
+    "text": "[add image here]"
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html#anticipated-deliverables",
+    "href": "materials/w-week3-tbd.html#anticipated-deliverables",
+    "title": "tbd",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html#learning-objectives",
+    "href": "materials/w-week3-tbd.html#learning-objectives",
+    "title": "tbd",
+    "section": " Learning objectives",
+    "text": "Learning objectives\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html#pre-workshop-prep",
+    "href": "materials/w-week3-tbd.html#pre-workshop-prep",
+    "title": "tbd",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\ncoming soon!"
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html#workshop-materials",
+    "href": "materials/w-week3-tbd.html#workshop-materials",
+    "title": "tbd",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\ncoming soon\ncoming soon\ncoming soon"
+  },
+  {
+    "objectID": "materials/w-week3-tbd.html#continue-working",
+    "href": "materials/w-week3-tbd.html#continue-working",
+    "title": "tbd",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\ncoming soon!"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html",
+    "href": "materials/f-week2-networking.html",
+    "title": "Networking & Art of Mingling",
+    "section": "",
+    "text": "Image source: iStock"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html#anticipated-deliverables",
+    "href": "materials/f-week2-networking.html#anticipated-deliverables",
+    "title": "Networking & Art of Mingling",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\ncoming soon"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html#learning-objectives",
+    "href": "materials/f-week2-networking.html#learning-objectives",
+    "title": "Networking & Art of Mingling",
+    "section": " Learning objectives",
+    "text": "Learning objectives\ncoming soon"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html#pre-workshop-prep",
+    "href": "materials/f-week2-networking.html#pre-workshop-prep",
+    "title": "Networking & Art of Mingling",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\n\ncoming soon"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html#workshop-materials",
+    "href": "materials/f-week2-networking.html#workshop-materials",
+    "title": "Networking & Art of Mingling",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nTBD\nTBD\nTBD"
+  },
+  {
+    "objectID": "materials/f-week2-networking.html#continue-working",
+    "href": "materials/f-week2-networking.html#continue-working",
+    "title": "Networking & Art of Mingling",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\ncoming soon"
+  },
+  {
+    "objectID": "materials/f-week6-github.html",
+    "href": "materials/f-week6-github.html",
+    "title": "GitHub as a professional portfolio",
+    "section": "",
+    "text": "#1 Original Ocotcat. See the full collection of octocats, or create your own"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#anticipated-deliverables",
+    "href": "materials/f-week6-github.html#anticipated-deliverables",
+    "title": "GitHub as a professional portfolio",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\na polished and informative README added to one (or more) of your past MEDS homework assignments repositories\na thoughtfully-curated GitHub landing page, inluding a profile picture and bio, pinned repositories, and a profile README that welcomes visitors and showcases your interests / work"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#learning-objectives",
+    "href": "materials/f-week6-github.html#learning-objectives",
+    "title": "GitHub as a professional portfolio",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nwrite clear, informative READMEs that help others understand, navigate, and use the contents of yhour GitHub repositories or software products\ncurate your GitHub profile to showcase your skills, interests, accomplishments, and personality(!)\nenhance the accessibility of your GitHub content by applying web accessibilty best practices when writing READMEs"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#pre-workshop-prep",
+    "href": "materials/f-week6-github.html#pre-workshop-prep",
+    "title": "GitHub as a professional portfolio",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Ideally, this profile picture matches the one you’ve used for your other online portfolios (e.g. your personal website, LinkedIn, etc.). Save it to an easy-to-find place (e.g your desktop)."
+  },
+  {
+    "objectID": "materials/f-week6-github.html#workshop-materials",
+    "href": "materials/f-week6-github.html#workshop-materials",
+    "title": "GitHub as a professional portfolio",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nMEDS README Guidelines\nThe “official” guidelines, assembed by MEDS instructors. You’ll be asked to refer back to these throughout your time in MEDS!\n\n\nSlides\nMEDS README Guidelines\nA slightly-more engaging version of the README guidelines (above) for teaching\n\n\nSlides\nGitHub Glowup\nNA"
+  },
+  {
+    "objectID": "materials/f-week6-github.html#continue-working",
+    "href": "materials/f-week6-github.html#continue-working",
+    "title": "GitHub as a professional portfolio",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nPut any finishing touches on your homework repo’s README. If you’re feeling particularly inspired, you can also add / update READMEs for your other homework (or even personal) repositories as well.\nComplete your GitHub profile bio and README. Remember, your README should evolve with you. Consider revisiting it a few times throughout the year to make updates as you start (and complete) projects. You can add / switch out your pinned repos as well."
+  },
+  {
+    "objectID": "materials/o-day2-resume.html",
+    "href": "materials/o-day2-resume.html",
+    "title": "Building a stand-out data science resume",
+    "section": "",
+    "text": "Image source: Free Clipart Library"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#anticipated-deliverables",
+    "href": "materials/o-day2-resume.html#anticipated-deliverables",
+    "title": "Building a stand-out data science resume",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nA working draft of your traditional 1 or 2-page resume"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#learning-objectives",
+    "href": "materials/o-day2-resume.html#learning-objectives",
+    "title": "Building a stand-out data science resume",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nFormat and design their resumes using Bren best practices.\nTailor their resumes to specific job positions, focusing on marketing their resumes for positions they want rather than positions they’ve had.\nExplain the role of a strong resume within the overall job search process\nWrite clear, accomplishment-focused bullet points that effectively highlight their skills and impact."
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#pre-workshop-prep",
+    "href": "materials/o-day2-resume.html#pre-workshop-prep",
+    "title": "Building a stand-out data science resume",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nBefore this workshop, please:\n\nA. Upload your current resume to your shared career Box folder\nPlease note that we’re just looking for you to submit your current resume as-is; do not worry about editing it.\n\n\nB. Download Microsoft Word (desktop version)\nUCSB provides Microsoft Office 365 to all current students. Visit the UCSB-Microsoft Office 365 Resources page to get started.\n\n\nC. Bring a copy of your resume\nBring an electronic or hard copy of your current resume to edit and/or annotate during the session."
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#workshop-materials",
+    "href": "materials/o-day2-resume.html#workshop-materials",
+    "title": "Building a stand-out data science resume",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nMarket Your Resume for the Positions You Want\nNA\n\n\nTemplate\nResume Template\nDownload resume (and cover letter) templates\n\n\nFeedback Form\nFeedback: Resume workshop\nThank you for sharing your thoughts!"
+  },
+  {
+    "objectID": "materials/o-day2-resume.html#continue-working",
+    "href": "materials/o-day2-resume.html#continue-working",
+    "title": "Building a stand-out data science resume",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nContinue revising your resume with the intent of submitting it to the Career Team for feedback ahead of your Fall Career Appointment.\nSign up for your Fall Career Appointment by Friday, October 3 at 5 PM. Look out for an email from your assigned career advisor (Dave, Amanda, or Miya) by the end of the week with instructions on how to schedule."
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html",
+    "href": "materials/f-week1-personal-website.html",
+    "title": "Creating your personal website using Quarto",
+    "section": "",
+    "text": "Art by Allison Horst"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#anticipated-deliverables",
+    "href": "materials/f-week1-personal-website.html#anticipated-deliverables",
+    "title": "Creating your personal website using Quarto",
+    "section": " Anticipated deliverable(s)",
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nthe scaffolding of a basic Quarto website built and deployed using GitHub Pages\na neatly-arranged landing page with your professional headshot and your chosen bio"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#learning-objectives",
+    "href": "materials/f-week1-personal-website.html#learning-objectives",
+    "title": "Creating your personal website using Quarto",
+    "section": " Learning objectives",
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\ncreate a Quarto website from scratch\nunderstand how to navigate the structure of a Quarto website, including how to add, rearrange and edit pages\npreview a site to view iterative changes, build a site in preparation for (re)deployment, and publish a site using GitHub Pages"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#pre-workshop-prep",
+    "href": "materials/f-week1-personal-website.html#pre-workshop-prep",
+    "title": "Creating your personal website using Quarto",
+    "section": " Pre-workshop Prep",
+    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\nLeilanie Rubinstein (MEDS 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#workshop-materials",
+    "href": "materials/f-week1-personal-website.html#workshop-materials",
+    "title": "Creating your personal website using Quarto",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nQuarto website instructions\nWe’ll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point\n\n\nFeedback form\nFeedback: Building a personal website\nThank you for sharing your thoughts!"
+  },
+  {
+    "objectID": "materials/f-week1-personal-website.html#continue-working",
+    "href": "materials/f-week1-personal-website.html#continue-working",
+    "title": "Creating your personal website using Quarto",
+    "section": " What should I continue working on?",
+    "text": "What should I continue working on?\n\nRevisit & seek feedback on your personal bio. Does your landing page bio fit your personal brand? Consider what information you include and your tone – does it make sense to revise your bio to better fit your brand? Consider if your chosen template suits your needs, or if a different layout might work better. Share your bio with friends, family, a Career Team member, etc. and ask for their thoughts / feedback. You should also revisit your bio regularly (at least once a year) to make sure the content is still relevant and reflects your professional and personal identity.\nConsider editing or adding additional pages. Your website scaffolding includes an “about” page where you may consider adding a longer-form biography or information. You may also decide to add additional pages, as needed.\nHide any pages that aren’t “complete.” Want to include an “about” page (e.g. like mine) but don’t quite have the content sorted out yet? It’s best to hide this until you’re ready to share something that’s fairly polished. Comment out the necessary pages in _quarto.yml (see example below), then rebuild your site and push to GitHub. Note that while you can do this for almost all in-progess pages, you must keep index.qmd “live” (i.e. don’t comment it out).\n\n\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"My website title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      # - about.qmd\n\n# ~ additional metadata excluded for brevity ~"
   },
   {
     "objectID": "materials/f-week9-na.html",

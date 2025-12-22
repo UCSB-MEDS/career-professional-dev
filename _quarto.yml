@@ -44,23 +44,35 @@ website:
             href: materials/f-week6-github.qmd
           - text: week 7 (11/12) - **integrating a blog**
             href: materials/f-week7-blog.qmd
-          - text: week 8 (11/19) - **drop-in hour** #**EDF Climate Corps (optional)**
+          - text: week 8 (11/19) - **drop-in hour** 
             href: materials/f-week8-drop-ins.qmd
           - text: week 9 (11/26) - ***holiday break***
             href: materials/f-week9-na.qmd
           - text: week 10 (12/03) - **drop-in hour**
             href: materials/f-week10-drop-ins.qmd
+      - text: winter
+        menu:
+          - text: week 1 (01/07) - **job search kickoff**
+            href: materials/w-week1-job-search.qmd
+          - text: week 2 (01/14) - **professional development skills**
+            href: materials/w-week2-professional-dev.qmd
+          - text: week 3 (01/21) - **tbd**
+            href: materials/w-week3-tbd.qmd
+          - text: week 4 (01/28) - **career panel**
+            href: materials/w-week4-panel.qmd
+          - text: week 5 (02/04) - **resume & cover letter**
+            href: materials/w-week5-resume-cover-letter.qmd
+          - text: week 6 (02/11) - **LinkedIn**
+            href: materials/w-week6-linkedin.qmd
+          - text: week 8 (02/24) - **drop-in hour**
+            href: materials/w-week8-drop-ins.qmd
       - text: BrenConnect
         href: https://ucsbbren.my.site.com/s/
         target: _blank
       - icon: github
         href: https://github.com/UCSB-MEDS/career-professional-dev
         target: _blank
-        # menu:
-        #   - text: Source Code
-        #     url: https://github.com/UCSB-MEDS/EDS-website-template
-        #   - text: Report a Bug
-        #     url: https://github.com/UCSB-MEDS/EDS-website-template/issues
+
   page-footer:
     background: dark
     right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/career-professional-dev){target="_blank"} and [Quarto](https://quarto.org/){target="_blank"}

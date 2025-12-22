@@ -1,0 +1,38 @@
+---
+title: "Future Ready: Professional Development Skills Workshop"
+subtitle: "Winter | Week 2"
+description: "Wednesday, January 14^th^, 2026"
+---
+
+::: {.center-text}
+![](../images/lightbulb.png){width="65%"}
+
+::: {.gray-text}
+*Image Source: [iStock](https://www.istockphoto.com/illustrations/professional-development-courses){target="_blank"}*
+:::
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*coming soon!*
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+*coming soon!*
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+*coming soon!*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| *coming soon*| *coming soon*          | *coming soon* |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+*coming soon!*
