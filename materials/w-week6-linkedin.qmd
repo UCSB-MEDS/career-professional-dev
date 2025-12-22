@@ -16,15 +16,24 @@ description: "Wednesday, February 11^th^, 2026"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon!*
+By the end of today’s workshop, you should have:
+
+- Next steps for updating/enhancing your LinkedIn profile
+- Knowledge of how to search effectively for Bren alumni and how to best contact them
+- A better understanding of LinkedIn’s role as a job search platform
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon!*
+By the end of today's workshop, you should be able to:
+
+- Update the foundational sections of their LinkedIn accounts and gain knowledge of additional account enhancements
+- Learn how to effectively search for and contact alumni via LinkedIn
+- Understand the pros and cons of LinkedIn as a job search tool and how to stand out
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-*coming soon!*
+- Reflect on your Fall Career Team meetings and fall quarter.  Add any suggestions or new items to your LinkedIn profile
+- Read the [LinkedIn 101](https://brenconnect.bren.ucsb.edu/s/login/?ec=302&startURL=%2Fs%2Farticle%2FLinkedIn-101-How-to-Build-Your-Profile-Grow-Your-Network-and-Use-LinkedIn-for-Your-Job-Internship-Search){target="_blank"} article on BrenConnect
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -35,4 +44,5 @@ description: "Wednesday, February 11^th^, 2026"
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon!*
+- [**Update your LinkedIn profile**]{.teal-text}
+- [**Continue connecting**]{.teal-text} with classmates, faculty, staff, alumni, and employers of interest

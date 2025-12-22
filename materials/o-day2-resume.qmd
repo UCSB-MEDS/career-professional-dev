@@ -29,8 +29,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Before this workshop, please: 
-
 ### A. Upload your current resume to your shared career Box folder
 
 Please note that we’re just looking for you to submit your current resume as-is; do not worry about editing it. 

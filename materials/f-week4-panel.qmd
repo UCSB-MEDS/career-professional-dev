@@ -29,8 +29,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before the workshop:
-
 ### A. Read this [BrenConnect Article](https://ucsbbren.my.site.com/s/article/The-411-on-Conducting-Following-Up-On-and-Leveraging-Informational-Interviews-And-Why-Not-to-Call-Them-That){target="_blank"} 
 
 If you haven't already, please read or review the following BrenConnect article: [The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)](https://ucsbbren.my.site.com/s/article/The-411-on-Conducting-Following-Up-On-and-Leveraging-Informational-Interviews-And-Why-Not-to-Call-Them-That){target="_blank"} 

@@ -32,7 +32,7 @@
     "href": "materials/f-week3-customizing-websites.html#pre-workshop-prep",
     "title": "Customizing Quarto websites",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Have your personal branding guide ready to reference\nThis is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, and personal logo and / or favicon (optional). Take a look back at the personal branding workshop slides, if necessary."
+    "text": "Pre-workshop Prep\n\nA. Have your personal branding guide ready to reference\nThis is also a good opportunity to revisit and revise your branding guide if necessary, including your chosen color palette and Google Font families, and personal logo and / or favicon (optional). Take a look back at the personal branding workshop slides, if necessary."
   },
   {
     "objectID": "materials/f-week3-customizing-websites.html#workshop-materials",
@@ -116,7 +116,7 @@
     "href": "materials/f-week4-panel.html#pre-workshop-prep",
     "title": "Fall Environmental Data Science Career Panel",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Read this BrenConnect Article\nIf you haven’t already, please read or review the following BrenConnect article: The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)"
+    "text": "Pre-workshop Prep\n\nA. Read this BrenConnect Article\nIf you haven’t already, please read or review the following BrenConnect article: The 411 on Conducting, Following Up On, and Leveraging Informational Interviews (And Why Not to Call Them That)"
   },
   {
     "objectID": "materials/f-week4-panel.html#workshop-materials",
@@ -186,21 +186,21 @@
     "href": "materials/w-week6-linkedin.html#anticipated-deliverables",
     "title": "LinkedIn Workshop",
     "section": " Anticipated deliverable(s)",
-    "text": "Anticipated deliverable(s)\ncoming soon!"
+    "text": "Anticipated deliverable(s)\nBy the end of today’s workshop, you should have:\n\nNext steps for updating/enhancing your LinkedIn profile\nKnowledge of how to search effectively for Bren alumni and how to best contact them\nA better understanding of LinkedIn’s role as a job search platform"
   },
   {
     "objectID": "materials/w-week6-linkedin.html#learning-objectives",
     "href": "materials/w-week6-linkedin.html#learning-objectives",
     "title": "LinkedIn Workshop",
     "section": " Learning objectives",
-    "text": "Learning objectives\ncoming soon!"
+    "text": "Learning objectives\nBy the end of today’s workshop, you should be able to:\n\nUpdate the foundational sections of their LinkedIn accounts and gain knowledge of additional account enhancements\nLearn how to effectively search for and contact alumni via LinkedIn\nUnderstand the pros and cons of LinkedIn as a job search tool and how to stand out"
   },
   {
     "objectID": "materials/w-week6-linkedin.html#pre-workshop-prep",
     "href": "materials/w-week6-linkedin.html#pre-workshop-prep",
     "title": "LinkedIn Workshop",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\ncoming soon!"
+    "text": "Pre-workshop Prep\n\nReflect on your Fall Career Team meetings and fall quarter. Add any suggestions or new items to your LinkedIn profile\nRead the LinkedIn 101 article on BrenConnect"
   },
   {
     "objectID": "materials/w-week6-linkedin.html#workshop-materials",
@@ -214,7 +214,7 @@
     "href": "materials/w-week6-linkedin.html#continue-working",
     "title": "LinkedIn Workshop",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\ncoming soon!"
+    "text": "What should I continue working on?\n\nUpdate your LinkedIn profile\nContinue connecting with classmates, faculty, staff, alumni, and employers of interest"
   },
   {
     "objectID": "materials/s-week6-values.html",
@@ -242,7 +242,7 @@
     "href": "materials/s-week6-values.html#pre-workshop-prep",
     "title": "Values and career decision-making",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Background reading\nRead through this brief article, Values, Passion, or Purpose – Which Should guide your Career?, by Irina Cozma."
+    "text": "Pre-workshop Prep\n\nA. Background reading\nRead through this brief article, Values, Passion, or Purpose – Which Should guide your Career?, by Irina Cozma."
   },
   {
     "objectID": "materials/s-week6-values.html#workshop-materials",
@@ -452,7 +452,7 @@
     "href": "materials/f-week7-blog.html#pre-workshop-prep",
     "title": "Adding a blog to your Quarto website",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Choose your listing page style\nA blog listing page is a web page that displays all of a blog’s posts. Quarto provides three built-in listing page styles to choose from. Check out the previews and identify which you might want to use ahead of class."
+    "text": "Pre-workshop Prep\n\nA. Choose your listing page style\nA blog listing page is a web page that displays all of a blog’s posts. Quarto provides three built-in listing page styles to choose from. Check out the previews and identify which you might want to use ahead of class."
   },
   {
     "objectID": "materials/f-week7-blog.html#workshop-materials",
@@ -676,7 +676,7 @@
     "href": "materials/f-week6-github.html#pre-workshop-prep",
     "title": "GitHub as a professional portfolio",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before class:\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Ideally, this profile picture matches the one you’ve used for your other online portfolios (e.g. your personal website, LinkedIn, etc.). Save it to an easy-to-find place (e.g your desktop)."
+    "text": "Pre-workshop Prep\n\nA. Watch Abigail Haddad’s posit::conf(2024) talk, GitHub: How To Tell Your Professional Story (15 min)\nAbigail Haddad is a Machine Learning Engineer at the US Department of Homeland Security. Her posit::conf(2024) talk, titled, GitHub: How To Tell Your Professional Story is an excellent primer for thinking about GitHub as a professional portfolio.\n\n\nB. Choose a GitHub repo from a past homework assignment\nREADME files are used to provide essential information about software projects. We’ll practice writing effective READMEs, using a past MEDS homework assignment as an example. Choose one of the GitHub repositories from the list of past homework assignments, below:\n\n\n\n\n\n\nChoose from these candidate GitHub repositories\n\n\n\n\n\nTBD\n\n\n\n\n\n\nC. Draft up text to add to your GitHub profile README\nA GitHub profile README is a special README that is displayed on your profile’s landing page (e.g. see mine). A well-crafted profile README not only welcomes visitors to your page, but can also help you stand out to potential collaborators or employers. It’s helpful to include a short bio and highlight some current projects / interests.\nConsider what content you might want to include in your GitHub profile README (and remember to refer back to your branding guide!). Take a look at a few examples for inspiration, then draft up some text / images / etc. in a Google Doc (or other easily accessible location) to refer to during class (it’s okay if this is just a first pass – you can continue to iterate!).\n\n\n\n\n\n\nA few example GitHub profile READMEs\n\n\n\n\n\n\nAllison Horst\nAlex Phillips\nSilvia Canelón\nCrystal Lewis\nMarine Kochuten\nAwesome GitHub Profile READMEs (a collection of great profile READMEs)\n\n\n\n\n\n\nD. Have a profile picture handy\nWe’ll update our GitHub profile picture during class, if you haven’t done so already. Ideally, this profile picture matches the one you’ve used for your other online portfolios (e.g. your personal website, LinkedIn, etc.). Save it to an easy-to-find place (e.g your desktop)."
   },
   {
     "objectID": "materials/f-week6-github.html#workshop-materials",
@@ -718,7 +718,7 @@
     "href": "materials/o-day2-resume.html#pre-workshop-prep",
     "title": "Building a stand-out data science resume",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nBefore this workshop, please:\n\nA. Upload your current resume to your shared career Box folder\nPlease note that we’re just looking for you to submit your current resume as-is; do not worry about editing it.\n\n\nB. Download Microsoft Word (desktop version)\nUCSB provides Microsoft Office 365 to all current students. Visit the UCSB-Microsoft Office 365 Resources page to get started.\n\n\nC. Bring a copy of your resume\nBring an electronic or hard copy of your current resume to edit and/or annotate during the session."
+    "text": "Pre-workshop Prep\n\nA. Upload your current resume to your shared career Box folder\nPlease note that we’re just looking for you to submit your current resume as-is; do not worry about editing it.\n\n\nB. Download Microsoft Word (desktop version)\nUCSB provides Microsoft Office 365 to all current students. Visit the UCSB-Microsoft Office 365 Resources page to get started.\n\n\nC. Bring a copy of your resume\nBring an electronic or hard copy of your current resume to edit and/or annotate during the session."
   },
   {
     "objectID": "materials/o-day2-resume.html#workshop-materials",
@@ -760,7 +760,7 @@
     "href": "materials/f-week1-personal-website.html#pre-workshop-prep",
     "title": "Creating your personal website using Quarto",
     "section": " Pre-workshop Prep",
-    "text": "Pre-workshop Prep\nPlease be sure to complete the following before the workshop:\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\nLeilanie Rubinstein (MEDS 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
+    "text": "Pre-workshop Prep\n\nA. Install software / Create accounts\nMEDS students should already have the following installed / created from summer session (but it’s worth double-checking!):\n\n\n\n\n\n\nTo follow along, you’ll need:\n\n\n\n\n\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nGit installed / configured\nA GitHub account & a personal access token (PAT) set\n\nPlease refer to the MEDS Installation Guide for detailed setup instructions.\n\n\n\n\n\nB. Gather materials to add to your website’s landing page\nDuring this session, you’ll have the opportunity to add some personal information to your website’s landing page. It’ll help to have an idea of what you might want to include (at least as a starting point – your website’s content will most certainly evolve over time). Consider the following before attending the workshop:\n\nHave your professional headshot handy. Your Bren photo is a great option here! Save your photo to your Desktop (or somewhere you can easily find again) for now.\nConsider which landing page template to use. We’ll be applying one of Quarto’s five available built-in templates when we create our website’s landing page. Take a peek at the template previews and identify which one(s) you like most (e.g. I’m currently a fan of jolla, but used trestles for a long while). Consider how you’d like to arrange your personal bio / info given the layout of your top choice template.\nDraft a personal bio or tagline for your landing page. I recommend something that’s different than your Bren bio – a shorter, catchier one that’s infused with a bit more of your personality – though you may certainly consider reusing parts of your Bren bio (taglines are great here too!). Consider the tips and examples in the dropdown, below. Save your text in a place you can quickly copy from during class (e.g. your personal branding guide document!).\n\n\n\n\n\n\n\nSome considerations and example website bios\n\n\n\n\n\n\nResepct your readers’ time. The average attention span of an internet user is ~8 seconds, which means you want to succintly share your most important qualities, interests, and personal facts. Keeping website bios short and to-the-point is ideal. Save longer-form bios for a different page (e.g. I have a separate “about” page where I share about myself in a bit more detail)\n\nHere’s a nice short post on crafting a personal tagline and another with tips on writing a personal bio\n\nChoose the right landing page template for your bio. For example, jolla works well with short bios or taglines, while trestles might be a better choice if you’re looking to add longer and / or multiple sections.\nCheck out a few example websites for bio inspiration. Here are just a small handful of websites, each with a slightly different approach to their landing page bios:\n\nSamantha Shanny-Csik (yours truly)\nNick Lyon (NCEAS Data Analyst)\nRay Hunter (MESM 2024)\nSam Muir (MEDS 2024)\nMelissa Widas (MEDS 2024)\nMarine Kochuten (MEDS 2025)\nOlivia Hemond (MESM 2025)\nLeilanie Rubinstein (MEDS 2025)\n\n\n\n\n\n\nGather your important public profile links. Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you’d like to include (e.g. LinkedIn, GitHub, even your preferred email address)"
   },
   {
     "objectID": "materials/f-week1-personal-website.html#workshop-materials",

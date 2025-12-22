@@ -29,8 +29,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
-
 ### A. Background reading 
 
 Read through this brief article, [Values, Passion, or Purpose – Which Should guide your Career?](https://hbr.org/2023/10/values-passion-or-purpose-which-should-guide-your-career){target="_blank"}, by Irina Cozma.  

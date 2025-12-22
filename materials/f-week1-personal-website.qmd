@@ -29,8 +29,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before the workshop:
-
 ### A. Install software / Create accounts
 
 MEDS students should already have the following installed / created from summer session (but it's worth double-checking!):

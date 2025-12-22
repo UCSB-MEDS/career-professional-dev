@@ -29,8 +29,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
-
 ### A. Watch Abigail Haddad's posit::conf(2024) talk, *GitHub: How To Tell Your Professional Story* (15 min)
 
 [Abigail Haddad](https://github.com/abigailhaddad){target="_blank"} is a Machine Learning Engineer at the US Department of Homeland Security. Her [posit::conf(2024)](https://posit.co/conference/){target="_blank"} talk, titled, [**GitHub: How To Tell Your Professional Story**](https://www.youtube.com/watch?v=R-bPjavai5A&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=26){target="_blank"} is an excellent primer for thinking about GitHub as a professional portfolio.

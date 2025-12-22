@@ -30,8 +30,6 @@ By the end of today's workshop, you should be able to:
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-Please be sure to complete the following before class:
-
 ### A. Choose your listing page style
 
 A blog listing page is a web page that displays all of a blog’s posts. Quarto provides [three built-in listing page styles](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} to choose from. [**Check out the previews and identify which you might want to use ahead of class.**]{.teal-text}
