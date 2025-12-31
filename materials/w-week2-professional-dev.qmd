@@ -16,15 +16,20 @@ description: "Wednesday, January 14^th^, 2026"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon!*
+By the end of today's workshop, you should have:
+
+- Gained practical experience applying key mindsets and skills through discussion of real-world scenarios. 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon!*
+By the end of today's workshop, you should be able to: 
+
+- Apply mindsets for working effectively with colleagues, clients, and professionals in interdisciplinary settings. 
+- Navigate various scenarios at Bren and in external settings with confidence. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-*coming soon!*
+*No preparation required for this session*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -35,4 +40,4 @@ description: "Wednesday, January 14^th^, 2026"
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon!*
+- [**Continue working on and complete**]{.teal-text} the post-workshop action items from [last week’s workshop](w-week1-job-search.qmd#continue-working){target="_blank"}.
