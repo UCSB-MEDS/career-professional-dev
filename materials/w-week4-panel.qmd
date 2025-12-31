@@ -16,15 +16,31 @@ description: "Wednesday, February 28^th^, 2026"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon!*
+By the end of today's workshop, you should have:
+
+- A stronger understanding of environmental data science careers across a variety of sectors, building on the knowledge and insights gained from the Fall EDS Career Panel. 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon!*
+By the end of today's workshop, you should be able to: 
+
+- Describe various careers in environmental data science. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-*coming soon!*
+### A. RSVP for the Winter EDS Career Panel
+
+This quarter’s Winter Environmental Data Science Career Panel will be held virtually via Zoom to bring in speakers from within and outside the Santa Barbara area. **[Please RSVP via the Google Form](https://forms.gle/DzRy8YeZwe8CJG3n9){target="_blank"} and see the Google Calendar invite for the Zoom link.**
+
+### B. Review these important reminders: 
+
+- We recommend joining from your personal laptop. If possible, please turn on your camera to actively participate and show appreciation for our panelists’ time. 
+- If you would like to use a Zoom background, optional backgrounds are available on the [Bren communications resources page](https://bren.ucsb.edu/communications-and-web-resources){target="_blank"}. 
+- Please come prepared with 1–2 questions you would like to ask the panelists. You can use Zoom features such as “Raise Hand” to ask questions or share comments during the session. 
+- You are also welcome to submit questions at any time using the chat. 
+- Your participation and engagement will help make this session more interactive and valuable for everyone. We look forward to seeing you! 
+
+*Please note: This session may not be recorded, depending on panelist preferences, so we strongly encourage you to attend live.*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -35,4 +51,4 @@ description: "Wednesday, February 28^th^, 2026"
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon!*
+- [**Continue to build out your 3-boxes and identify and reach out to potential contacts**]{.teal-text} to explore target companies, organizations, and positions of interest.

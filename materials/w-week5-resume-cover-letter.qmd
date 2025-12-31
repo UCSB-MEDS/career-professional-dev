@@ -16,15 +16,28 @@ description: "Wednesday, February 4^th^, 2026"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon!*
+By the end of today's workshop, you should have:
+
+- A working draft of your cover letter. 
+- An updated resume that incorporates new content or revisions from Fall quarter. 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon!*
+By the end of today's workshop, you should be able to: 
+
+- Format and design cover letters using Bren best practices. 
+- Tailor cover letters to specific job postings, with each section clearly marketing their skills and experiences for the role. 
+- Explain the role of a strong cover letter within the overall job search process. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-*coming soon!*
+### Review resume feedback
+
+Review resume feedback from your Fall Career Appointment and bring your resume to this session to continue refining it. 
+
+### Read this [BrenConnect Article](https://brenconnect.bren.ucsb.edu/s/article/The-Bren-Antique-Store-Editing-Approach){target="_blank"}
+
+If you haven’t already, read the [Bren Antique Store Editing Approach](https://brenconnect.bren.ucsb.edu/s/article/The-Bren-Antique-Store-Editing-Approach){target="_blank"} article on how to catch 99% of resume or CV errors. 
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
@@ -35,4 +48,4 @@ description: "Wednesday, February 4^th^, 2026"
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon!*
+- [**Continue refining and polishing your resume and cover letter.**]{.teal-text} Aim to have both documents about 80% complete before you begin applying for jobs. This will allow you to focus the remaining 20% on tailoring your materials to each position and submit applications efficiently (ideally within 2–4 days of a job posting opening). 
