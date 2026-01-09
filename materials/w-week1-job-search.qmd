@@ -37,7 +37,8 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*| *coming soon*          | *coming soon* |
+| Slides       | [Rethink Your Job Search](https://ucsb.app.box.com/s/4famwqsi78mxoh9vc0o2918ric5arbi4){target="_blank"} | *NA* |
+| Slides | [Introduction to Interview Query: Acing Your Data Science Interview](https://ucsb.app.box.com/s/h0wo251goxxoinpeafpcb0aox327fl3t){target="_blank"}          | *NA* |
 : {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
