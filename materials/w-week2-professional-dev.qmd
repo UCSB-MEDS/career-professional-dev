@@ -35,7 +35,7 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*| *coming soon*          | *coming soon* |
+| Slides | [Client Relations, Business Communication, & Other Interpersonal Etiquette](https://ucsb.app.box.com/s/ltkm724231qjcm77za7fcygdhcct01wg){target="_blank"} | *NA* |
 : {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
