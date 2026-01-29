@@ -46,7 +46,7 @@ This quarter’s Winter Environmental Data Science Career Panel will be held vir
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*| *coming soon*          | *coming soon* |
+| Feedback Form | [Feedback: Winter EDS Career Panel](https://forms.gle/s4EnkCBnaJPcFdS86){target="_blank"} | *NA* |
 : {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
