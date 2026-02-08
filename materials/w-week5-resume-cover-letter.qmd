@@ -43,7 +43,7 @@ If you haven’t already, read the [Bren Antique Store Editing Approach](https:/
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*| *coming soon*          | *coming soon* |
+| Slides | [Write + Target Your Cover Letters to Stand Out: The Step-by-Step Bren Approach](https://ucsb.app.box.com/s/ub3bqrf683jcqtjwni0dfiomtkmpp7kj){target="_blank"} | *NA* |
 : {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
