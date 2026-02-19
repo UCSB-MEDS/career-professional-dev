@@ -39,7 +39,8 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*| *coming soon*          | *coming soon* |
+| Instructional document | [Mastering LinkedIn: Advanced Tips to Land Your Dream Job](https://docs.google.com/document/d/1mszPcINnCBBQWqQ8fE1JqV0wktuHDus0p12r2V5jAL8/edit?tab=t.0){target="_blank"} | *NA* |
+| Post | [Free 12-month LinkedIn Premium Career Subscription](https://www.microsoft.com/en-us/microsoft-365/blog/2026/01/15/college-students-now-get-12-months-of-microsoft-365-premium-and-linkedin-premium-career-on-us/){target="_blank"} | *NA* |
 : {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
