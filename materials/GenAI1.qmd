@@ -1,0 +1,9 @@
+---
+title: "AI for EDS: Intro to LLMs + Generative AI for Studying"
+subtitle: "Fall | Week 1"
+description: "Wednesday, September 30^th^, 2026"
+---
+
+*coming soon*
+
+<!-- NOTE: continue to maintain the AI for EDS website (https://ucsb-meds.github.io/AI-for-EDS/); Add description of that website somewhere on this page and point to materials there -->

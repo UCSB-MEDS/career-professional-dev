@@ -1,7 +1,7 @@
 ---
 title: "Career & Professional Development Workshop Series"
 subtitle: "Master of Environmental Data Science (MEDS)"
-description: "2025-2026"
+description: "2026-2027"
 title-block-banner: false
 toc: false
 ---
@@ -44,21 +44,6 @@ Success in environmental data science—and in your career more broadly—requir
 #| echo: false
 #| fig-align: "center"
 #| out-width: "55%" 
-knitr::include_graphics("images/miya.png")
-```
-::: {.center-text}
-[**Miya Scheble**]{.teal-text}  
-**Email:** [miya@bren.ucsb.edu](mailto::miya@bren.ucsb.edu)  
-**Learn more:** [Bren profile](https://bren.ucsb.edu/people/miya-scheble){target="_blank"}
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-```{r}
-#| eval: true 
-#| echo: false
-#| fig-align: "center"
-#| out-width: "55%" 
 knitr::include_graphics("images/amanda.png")
 ```
 ::: {.center-text}
@@ -68,18 +53,34 @@ knitr::include_graphics("images/amanda.png")
 :::
 :::
 
+
 ::: {.g-col-12 .g-col-md-3}
 ```{r}
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
 #| out-width: "55%" 
-knitr::include_graphics("images/dave.png")
+knitr::include_graphics("images/monica.png")
 ```
 ::: {.center-text}
-[**David Parker**]{.teal-text}  
-**Email:** [david@bren.ucsb.edu](mailto::miya@bren.ucsb.edu)  
-**Learn more:** [Bren profile](https://bren.ucsb.edu/people/david-parker){target="_blank"}
+[**Monica Illes**]{.teal-text}  
+**Email:** [monica@bren.ucsb.edu](mailto::monica@bren.ucsb.edu)  
+**Learn more:** [Bren profile](https://bren.ucsb.edu/people/monica-illes){target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "55%" 
+knitr::include_graphics("images/annie.png")
+```
+::: {.center-text}
+[**Annie Adams**]{.teal-text}  
+**Email:** [aradams@ucsb.edu](mailto::aradams@ucsb.edu)  
+**Learn more:** [Bren profile](https://bren.ucsb.edu/people/annie-adams){target="_blank"}
 :::
 :::
 

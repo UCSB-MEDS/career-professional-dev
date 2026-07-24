@@ -18,52 +18,46 @@ website:
         text: home
       - text: summer
         menu:
-          - text: week 5 (09/03) - **intro**
-            href: materials/s-week5-intro.qmd
-          - text: week 6 (09/10) - **values**
-            href: materials/s-week6-values.qmd
+          - text: week 5 (09/02) - **intro**
+            href: materials/intro.qmd
+          # - text: week 6 (09/10) - **values**
+          #   href: materials/values.qmd
       - text: fall
         menu:
-          - text: orientation day 1 (09/22) - **mock hiring**
-            href: materials/o-day1-mock-hiring.qmd
-          - text: orientation day 2 (09/23) - **resume**
-            href: materials/o-day2-resume.qmd
-          - text: orientation day 3 (09/24) - **personal brand**
-            href: materials/o-day3-personal-brand.qmd
-          - text: week 1 (10/01) - **personal website**
-            href: materials/f-week1-personal-website.qmd
-          - text: week 2 (10/09) - **networking**
-            href: materials/f-week2-networking.qmd
-          - text: week 3 (10/15) - **customizing websites**
-            href: materials/f-week3-customizing-websites.qmd
-          - text: week 4 (10/22) - **career panel**
-            href: materials/f-week4-panel.qmd
-          - text: week 5 (10/30) - **CV (optional)**
-            href: materials/f-week5-cv.qmd
-          - text: week 6 (11/05) - **GitHub portfolio**
-            href: materials/f-week6-github.qmd
-          - text: week 7 (11/12) - **integrating a blog**
-            href: materials/f-week7-blog.qmd
-          - text: week 8 (11/19) - **drop-in hour** 
-            href: materials/f-week8-drop-ins.qmd
-          - text: week 9 (11/26) - ***holiday break***
-            href: materials/f-week9-na.qmd
-          - text: week 10 (12/03) - **drop-in hour**
-            href: materials/f-week10-drop-ins.qmd
-      - text: winter
-        menu:
-          - text: week 1 (01/07) - **job search kickoff**
-            href: materials/w-week1-job-search.qmd
-          - text: week 2 (01/14) - **professional development skills**
-            href: materials/w-week2-professional-dev.qmd
-          - text: week 4 (01/28) - **career panel**
-            href: materials/w-week4-panel.qmd
-          - text: week 5 (02/04) - **resume & cover letter**
-            href: materials/w-week5-resume-cover-letter.qmd
-          - text: week 6 (02/11) - **LinkedIn**
-            href: materials/w-week6-linkedin.qmd
+          - text: orientation (date tbd) - **resume** 
+            href: materials/resume.qmd
+          - text: orientation (date tbd) - **personal website** 
+            href: materials/personal-website.qmd
+          - text: week 1 (09/30) - **AI for EDS 1**
+            href: materials/GenAI1.qmd
+          - text: week 2 (10/07) - **networking**
+            href: materials/networking.qmd
+          - text: week 3 (10/14) - **customizing websites**
+            href: materials/customizing-websites.qmd
+          - text: week 4 (10/21) - **relationship team**
+            href: materials/relationship-team.qmd
+          - text: week 5 (10/28) - **career panel**
+            href: materials/fall-panel.qmd
+          - text: week 5 (10/29) - **CV (optional)**
+            href: materials/cv.qmd
+          - text: week 6 (11/04) - **integrating a blog**
+            href: materials/blog.qmd
+          - text: week 7 (11/09) - **AI for EDS 2**
+            href: materials/GenAI2.qmd
+      # - text: winter
+      #   menu:
+      #     - text: week 1 (01/07) - **job search kickoff**
+      #       href: materials/job-search.qmd
+      #     - text: week 2 (01/14) - **professional development skills**
+      #       href: materials/professional-dev.qmd
+      #     - text: week 4 (01/28) - **career panel**
+      #       href: materials/winter-panel.qmd
+      #     - text: week 5 (02/04) - **resume & cover letter**
+      #       href: materials/resume-cover-letter.qmd
+      #     - text: week 6 (02/11) - **LinkedIn**
+      #       href: materials/linkedin.qmd
       - text: BrenConnect
-        href: https://ucsbbren.my.site.com/s/
+        href: http://brenconnect.bren.ucsb.edu
         target: _blank
       - icon: github
         href: https://github.com/UCSB-MEDS/career-professional-dev

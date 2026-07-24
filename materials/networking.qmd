@@ -1,0 +1,41 @@
+---
+title: "Networking & Art of Mingling"
+subtitle: "Fall | Week 2"
+description: "Wednesday, October 7^th^, 2027"
+---
+
+::: {.center-text}
+![](../images/mingling.png){width="60%"}
+
+*[Image source: [iStock](https://www.istockphoto.com/vector/flat-style-vector-illustration-discuss-social-network-news-chat-dialogue-speech-gm1014903134-273175022){target="_blank"}]{.gray-text}*
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+*coming soon*
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+*coming soon*
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+<!-- Please be sure to complete the following before class:
+
+### A. tbd
+### B. tbd -->
+
+*coming soon*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| TBD          | TBD                    | TBD   |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+*coming soon*
