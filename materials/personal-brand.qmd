@@ -1,0 +1,60 @@
+---
+title: "Personal Branding for Environmental Data Scientists"
+subtitle: "Orientation | Day 3"
+description: "Wednesday, September 24^th^, 2025"
+---
+
+::: {.center-text}
+![](../images/personal-brand-image.png){width="80%"}
+
+*[Image Source: [Devexperts](https://devexperts.com/blog/how-to-build-your-personal-brand-and-boost-your-career/){target="_blank"}]{.gray-text}*
+<!-- https://hbr.org/2011/03/reinventing-your-personal-brand -->
+:::
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+By the end of today's workshop, you should have:
+
+- a first draft of your personal branding guide
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+By the end of today's workshop, you should be able to:
+
+- define what a personal brand is, and explain why personal branding matters for environmental data scientists
+- identify elements that make a strong and memorable personal brand
+- reflect on your professional values, strengths, and target audiences to begin shaping your own personal brand
+- draft elements of your personal branding guide, including defining your adjectives, core messages, target audiences, and visual style 
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+*No preparation required for this session*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides          | [Personal Branding for Environmental Data Scientists](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){target="_blank"}  | *NA*   |
+| Template          | [Personal Branding Guide Template](https://docs.google.com/document/d/1_GDgYPRR5hZzodwXyJV2aBWKU_OTBY3JOwi0dlSyBAQ/edit?tab=t.0){target="_blank"}  | Copy this template into your own Google Drive and use it as a place to jot down notes throughout the workshop. |
+| Feedback Form | [Feedback: Personal branding](https://forms.gle/mQ51iuXcp92iw47a6){target="_blank"} | Thank you for sharing your thoughts! |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+- [**Continue iterating on your personal brand and seek feedback from those who know you well.**]{.teal-text} Would they use the same adjectives to describe you? What strengths and characteristics do they perceive that you hadn’t identified yourself? What emotions do your colors, fonts, imagery, and tone evoke? It’s also important to remember that your personal brand can (and should) evolve with you! 
+- [**Aim to have a complete personal branding guide by October 15, 2025**]{.teal-text} for reference during our website customization workshop. Specifically, we'll be calling on your color palette & [Google Font](https://fonts.google.com/){target="_blank"} selections to apply styling to your website (so it'll be helpful to at least have those defined). 
+- [**Read more about developing your personal brand**]{.teal-text} Check out the resources in the dropdown, below:
+
+::: {.callout-tip collapse="true"}
+## Some helpful personal brand readings & resources:
+- [How to build your personal brand as a newbie data analyst.](https://brighteze.medium.com/how-to-build-your-personal-brand-as-a-newbie-data-analyst-257a0697eb1d){target="_blank"}, by [Bright](https://brighteze.medium.com/){target="_blank"}
+- [Building a Personal Brand in Data Science: Your Key to Career Advancement](https://www.linkedin.com/pulse/building-personal-brand-data-science-your-key-career-advancement/){target="_blank"}, by [Kannan Kasi](https://www.linkedin.com/in/kannankasi/){target="_blank"}
+- [Using data science to build a personal brand](https://www.linkedin.com/pulse/using-data-science-build-personal-brand-abigail-abby-shockley-phd/){target="_blank"}, by [Abigail (Abby) Shockley](https://www.linkedin.com/in/acshock/){target="_blank"}
+- [How To Build a Personal Brand: 10 Tips](https://graduate.northeastern.edu/resources/tips-for-building-your-personal-brand/){target="_blank"}, by [Shayna Joubert](https://www.linkedin.com/in/shaynajoubert/){target="_blank"}
+- [How to Build a Personal Brand Website: 5 Essentials to Include](https://www.kadencewp.com/blog/how-to-build-a-personal-brand-website-5-essentials-to-include/){target="_blank"}, by [Kathryn Lang](https://www.kadencewp.com/author/klangithemes/)
+- [Building a Data Science Brand](https://www.discoverdatascience.org/articles/building-a-data-science-brand/){target="_blank"}, by [Kate Strachnyi](https://www.datacated.com/about)
+- [Personal Branding: What is is and why it matters](https://online.hbs.edu/blog/post/personal-branding-at-work){target="_blank"}, by [Catherine Cote](https://online.hbs.edu/blog/?author=Catherine+Cote){target="_blank"}
+- [How to craft your personal brand statement](https://www.forbes.com/sites/williamarruda/2025/06/08/how-to-craft-your-personal-brand-statement--and-why-you-must/){target="_blank"}, by [William Arruda](https://www.forbes.com/sites/williamarruda/){target="_blank"}
+:::

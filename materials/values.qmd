@@ -1,0 +1,49 @@
+---
+title: "Values and career decision-making"
+subtitle: "Summer | Week 6"
+description: "Wednesday, September 10^th^, 2025"
+---
+
+::: {.center-text}
+![](../images/values.png){width="80%"}
+
+*[Image source: [LinkedIn](https://www.linkedin.com/pulse/importance-values-career-decision-making-marwan-shrm-cp-acc-/){target="_blank"}]{.gray-text}*
+:::
+
+
+<br>
+
+## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
+
+By the end of today’s workshop, you should have:
+
+- 2-3 values that resonate with you when thinking about your future career
+
+## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
+
+By the end of today's workshop, you should be able to:
+
+- clarify top professional and / or personal values
+- learn the CASVE method of decision-making
+- understand how values play into academic and career decision-making
+
+## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
+
+### A. Background reading 
+
+Read through this brief article, [Values, Passion, or Purpose – Which Should guide your Career?](https://hbr.org/2023/10/values-passion-or-purpose-which-should-guide-your-career){target="_blank"}, by Irina Cozma.  
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides          | [Why We Care About What We Do: Values & Career Decision-Making Workshop](https://ucsb.account.box.com/login?redirect_url=https%3A%2F%2Fucsb.app.box.com%2Fs%2Fu88n8e4ro0j7w3z2r2iz7cr5gkjoe418){target="_blank"} | *NA*  |
+| Feedback Form          | [Feedback: Values and career decision-making workshop](https://docs.google.com/forms/d/e/1FAIpQLScSD9W9iYgDrFhxsIXikggDqVQMBPVUKwdyuasv8CjMa9LGzQ/viewform){target="_blank"} | Thank you for providing us with feedback on our values workshop!  |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
+
+## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
+
+- [**Continue refining your values by taking the *Life Values Inventory*.**]{.teal-text} Steps:  
+    - [Create a Life Values Inventory account](https://www.lifevaluesinventory.org/){target="_blank"} using any email address of your preference 
+    - Complete the assessment online by following the prompts on the screen 
+    - Instantly review your results through an online report 
