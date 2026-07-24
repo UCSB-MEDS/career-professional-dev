@@ -4,6 +4,6 @@ subtitle: "Fall | Week 7"
 description: "Wednesday, November 09^th^, 2026"
 ---
 
-*coming soon*
+*coming soon!*
 
 <!-- NOTE: continue to maintain the AI for EDS website (https://ucsb-meds.github.io/AI-for-EDS/); Add description of that website somewhere on this page and point to materials there -->

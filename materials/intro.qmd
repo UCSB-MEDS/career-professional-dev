@@ -14,7 +14,7 @@ description: "Wednesday, September 2^nd^, 2026"
 
 By the end of today’s workshop, you should have: 
 
-- Access to [BrenConnect](https://ucsbbren.my.site.com/s/){target="_blank"} 
+- Access to [BrenConnect](http://brenconnect.bren.ucsb.edu){target="_blank"} 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
@@ -23,7 +23,7 @@ By the end of today's workshop, you should be able to:
 - Describe the Bren Career Development Program and identify a roadmap for career success at Bren and beyond. 
 - Understand the full range of career services and resources available to full-time Bren students. 
 - Understand how to access Bren Career Services and reach out to the Career Team 
-- Understand the [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?gid=457321000#gid=457321000) and how coursework and career development offerings contribute to building a professional portfolio aligned with career goals. 
+- Understand the [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1UdCr4jYqIUMq-2BoVsejoYsUzOMZDFp1226b1cIjfrs/edit?usp=sharing) and how coursework and career development offerings contribute to building a professional portfolio aligned with career goals. 
 - Articulate the Bren School career ethos and the importance of engaging in career development as part of their experience in a community of change-makers. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
@@ -34,7 +34,7 @@ By the end of today's workshop, you should be able to:
 
 | Content Type | Materials | Notes |
 |--------|------------------------|-------|
-| Calendar  | [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1ttUyJWGn2GHFThHCbUHl4ByfK1a_UzJ51QwRZRynUbc/edit?usp=sharing){target="_blank"} | This is a living document! You may see updates as the year progresses. |
+| Calendar  | [MEDS Data Science Portfolio Calendar](https://docs.google.com/spreadsheets/d/1UdCr4jYqIUMq-2BoVsejoYsUzOMZDFp1226b1cIjfrs/edit?usp=sharing){target="_blank"} | This is a living document! You may see updates as the year progresses. |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 <!-- Not giving this presentation in Summer 2026 -->

@@ -1,7 +1,7 @@
 ---
 title: "Creating your personal website using Quarto"
-subtitle: "Fall | Week 1"
-description: "Wednesday, October 1^st^, 2025"
+subtitle: "Orientation" #| Week 1
+description: "Date TBD" # "Wednesday, October 1^st^, 2025"
 ---
 
 ::: {.center-text}
