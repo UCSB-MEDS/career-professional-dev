@@ -44,4 +44,4 @@ You'll be editing and/or annotating it during the session.
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-- [**If having a CV is relevant to your career goals, continue refining it**]{.teal-text} using what you’ve learned in this workshop and by referring to the [Ultimate Bren CV Guide](https://ucsbbren.my.site.com/s/article/Curriculum-Vitae-CV-Guidelines-and-Examples){target="_blank"}. When you’re ready, you’re welcome to request a document review by emailing [career@bren.ucsb.edu](mailto:career@bren.ucsb.edu). We’d be happy to help you further develop and tailor your CV for the positions that interest you. 
+- [**If having a CV is relevant to your career goals, continue refining it**]{.teal-text} using what you’ve learned in this workshop and by referring to the [Ultimate Bren CV Guide](https://brenconnect.bren.ucsb.edu/s/article/Curriculum-Vitae-CV-Guidelines-and-Examples){target="_blank"}. When you’re ready, you’re welcome to request a document review by emailing [career@bren.ucsb.edu](mailto:career@bren.ucsb.edu). We’d be happy to help you further develop and tailor your CV for the positions that interest you. 

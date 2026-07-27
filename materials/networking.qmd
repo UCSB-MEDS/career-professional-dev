@@ -14,28 +14,24 @@ description: "Wednesday, October 7^th^, 2026"
 
 ## {{< fa box-open title="an open box" >}} Anticipated deliverable(s) {#anticipated-deliverables}
 
-*coming soon*
+- A personal game plan for how you would like to network/mingle at the Art of Mingling Reception. 
+- An understanding of different mingling strategies that may work for you. 
 
 ## {{< fa book-open title="an open book" >}} Learning objectives {#learning-objectives}
 
-*coming soon*
+- Learn the basics of the art of mingling including how to enter and leave conversations. 
 
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
-<!-- Please be sure to complete the following before class:
-
-### A. tbd
-### B. tbd -->
-
-*coming soon*
+*No preparation required for this session*
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| TBD          | TBD                    | TBD   |
+| *coming soon*          | *coming soon*                    | *coming soon*   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
-*coming soon*
+- [**Create or update your LinkedIn Profile:**]{.teal-text} Many employers look for this, so it’s generally a good idea to have a professional, complete, and up-to-date LinkedIn profile. Access our [LinkedIn 101 guidelines](https://brenconnect.bren.ucsb.edu/s/article/LinkedIn-101-How-to-Build-Your-Profile-Grow-Your-Network-and-Use-LinkedIn-for-Your-Job-Internship-Search){target="_blank} for our full guidance, including if you have reservations about creating a profile. If you would like us to take a look and review your LinkedIn profile, please feel free to indicate this in your Fall Career Appointment Questionnaire prior to your individual meeting. 

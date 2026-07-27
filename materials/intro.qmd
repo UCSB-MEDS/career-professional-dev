@@ -43,7 +43,7 @@ By the end of today's workshop, you should be able to:
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
 - [**Sign up for BrenConnect**]{.teal-text}. Steps:
-    - Access BrenConnect at [https://brenconnect.force.com/s/](https://brenconnect.force.com/s/){target="_blank"} 
+    - Access BrenConnect at [http://brenconnect.bren.ucsb.edu](http://brenconnect.bren.ucsb.edu){target="_blank"} 
     - Create an account using either:
         - SSO (use your UCSB Google account) 
         - Unique username & password (use @ucsb.edu email, NOT @bren.ucsb.edu email) 

@@ -45,7 +45,7 @@ Bring an electronic or hard copy of your current resume to edit and/or annotate 
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Template    | [Resume Template](https://ucsbbren.my.site.com/s/login/?ec=302&startURL=%2Fs%2Farticle%2FResume-Cover-Letter-Templates){target="_blank"}   | Download resume (and cover letter) templates |
+| Template    | [Resume Template](https://brenconnect.bren.ucsb.edu/s/article/Resume-Cover-Letter-Templates){target="_blank"}   | Download resume (and cover letter) templates |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 <!-- | Slides       | [Market Your Resume for the Positions You Want](https://ucsb.box.com/s/lii1watvv5quulfxsa9f7l9cvg9rdscg){target="_blank"}          | NA | -->
