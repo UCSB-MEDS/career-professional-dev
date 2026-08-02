@@ -24,9 +24,9 @@ website:
           #   href: materials/values.qmd
       - text: fall
         menu:
-          - text: orientation (date tbd) - **resume** 
+          - text: orientation (09/22) - **resume** 
             href: materials/resume.qmd
-          - text: orientation (date tbd) - **personal website** 
+          - text: orientation (09/23) - **personal website** 
             href: materials/personal-website.qmd
           - text: week 1 (09/30) - **AI for EDS 1**
             href: materials/GenAI1.qmd
