@@ -1,7 +1,7 @@
 ---
 title: "Building a stand-out data science resume "
 subtitle: "Orientation" # | Day 2
-description: "Date TBD" #"Tuesday, September 23^rd^, 2025"
+description: "Tuesday, September 22^nd^, 2026"
 ---
 
 ::: {.center-text}
