@@ -172,7 +172,7 @@
     "href": "materials/personal-website.html#workshop-materials",
     "title": "Creating your personal website using Quarto",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional document\nQuarto website instructions\nWe’ll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point\n\n\nFeedback form\nFeedback: Building a personal website\nThank you for sharing your thoughts!"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nInstructional Slides\nGitHub Portfolio Slides\nThese slides will be helpful to come back to ask you continue to create more repos and grow your Github portfolio.\n\n\nInstructional document\nQuarto website instructions\nWe’ll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point"
   },
   {
     "objectID": "materials/personal-website.html#continue-working",
@@ -768,5 +768,89 @@
     "title": "Career & Professional Development Workshop Series",
     "section": "Teaching Team",
     "text": "Teaching Team\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmanda Asquith-Caya\nEmail: aasquith@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonica Illes\nEmail: monica@bren.ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnie Adams\nEmail: aradams@ucsb.edu\nLearn more: Bren profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nSam Shanny-Csik\nEmail: scsik@ucsb.edu\nLearn more: Personal website"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#title-slide",
+    "href": "materials/slides/GH-profile.html#title-slide",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Creating a Professional GitHub Portfolio\n\nSeptember 23rd,2026"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#GH-portfolio",
+    "href": "materials/slides/GH-profile.html#GH-portfolio",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "GitHub is a portfolio\n\n\nYes, it’s a place to safely preserve versions of our work (in case our computers implode).\n\n\nBut it’s also (often) a place where current and / or potential collaborators and employers can:\n\n explore your code\n see your documentation\n get a sense of your organizational practices and workflows\n understand how you collaborate on projects (and with who)\n learn about you as a person who has interests and a personality"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#photo-bio",
+    "href": "materials/slides/GH-profile.html#photo-bio",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Personalize your profile\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy default, your profile photo is a unique Identicon, which is generated from your GitHub user ID – pretty cool! But you should absolutely update this with your photo.\n\n\n\nTakes very little time and “gives a sense of authenticity”\nPhoto makes your commits / contributions more easily recognizable\nShort bio is a nice quick intro + links to your public profiles / website(s)\n\n\n\nTo update your profile image and information:\nClick on your profile image, which takes you directly to your settings page\n\n\n\nFind more information on GitHub Docs"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#pin-repos1",
+    "href": "materials/slides/GH-profile.html#pin-repos1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Pin the repos that demonstrate your skills\n\n\n\n\nEach should be well-organized, have a README, and ideally a short description (update “About” section)\nOrder them from most &gt; least “important”\nUpdate your pinned repos as necessary\nWhich repos should you pin?\n\n“things that do the best job of communicating the skills that you’re bringing to the table” (A. Haddad)\n\npersonal website is a great place to start!\npersonal projects\ncourse projects\ncapstone repo(s)\n\n\n\n\n   \n\nTo pin (up to six) repositories:\nA. Navigate to your desired repo &gt; click Pin (top right), or\nB. If you already have a pinned repo(s): navigate to you landing page &gt; click Customize your pins &gt; check up to 6 boxes\n\n\n\nFind more information on GitHub Docs"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#pin-repos2",
+    "href": "materials/slides/GH-profile.html#pin-repos2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Pin the repos that demonstrate your skills\n\n\n\nFind more information on GitHub Docs"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#contributions",
+    "href": "materials/slides/GH-profile.html#contributions",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Contributions show your commits\n\n\n\n\nGreener squares = more commits\nAn *indicator of how much you’re coding\n*Indicates quantity, not quality\n\n\n\n\nTroubleshooting or trying to understand your contributions map? Check out this help documentation: Why are my contributions now showing up on my profile?"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#profile-readme1",
+    "href": "materials/slides/GH-profile.html#profile-readme1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Add a profile README\n\n \n\n\nSee GitHub documentation for more info on profile READMEs"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#profile-readme2",
+    "href": "materials/slides/GH-profile.html#profile-readme2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Add a profile README\n\n\n\n\nA place to introduce yourself!\nConsider including:\n\nA version of your bio\n\nImpactful contributions you’ve made (and context)\nPersonal project descriptions + links\nSomething(s) that you’re currently working on\nGuidance on how to connect with your professional communities\n\nSome template suggestions are provided when you first create your repo / initialize your README (and check out the Emoji Cheat Sheet)\n\n\n \n\nTo add a profile README:\n1. Create a new repo and give it the same name as your GitHub username (e.g. my repo is named “samanthacsik”)\n2. Make sure your repo is Public and initialize it with a README\n3. Click the Edit README button to edit directly in the browser (I find this easier than cloning and editing locally)\n\n\n\nSee the GitHub documentation for more info on profile READMEs"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#explore-other-profile-readmes",
+    "href": "materials/slides/GH-profile.html#explore-other-profile-readmes",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Explore / adapt from other profile READMEs\n\nSee someone with a really cool README? Check out the source code! Navigate to their profile README repo &gt; click on the README.md file &gt; switch to “Code” view:"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#consider-accessibility",
+    "href": "materials/slides/GH-profile.html#consider-accessibility",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Always consider web accessibility\n\n  \n\n\nWeb accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the Web, and contribute to the Web\n\n\n\n-W3C Web Accessibility Initiative"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#gh-accessibility",
+    "href": "materials/slides/GH-profile.html#gh-accessibility",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Improve your GitHub profile page accessibility\n\nA few simple ways to ensure that assistive technology can help users understand and navigate your README:\n\n\nMake links descriptive: assistive technologies present links in isolation, so provide context\n\ne.g. opt for “Find the EDS 296-1F course description…” rather than “Find the EDS 296-1F course description here”\n\n\n\n\n\nAdd alt text to images: screen readers read alt text descriptions out loud\n\ne.g. in html, &lt;img src=\"image-url.com\" alt=\"This is alt text\"&gt;\n\n\n\n\n\nUse proper heading structure: helps people understand content structure and more easily navigate sections\n\ne.g. use # for your title, then the appropriate level-header thereafter (don’t skip levels)\n\n\n\n\n\nStructure lists with proper markup: helps people understand lists as they are intended\n\ne.g. use * or - for each list item, rather than special characters or emojis\n\n\n\nThe above pointers come from the github.blog post, 5 tips for making your GitHub profile page accessible.\nImportantly, these tips apply for all web pages, not just your GitHub profile README!"
+  },
+  {
+    "objectID": "materials/slides/GH-profile.html#end-break",
+    "href": "materials/slides/GH-profile.html#end-break",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "End\n\n\n~ This is the end of Lesson 2 (of 2) ~"
   }
 ]

@@ -66,6 +66,10 @@ During this session, you'll have the opportunity to add some personal informatio
     - [Olivia Hemond](https://ohemond25.github.io/oliviahemond.github.io/){target="_blank"} (MESM 2025)
     - [Leilanie Rubinstein](https://leirubinstein.github.io/){target="_blank"} (MEDS 2025)
 
+
+
+    
+
 :::
 
 4. [**Gather your important public profile links.**]{.teal-text} Your personal website is an excellent place to link out to your other public profiles in one, organized place (again, your personal branding guide is a great place to keep these). Bookmark / save the links you'd like to include (e.g. LinkedIn, GitHub, even your preferred email address)
@@ -78,8 +82,8 @@ During this session, you'll have the opportunity to add some personal informatio
 
 | Content Type | Materials | Notes |
 |--------|------------------------|-------|
+| Instructional Slides| [GitHub Portfolio Slides](slides/GH-profile.qmd){target="_blank"} | These slides will be helpful to come back to ask you continue to create more repos and grow your Github portfolio. |
 | Instructional document | [Quarto website instructions](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"} | We'll walk through the steps of building and deploying our personal websites together in class, but you can find step-by-step instructions in this document should you need to reference them at any point |
-| Feedback form | [Feedback: Building a personal website](https://docs.google.com/forms/d/e/1FAIpQLSdALO77p5ms414Fm-pu_-iV-96Lu-qdqOSv65T8UZmSesWOPw/viewform){target="_blank"} | Thank you for sharing your thoughts! |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
