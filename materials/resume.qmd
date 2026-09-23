@@ -45,6 +45,7 @@ Bring an electronic or hard copy of your current resume to edit and/or annotate 
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
+| Slides      | [Resume Workshop Slides](slides/Resume%20Workshop_AAC.pptx)| |
 | Template    | [Resume Template](https://brenconnect.bren.ucsb.edu/s/article/Resume-Cover-Letter-Templates){target="_blank"}   | Download resume (and cover letter) templates |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
