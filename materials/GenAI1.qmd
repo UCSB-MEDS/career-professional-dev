@@ -4,6 +4,13 @@ subtitle: "Fall | Week 1"
 description: "Wednesday, September 30^th^, 2026"
 ---
 
-*coming soon!*
+Materials for this workshop are maintained on the [AI for EDS website](https://ucsb-meds.github.io/AI-for-EDS/). You can find slides, links, and additional resources for all workshops in the series there.
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides |  [AI for EDS: Intro to LLMs & Using AI to Study](https://docs.google.com/presentation/d/16vvfAapf7x4q9i5nns_cTjlNzAWn0x_QTmL5NwDxWIY/edit?usp=sharing){target="_blank"} | *NA* |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
 
 <!-- NOTE: continue to maintain the AI for EDS website (https://ucsb-meds.github.io/AI-for-EDS/); Add description of that website somewhere on this page and point to materials there -->
