@@ -1,7 +1,7 @@
 ---
 title: "Networking & Art of Mingling"
 subtitle: "Fall | Week 2"
-description: "Wednesday, October 7^th^, 2026"
+description: "Thursday, October 8^th^, 2026"
 ---
 
 ::: {.center-text}
@@ -29,7 +29,7 @@ description: "Wednesday, October 7^th^, 2026"
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*          | *coming soon*                    | *coming soon*   |
+| Slides          | [The Art of Mingling to Build a Meaningful Network](slides/2026_MESM_MEDS_ArtOfMinglingWorkshop_10-7-26.pdf)                    | NA   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
