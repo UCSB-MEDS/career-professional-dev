@@ -51,7 +51,9 @@ It’s helpful to draft up your color variables ahead of time (and save them to 
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | [Customing Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/){target="_blank"} | The slides we cover in the workshop won't be as detailed, but refer to these slides (<---) for a bit more detail on CSS, html, and some more customization options.  |
+| Slides          | [Customing Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/){target="_blank"} | These slides contain a bit more detail on CSS, html, and some more customization options. While we won't have time to go through it all in our workshop, you should go through the entire slide deck on your own time! |
+| Slides          | [Customing Quarto websites using Sass & CSS (Abridged Version)](https://ucsb-meds.github.io/customizing-quarto-websites/customizing_quarto_short.html#/title-slide/){target="_blank"} | These are the slides we will go through in our one hour workshop.  |
+
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}

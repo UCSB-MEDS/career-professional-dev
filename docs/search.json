@@ -214,7 +214,7 @@
     "href": "materials/customizing-websites.html#workshop-materials",
     "title": "Customizing Quarto websites",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nCustoming Quarto websites using Sass & CSS\nThe slides we cover in the workshop won’t be as detailed, but refer to these slides (&lt;—) for a bit more detail on CSS, html, and some more customization options."
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nCustoming Quarto websites using Sass & CSS\nThese slides contain a bit more detail on CSS, html, and some more customization options. While we won’t have time to go through it all in our workshop, you should go through the entire slide deck on your own time!\n\n\nSlides\nCustoming Quarto websites using Sass & CSS (Abridged Version)\nThese are the slides we will go through in our one hour workshop."
   },
   {
     "objectID": "materials/customizing-websites.html#continue-working",
