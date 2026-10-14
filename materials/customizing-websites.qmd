@@ -30,6 +30,7 @@ By the end of today's workshop, you should be able to:
 - write basic CSS rules for additional fine-tuned web page styling
 - use browser developer tools to inspect web page elements and override or extend existing CSS rules
 
+<!--
 ## {{< fa clipboard-list title="a clipboard with a To Do list" >}} Pre-workshop Prep {#pre-workshop-prep}
 
 ### A. Have your personal branding guide ready to reference
@@ -50,7 +51,7 @@ It’s helpful to draft up your color variables ahead of time (and save them to 
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides          | [Customing Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/){target="_blank"} | Have your personal branding guide ready to reference throughout! |
+| Slides          | [Customing Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/){target="_blank"} | The slides we cover in the workshop won't be as detailed, but refer to these slides (<---) for a bit more detail on CSS, html, and some more customization options.  |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
