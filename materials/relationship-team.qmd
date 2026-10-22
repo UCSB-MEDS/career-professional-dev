@@ -4,4 +4,11 @@ subtitle: "Fall | Week 4"
 description: "Wednesday, October 21^st^, 2026"
 ---
 
-*coming soon!*
+*No preparation required for this session*
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides          | [Networking at Bren](slides/Networking_at_Bren_Workshop.pptx)                    | NA   |
+: {.hover .bordered tbl-colwidths="[20,30,50]"} 
