@@ -39,7 +39,7 @@ You'll be editing and/or annotating it during the session.
 
 | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| *coming soon*          | *coming soon*                    | *coming soon*   |
+| Slides          | [MEDS CV Workshop](https://ucsb.account.box.com/login?redirect_url=https%3A%2F%2Fucsb.app.box.com%2Fs%2Fmr98qmwkp7pst1hjxj4v2ai7l4i3hdjo)                 | Log in to Box to view and download the slides   |
 : {.hover .bordered tbl-colwidths="[20,30,50]"} 
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
