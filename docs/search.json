@@ -39,14 +39,14 @@
     "href": "materials/blog.html#workshop-materials",
     "title": "Adding a blog to your Quarto website",
     "section": " Workshop Materials",
-    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nBlog post\nAdding a blog to your existing Quarto website\nInstructions for adding a blog to your existing Quarto website take the form of – you guessed it – a blog post"
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nAdding a blog to your existing Quarto website\nInstructions for adding a blog to your existing Quarto website"
   },
   {
     "objectID": "materials/blog.html#continue-working",
     "href": "materials/blog.html#continue-working",
     "title": "Adding a blog to your Quarto website",
     "section": " What should I continue working on?",
-    "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nTipA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n(Very much optional, but encouraged!) Add potential blog post topics / ideas to your personal branding guide You’ll be asked to write blog posts as part of your MEDS coursework, but that shouldn’t stop you from also writing blog posts on topics that interest you, seperate from your assignments! Coming up with topics to blog about can feel intimidating (especially in the beginning), however your personal branding guide can help to steer you in a productive direction. Recall that your personal brand shapes how you present yourself, not only in your aesthetic choices, but also the types of content you choose to publish and the tone you use throughout. Consider the following as you brainstorm potential blog post topics:\n\nWhat do your personal branding adjectives and key messages say about you and your interests?\nWhat topics blend your current interests and expertise with your future learning goals?\nWhat might draw someone to your website over a different website? Consider how your brand can help to define your niche.\nNot all data science blog posts need to be technical (e.g. include example code) – reflections and commentary on different aspects of your data science journey can be equally as valuable.\nUltimately, you should be choosing something you’re excited to write about (it can be easier to engage a reader when you yourself are jazzed about the topic)!\n\n\n\n\n\n\n\n\nTipNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
+    "text": "What should I continue working on?\n\nCheck out some data science blogs! Reading other data science blogs is the best way to get a sense of not only the breadth of topics that folks in the community are writing about, but also the tone, writing styles, and creative approaches you might take as a blogger. Here are some example posts and bloggers that I really enjoy:\n\n\n\n\n\n\n\nTipA small collection of bloggers to peruse:\n\n\n\n\n\nA handful of posts to showcase some different writing styles and topics areas:\n\nAn introduction to Python for R Users, by Rebecca Barter\nMy first live coding interview, by Maya Gans\nNotes from live code review of {soils}, by Jadey Ryan\nCreating typewriter-styled maps in {ggplot2}, by Nicola Rennie\nPorting the Openscapes website from blogdown to Quarto, by Sam Shanny-Csik\nUsing Amazon S3 with R, by Danielle Navarro\nSlidecrafting 101: Layout, by Emil Hvitfeldt\n\nAnd a few additional fun blogs to keep an eye on:\n\nMeghan Hall\nMeghan Harris\nCrystal Lewis\nCosima Meyer\nBeatriz Milz\nShannon Pileggi\nAlbert Rapp\nNicola Rennie\nCédric Scherer\nCara Thompson\nNick Tierney\nIsabella Velásquez\nrostrum.blog (by Matt Dray and Adriana De Palma)\n\n\nSome bloggers have a really recgonizable brand, including:\n\nCédric Scherer’s blog is one of the first places I turn to when I’m looking for data viz / {ggplot2} content\nCrystal Lewis’ blog features lots of tutorials and conversations about data management practices\nDanielle Navarro’s blog largely chronicles her experiences learning new tools and creating generative art\n\nNOTE: You (most likely) will not have your brand identity fully sorted and solidified by this point (and that’s perfectly okay!). The above examples are meant to show how working towards finding your brand can (over time) help build a pattern of trust that draws visitors back to your website in search of familiar content.\n\n\n\n\n\n\n\n\n\n\nTipNeed some help kickstarting the creativity? Here are some potential blog post topics / ideas to consider:\n\n\n\n\n\n\nhow your past professional or personal interests led you to pursue a degree in environmental data science\nnon-data science skills / experiences that you’ve found to be transferable to your data science learning journey (in perhaps surprising / unexpected ways)\nadvice you wish you had before beginning a data science graduate program\nwriting a data product-focused MEDS Capstone or MESM Group Project proposal\nreflecting on the MEDS 6-week summer coding bootcamp\nyour journey towards discovering your personal brand identity / building your website(!)\nwhat early data science skills you’ve found most valuable or surprising (so far), and why\na mini tutorial on a focused data science skill / topic, e.g. \nhow a particular function(s) or package has helped you overcome a data challenge, and why / how\na data science workflow or organizational procedure you’ve adopted, and why\nbuilding a data visualization or other creative product\n\nIt’s still valuable (and important) to think about how your framing, tone, and focus within each of these suggested topic areas fits your brand identity."
   },
   {
     "objectID": "materials/linkedin.html",
@@ -866,5 +866,187 @@
     "title": "Build Your Relationship Team",
     "section": " Workshop Materials",
     "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nNetworking at Bren\nNA"
+  },
+  {
+    "objectID": "materials/slides/blog.html#title-slide",
+    "href": "materials/slides/blog.html#title-slide",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Adding a Blog to Your Quarto Website\n\nWednesday, November 4th, 2026"
+  },
+  {
+    "objectID": "materials/slides/blog.html#why-blog",
+    "href": "materials/slides/blog.html#why-blog",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Why should you blog?\n\n\nBlogging helps you:\n\n build your online profile and portfolio\n\n\n practice writing and communication skills\n\n\n network with the data science community\n\n\n solidify your own learning and understanding\n\n\n combat imposter syndrome"
+  },
+  {
+    "objectID": "materials/slides/blog.html#drob",
+    "href": "materials/slides/blog.html#drob",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "The 3x rule\n\n\n\nTweet by David Robinson — author of Introduction to Empirical Bayes and former Chief Data Scientist at Heap"
+  },
+  {
+    "objectID": "materials/slides/blog.html#website-vs-blog",
+    "href": "materials/slides/blog.html#website-vs-blog",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Website vs. Blog\n\n\n\n\n\nQuarto Website\n\n\n\n\n\n\n\n\n\n\n\nHas a dedicated landing/home page\n\n\n\nQuarto Blog\n\n\n\n\n\n\n\n\n\n\n\nFeatures a listing page as the landing page\n\n\n\nThe good news: you can add a blog to your existing Quarto website!"
+  },
+  {
+    "objectID": "materials/slides/blog.html#tldr",
+    "href": "materials/slides/blog.html#tldr",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "What you need to add a blog\n\n \n\n A folder to hold your blog posts\n\n A listing page that displays all blog posts\n\n Actual blog post content"
+  },
+  {
+    "objectID": "materials/slides/blog.html#part1",
+    "href": "materials/slides/blog.html#part1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part I\n\nSetting up your blog’s structure"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step1-posts",
+    "href": "materials/slides/blog.html#step1-posts",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 1: Create a posts/ folder\n\nCreate a posts/ folder in your root directory:\n\n\n\n\nPositron:\nHover over your repo name in the Explorer pane &gt; click “New Folder…” &gt; type posts &gt; press Enter\n\n\n\nRStudio:\nIn the Files pane, click “New Folder” &gt; type posts &gt; click OK"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step2-metadata",
+    "href": "materials/slides/blog.html#step2-metadata",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 2: (Optional) Add _metadata.yml\n\nA _metadata.yml file inside posts/ applies settings to all posts automatically\n\n\n\n\n\nposts/_metadata.yml\n\n# re-render posts only when source changes ----\nfreeze: auto\n\n# banner style title blocks ----\ntitle-block-banner: true\n\n\n\n\nfreeze: auto — only re-renders posts when source files change (great for computationally heavy content)\ntitle-block-banner: true — creates a banner-style title block at the top of each post"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step3-listing",
+    "href": "materials/slides/blog.html#step3-listing",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 3: Create a listing page\n\nA listing page auto-generates content from your blog posts (titles, dates, categories, preview images)\n\nCreate posts.qmd in your root directory with minimal content to start:\n\n\nposts.qmd\n\n---\ntitle: \"My Blog\"\n---\n\n\n\nPositron: Cmd/Ctrl + Shift + P &gt; “Quarto: New Document” &gt; save as posts.qmd in root directory\nRStudio: File &gt; New File &gt; Quarto Document… &gt; save as posts.qmd"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step4-configure",
+    "href": "materials/slides/blog.html#step4-configure",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 4: Configure your listing page\n\nAdd a listing field to your posts.qmd YAML:\n\n\nposts.qmd\n\n---\ntitle: \"My Blog\"\nlisting:\n  contents: posts    # must match your folder name from Step 1\n  type: grid         # options: default, grid, or table\n  sort: \"date desc\"  # newest posts first\n  categories: true   # enables category filtering\n---"
+  },
+  {
+    "objectID": "materials/slides/blog.html#listing-types",
+    "href": "materials/slides/blog.html#listing-types",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Three built-in listing page styles\n\n\n\nSee Quarto docs for a full preview of each listing type"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step5-navbar",
+    "href": "materials/slides/blog.html#step5-navbar",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 5: Add your listing page to the navbar\n\nUpdate _quarto.yml to include posts.qmd just like any other page:\n\n\n_quarto.yml\n\nwebsite:\n  navbar:\n    title: myWebsiteTitle\n    right:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n      - posts.qmd   # add your listing page here"
+  },
+  {
+    "objectID": "materials/slides/blog.html#step6-preview",
+    "href": "materials/slides/blog.html#step6-preview",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 6: Preview your site\n\nRun quarto preview in your terminal to see your changes:\nquarto preview\n\n\n\nYour listing page will be empty until you add your first blog post — that’s expected!"
+  },
+  {
+    "objectID": "materials/slides/blog.html#part2",
+    "href": "materials/slides/blog.html#part2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part II\n\nCreating your first blog post"
+  },
+  {
+    "objectID": "materials/slides/blog.html#post-step1",
+    "href": "materials/slides/blog.html#post-step1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 1: Create a subdirectory inside posts/\n\nEach post gets its own folder inside posts/ using this naming convention:\n\nYYYY-MM-DD-short-post-description\n\n\n\n\nThe folder name becomes the URL slug for your post — keep it short and descriptive!"
+  },
+  {
+    "objectID": "materials/slides/blog.html#post-step2",
+    "href": "materials/slides/blog.html#post-step2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 2: Create index.qmd inside your subdirectory\n\n\nName your post file index.qmd — this keeps your URLs clean:\n\n\n\n\nWith index.qmd ✓\n\nyoursite.com/posts/\n  2022-10-24-my-post/\n\n\nWith my-post.qmd ✗\n\nyoursite.com/posts/\n  2022-10-24-my-post/\n  my-post.html\n\n\n\nThe index.qmd approach creates shorter, cleaner URLs that are easier to remember and share"
+  },
+  {
+    "objectID": "materials/slides/blog.html#post-step3",
+    "href": "materials/slides/blog.html#post-step3",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 3: Configure your blog post YAML\n\n\n\nposts/2022-10-24-my-post/index.qmd\n\n---\ntitle: \"My first blog post\"\ndescription: \"A short description that appears on the listing page\"\nauthor:\n  - name: Your Name\n    url: https://yoursite.com/\n    affiliation: Master of Environmental Data Science Program @ The Bren School\n    affiliation-url: https://ucsb-meds.github.io/\ndate: 10-24-2022\ncategories: [Quarto, R, MEDS]\ncitation:\n  url: https://yoursite.com/posts/2022-10-24-my-post/\nimage: preview-image.png\ndraft: false\n---\n\nHere is where your blog post content begins..."
+  },
+  {
+    "objectID": "materials/slides/blog.html#yaml-fields",
+    "href": "materials/slides/blog.html#yaml-fields",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Key YAML fields\n\n\n\n\n\n\n\n\nField\nPurpose\n\n\n\n\ntitle & description\nBoth appear on your listing page\n\n\nauthor\nCan include name, url, orcid, affiliation\n\n\ndate\nPost date (format: MM-DD-YYYY)\n\n\ncategories\nSelf-defined tags — enables filtering on listing page\n\n\ncitation\nAuto-generates a BibTeX citation at the bottom of your post\n\n\nimage\nPreview image shown on listing page — file must live in the same folder\n\n\ndraft: true\nHides from listing page while you work — set to false to publish"
+  },
+  {
+    "objectID": "materials/slides/blog.html#post-step4",
+    "href": "materials/slides/blog.html#post-step4",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Step 4: Simplify with _metadata.yml\n\nMove repeated author info to _metadata.yml so you only write it once:\n\n\n\n\nposts/_metadata.yml\n\nfreeze: auto\ntitle-block-banner: true\n\n# author info applied to all posts ----\nauthor:\n  - name: Your Name\n    url: https://yoursite.com/\n    affiliation: MEDS @ The Bren School\n    affiliation-url: https://ucsb-meds.github.io/\n\n\n\n\nposts/2022-10-24-my-post/index.qmd\n\n---\ntitle: \"My first blog post\"\ndescription: \"A short description\"\ndate: 10-24-2022\ncategories: [Quarto, R, MEDS]\ncitation:\n  url: https://yoursite.com/posts/\n       2022-10-24-my-post/\nimage: preview-image.png\ndraft: false\n---\n\n\n\nAuthor info is inherited from _metadata.yml — override it in a post’s YAML when co-authoring"
+  },
+  {
+    "objectID": "materials/slides/blog.html#blog-added",
+    "href": "materials/slides/blog.html#blog-added",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Your first post on the listing page"
+  },
+  {
+    "objectID": "materials/slides/blog.html#advanced",
+    "href": "materials/slides/blog.html#advanced",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Advanced Features\n\nFootnotes, citations, and more"
+  },
+  {
+    "objectID": "materials/slides/blog.html#footnotes",
+    "href": "materials/slides/blog.html#footnotes",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Adding footnotes\n\n\nMethod 1 — Referenced:\nI am going to insert a footnote here[^1].\n\n[^1]: Here is the associated footnote text.\n\nMethod 2 — Inline:\nI am going to insert an inline footnote here^[Here is my inline footnote].\n\nAll footnotes are automatically collected in a “Footnotes” section at the bottom of your post."
+  },
+  {
+    "objectID": "materials/slides/blog.html#citations1",
+    "href": "materials/slides/blog.html#citations1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Adding citations\n\nStep 1: Create a references.bib file inside your post folder\nStep 2: Add bibliography to your post YAML:\nbibliography: references.bib\nStep 3: Add references in BibTeX format to your .bib file:\n@online{csik2021,\n  author = {Samantha Csik},\n  title  = {Why Create Presentation Slides about Blogging When You Can Just Blog about It?},\n  date   = {2021-09-24},\n  url    = {https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/},\n  langid = {en}\n}\nStep 4: Cite in your text using [@key]:\nThis was explored in previous work [@csik2021]."
+  },
+  {
+    "objectID": "materials/slides/blog.html#citations2",
+    "href": "materials/slides/blog.html#citations2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "The easier way: Visual Editor citations\n\n\n\nIn Positron or RStudio: open the Visual editor &gt; Insert &gt; Citation — Quarto automatically updates your .bib file. No manual BibTeX formatting required!"
+  },
+  {
+    "objectID": "materials/slides/blog.html#multiple-blogs",
+    "href": "materials/slides/blog.html#multiple-blogs",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "You’re not limited to one blog\n\n\nRepeat Part I (Steps 1–6) to add additional listing pages to your site:\n\n\n posts.qmd — your main blog\n talks_workshops.qmd — talks & workshops\n courses.qmd — courses taught\n projects.qmd — data projects & capstones\n\n\n\nSee Sam Shanny-Csik’s GitHub repo for a real-world example of this structure"
+  },
+  {
+    "objectID": "materials/slides/blog.html#resources",
+    "href": "materials/slides/blog.html#resources",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Additional resources\n\n\n The ultimate guide to starting a Quarto blog by Albert Rapp — deep dive into customization options\n\n Creating a blog with Quarto in 10 steps by Beatriz Milz — includes adding a comments section\n\n Quarto listing page documentation — full reference for listing page options\n\n Quarto article layout documentation — customize your post’s page layout"
   }
 ]

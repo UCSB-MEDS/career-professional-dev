@@ -35,7 +35,8 @@ If you haven't already, please read or review the following BrenConnect article:
 
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
 
-*No materials for this week's workshop!*
+**Recording:** 
+
 
 <!-- | Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
