@@ -1,0 +1,305 @@
+/*-- scss:defaults --*/
+
+// Fonts (MEDS website theme)
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,800;1,400&family=Roboto+Mono:wght@300;400&family=Sanchez:ital@0;1&display=swap');
+
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-serif: 'Sanchez', serif;
+$font-family-monospace: 'Roboto Mono', monospace;
+
+// MEDS colors
+$baby-blue: #d2e3f3;
+$teal: #047C90;
+$dark-blue: #003660;
+$white: #FFFFFF;
+$green: #78A540;
+$magenta: #900C3F;
+$off-white: #F7F7F7;
+$gray: #ADADAD;
+$dark-gray: #373A3E;
+$peach: #DF8073;
+
+// reveal.js / quarto variables
+$presentation-font-size-root: 34px;
+$body-bg: $white;
+$body-color: $dark-gray;
+$link-color: $teal;
+$presentation-heading-font: $font-family-serif;
+$presentation-heading-color: $dark-blue;
+$code-block-font-size: 0.7em;
+$code-color: $magenta;
+
+/*-- scss:rules --*/
+
+.reveal .slide-number, .reveal .footer, .reveal .callout, .reveal table {
+  font-family: $font-family-sans-serif;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: $font-family-serif;
+  color: $dark-blue;
+}
+.reveal h2 {
+  border-bottom: 3px solid $dark-blue;
+  padding-bottom: 0.2em;
+}
+.reveal strong { color: $dark-blue; }
+.reveal .footer { color: $gray; }
+.reveal .progress { color: $teal; }
+
+.reveal blockquote {
+  border-left: 5px solid $teal;
+  background: $off-white;
+  font-style: italic;
+  box-shadow: none;
+}
+.reveal table th { background: $baby-blue; color: $dark-blue; }
+
+// Tabsets
+.reveal .panel-tabset .nav-link { color: $teal; }
+.reveal .panel-tabset .nav-link.active { color: $dark-blue; font-weight: 800; }
+
+// Callouts in MEDS colors
+.reveal .callout-important { border-left-color: $magenta !important; }
+.reveal .callout-tip       { border-left-color: $green !important; }
+.reveal .callout-note      { border-left-color: $teal !important; }
+
+.reveal .roles { font-size: 0.85em; }
+.reveal .roles blockquote { margin: 0.3em 0; padding: 0.2em 0.6em; }
+
+/* role comparison grid */
+.reveal .role-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr 1fr;
+  gap: 0.35em 0.6em;
+  font-size: 0.8em;
+  align-items: stretch;
+}
+.reveal .rg-legend {
+  grid-column: 2 / 5;
+  display: flex; justify-content: center; gap: 1.2em;
+  font-size: 1.1em;
+}
+.reveal .rg-legend .dot {
+  display: inline-block; width: 0.8em; height: 0.8em;
+  border-radius: 50%; margin-right: 0.3em; vertical-align: middle;
+}
+.reveal .rg-label { text-align: center; line-height: 1.2; align-self: center; }
+.reveal .rg-cell {
+  color: $white; border-radius: 0.5em; padding: 0.3em 0.5em;
+  display: grid; place-items: center; min-height: 2.5em;
+  text-align: center; line-height: 1.2; font-weight: 600;
+}
+.reveal .preserved   { background: $green; color: $dark-blue; }
+.reveal .transformed { background: $teal; }
+.reveal .interpreted { background: $dark-blue; }
+.reveal .discarded   { background: $magenta; }
+.reveal .rg-role {
+  text-align: center; font-family: $font-family-serif; font-size: 1.5em;
+  border-radius: 0.4em; padding: 0.1em 0; color: $dark-blue;
+}
+.reveal .rg-role.dm  { background: $baby-blue; }
+.reveal .rg-role.ds  { background: $off-white; border: 2px solid $baby-blue; }
+.reveal .rg-role.env { background: #e4eed8; }
+.reveal .footer-note { font-size: 0.5em; color: $gray; margin-top: 0.4em; }
+
+/* MEDS title slide */
+.reveal .slides section.meds-title {
+  text-align: left;
+  display: flex !important; flex-direction: column; justify-content: center;
+  height: 100% !important; top: 0 !important;
+}
+.reveal .meds-title h2 { display: none; }
+.reveal .meds-title p { margin: 0; }
+.reveal .meds-title .mt-title {
+  font-family: $font-family-serif; color: $baby-blue;
+  font-size: 2.4em; line-height: 1.15; margin-top: 0;
+}
+.reveal .meds-title .mt-subtitle {
+  font-family: $font-family-sans-serif; color: $baby-blue;
+  font-size: 1.3em; margin-top: 0.1em;
+}
+.reveal .meds-title .mt-rule {
+  height: 10px; background: $teal; margin: 0.6em 0 0.7em;
+}
+.reveal .meds-title .mt-series {
+  font-family: $font-family-sans-serif; font-weight: 800; color: $baby-blue;
+  font-size: 1em; margin-left: 0.3em;
+}
+.reveal .meds-title .mt-authors {
+  font-family: $font-family-serif; color: $baby-blue;
+  font-size: 0.75em; margin: 0.5em 0 0 0.3em;
+}
+.reveal .meds-title .mt-link {
+  text-align: center; font-weight: 800; font-size: 0.75em; margin-top: 1.2em;
+}
+.reveal .meds-title .mt-link a { color: $teal; text-decoration: underline; font-weight: 800; }
+.reveal.has-dark-background .footer,
+.reveal.has-dark-background .slide-number { display: none !important; }
+
+/* squirrel dataset stats */
+.reveal .squirrel-stats {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6em;
+  margin: 0.4em 0 0.6em;
+}
+.reveal .squirrel-stats .stat {
+  background: $baby-blue; border-radius: 0.4em; padding: 0.6em 0.6em;
+  text-align: center; border-top: 6px solid $teal;
+}
+.reveal .squirrel-stats .stat-num {
+  display: block; font-family: $font-family-serif; color: $dark-blue;
+  font-size: 2.8em; line-height: 1.1;
+}
+.reveal .squirrel-stats .stat-label {
+  display: block; font-size: 0.85em; color: $dark-gray; line-height: 1.25;
+}
+
+/* fundamentals slides */
+.reveal .habits .callout-body { font-size: 1.3em !important; }
+.reveal .habits .column:first-child ul { margin-right: 1em; }
+.reveal .fund table { font-size: 0.8em; }
+.reveal .fund td, .reveal .fund th { padding: 0.25em 0.5em; }
+
+/* section dividers */
+.reveal .slides section.meds-section {
+  text-align: left;
+  display: flex !important; flex-direction: column; justify-content: center;
+  height: 100% !important; top: 0 !important;
+}
+.reveal .meds-section h2 { display: none; }
+.reveal .meds-section p { margin: 0; }
+.reveal .meds-section .ms-num {
+  font-family: $font-family-sans-serif; font-weight: 800; color: $teal;
+  font-size: 0.9em; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.reveal .meds-section .ms-title {
+  font-family: $font-family-serif; color: $baby-blue; font-size: 2.2em; line-height: 1.15;
+}
+.reveal .meds-section .mt-rule { height: 10px; background: $teal; margin: 0.6em 0 0.6em; }
+.reveal .meds-section .ms-sub { color: $baby-blue; font-size: 1em; }
+
+/* prompt anatomy */
+.reveal .prompt-anatomy {
+  background: $off-white; border-left: 6px solid $dark-blue; border-radius: 0.3em;
+  padding: 0.6em 0.9em; font-size: 1.2em; line-height: 1.45;
+}
+.reveal .prompt-anatomy p { margin: 0.35em 0; }
+.reveal .pa-tag {
+  display: inline-block; min-width: 6.5em; margin-right: 0.5em;
+  padding: 0.05em 0.5em; border-radius: 0.3em; color: $white;
+  font-size: 0.8em; text-align: center;
+}
+.reveal .pa-tag strong { color: $white; }
+.reveal .pa-context     { background: $dark-blue; }
+.reveal .pa-task        { background: $teal; }
+.reveal .pa-constraints { background: $magenta; }
+.reveal .pa-output      { background: $dark-gray; }
+.reveal .pa-check       { background: $green; }
+.reveal .pa-check strong { color: $dark-blue; }
+
+/* iteration loop */
+.reveal .loop { text-align: center; margin: 0.3em 0 0.6em; font-size: 0.85em; color: $teal; white-space: nowrap; }
+.reveal .loop-step {
+  display: inline-block; background: $baby-blue; color: $dark-blue;
+  padding: 0.15em 0.6em; border-radius: 0.4em; font-weight: 800;
+}
+.reveal .loop-repeat { background: $teal; color: $white; }
+
+/* activity + takeaways */
+.reveal .activity-time {
+  display: table; background: $green; color: $dark-blue; font-weight: 800;
+  padding: 0.1em 0.7em; border-radius: 0.4em; margin-bottom: 0.4em;
+}
+.reveal .takeaway-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6em; margin-top: 0.4em;
+}
+.reveal .takeaway-grid .tk {
+  background: $off-white; border-top: 6px solid $teal; border-radius: 0.4em;
+  padding: 0.5em 0.7em; font-size: 1.25em; line-height: 1.35;
+}
+.reveal .takeaway-grid .tk p { margin: 0; }
+.reveal .tk-num {
+  display: block; font-family: $font-family-serif; color: $teal; font-size: 1.6em; line-height: 1;
+}
+
+.reveal .agenda-sub { font-size: 0.85em; color: $dark-gray; }
+.reveal .callout .callout-body { font-size: 1.15em; }
+.reveal .callout .callout-title { font-size: 1.1em; }
+
+/* activity */
+.reveal .round-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6em; margin: 0.6em 0 0.8em;
+}
+.reveal .round {
+  background: $off-white; border-radius: 0.4em; padding: 0.5em 0.6em;
+  font-size: 0.75em; line-height: 1.3;
+}
+.reveal .round p { margin: 0.15em 0; }
+.reveal .round-tag {
+  display: inline-block; background: $gray; color: $white; font-weight: 800;
+  font-size: 0.75em; padding: 0.05em 0.5em; border-radius: 0.3em; margin-bottom: 0.3em;
+}
+.reveal .round-tag.r2 { background: $teal; }
+.reveal .round-tag.r3 { background: $dark-blue; }
+.reveal .round-tag.r4 { background: $magenta; }
+.reveal .act-prompts blockquote { font-size: 1em; }
+.reveal .act-prompts p, .reveal .act-prompts .sourceCode { font-size: 0.85em; }
+.reveal .scorecard table { width: 100%; font-size: 0.75em; }
+.reveal .scorecard td, .reveal .scorecard th { height: 1.6em; }
+.reveal .scorecard td:not(:first-child), .reveal .scorecard th:not(:first-child) { width: 16%; border-left: 1px solid $baby-blue; }
+.reveal .scorecard .callout { font-size: 0.85em; }
+
+/* part 4: chat vs agent */
+.reveal .mode-card {
+  background: $off-white; border-top: 6px solid $gray; border-radius: 0.4em;
+  padding: 0.5em 0.8em; font-size: 1.1em;
+}
+.reveal .mode-card.agent { border-top-color: $teal; background: #eaf3f5; }
+.reveal .mode-card ol { margin: 0.3em 0 0.4em 1.1em; }
+.reveal .mode-card p { margin: 0.2em 0; }
+.reveal .skill-slide pre code { font-size: 1.15em; line-height: 1.3; }
+.reveal .skill-slide div.sourceCode { max-height: none; }
+.reveal .skill-slide pre { max-height: none; }
+.reveal .agenda .columns { font-size: 0.8em; }
+.reveal .agenda .columns p { margin: 0.35em 0; }
+.reveal .map table { font-size: 0.95em; }
+.reveal .map td, .reveal .map th { padding: 0.35em 0.5em; }
+.reveal .mode-card { font-size: 0.85em; }
+
+/* LLM vocabulary */
+.reveal .vocab-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5em; margin-top: 0.3em;
+}
+.reveal .vocab-grid .vc {
+  background: $off-white; border-left: 5px solid $teal; border-radius: 0.3em;
+  padding: 0.4em 0.6em; font-size: 1.05em; line-height: 1.3;
+}
+.reveal .vocab-grid .vc p { margin: 0.15em 0; }
+.reveal .vocab-grid .vc strong { font-size: 1.1em; }
+
+/* token demo */
+.reveal .token-demo { text-align: center; margin: 0.4em 0 0.1em; font-size: 1.5em; }
+.reveal .tok {
+  display: inline-block; white-space: pre; font-family: $font-family-monospace;
+  padding: 0.05em 0.1em; margin: 0 0.06em; border-radius: 0.2em;
+}
+.reveal .tok:nth-child(4n+1) { background: $baby-blue; }
+.reveal .tok:nth-child(4n+2) { background: #e4eed8; }
+.reveal .tok:nth-child(4n+3) { background: #f6dcd8; }
+.reveal .tok:nth-child(4n+4) { background: #d6ecef; }
+.reveal .token-caption { text-align: center; font-size: 0.7em; color: $gray; margin-bottom: 0.5em; }
+
+/* context window bar */
+.reveal .ctx-bar { margin: 0.4em 0 0.6em; }
+.reveal .ctx-bar p {
+  display: flex; width: 100%; border-radius: 0.4em; overflow: hidden; margin: 0;
+  font-size: 0.85em; font-weight: 800; color: $white;
+}
+.reveal .ctx-seg { padding: 0.45em 0.3em; text-align: center; }
+.reveal .ctx-seg.s1 { background: $gray; flex: 1.2; }
+.reveal .ctx-seg.s2 { background: $dark-blue; flex: 2.2; }
+.reveal .ctx-seg.s3 { background: $teal; flex: 2.6; }
+.reveal .ctx-seg.s4 { background: $magenta; flex: 1.2; }
+.reveal .ctx-seg.s5 { background: $green; color: $dark-blue; flex: 1.4; }
+
+.reveal .roomy .columns { font-size: 1.12em; }
+.reveal .roomy > p { font-size: 1.1em; }

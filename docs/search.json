@@ -1048,5 +1048,236 @@
     "title": "MEDS Career & Professional Develoment",
     "section": "",
     "text": "Additional resources\n\n\n The ultimate guide to starting a Quarto blog by Albert Rapp — deep dive into customization options\n\n Creating a blog with Quarto in 10 steps by Beatriz Milz — includes adding a comments section\n\n Quarto listing page documentation — full reference for listing page options\n\n Quarto article layout documentation — customize your post’s page layout"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#section",
+    "href": "materials/slides/prompting-fundamentals.html#section",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "AI for Environmental Data Science\n\n\nPrompting Fundamentals\n\n\n\n\n\nMEDS AI Workshop Series | #2 (2026-11-09)\n\n\nAnnie Adams, Kat Le\n\n\nhttps://ucsb-meds.github.io/AI-for-EDS/"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#todays-plan",
+    "href": "materials/slides/prompting-fundamentals.html#todays-plan",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Today’s plan",
+    "text": "Today’s plan\n\n\nPart 1 · How the model reads your prompt\nTokens, context windows and other LLM vocabulary\nPart 2 · Prompting fundamentals\nContext, specificity, iteration, verification\nPart 3 · Same data, three roles\nThe 2020 NYC Park Squirrel Census under three roles\nActivity · Prompt makeover\nFour rounds: weak prompt → strong prompt → verified code\nPart 4 · From prompts to agents\nAgentic coding and SKILL.md in Claude Code\n\n\n\n\n\n\n\nBy the end you can…\n\n\n\nWrite a prompt with context, constraints and an output format\nGet the model to state its assumptions\nCheck AI-written code against the data before you trust it"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#section-1",
+    "href": "materials/slides/prompting-fundamentals.html#section-1",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part 1\n\n\nHow the model reads your prompt\n\n\n\n\n\nLLM vocabulary, and what an AI assistant can and can’t see"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#llm-vocabulary",
+    "href": "materials/slides/prompting-fundamentals.html#llm-vocabulary",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "LLM vocabulary",
+    "text": "LLM vocabulary\n\n\nLLM\nLarge language model: predicts the next piece of text from patterns in its training data\n\n\nPrompt\nEverything you send the model: your question, pasted data, instructions\n\n\nToken\nThe unit a model reads and writes; a word or part of a word\n\n\nContext window\nThe maximum number of tokens the model can work with at once\n\n\nSystem prompt\nHidden instructions the tool gives the model before your prompt\n\n\nHallucination\nConfident output that is false: a made-up function, column or citation\n\n\nNon-determinism\nThe same prompt can give different answers each time you run it\n\n\nAgent\nA model that can use tools (read files, run code) in a loop toward a goal\n\n\n\nNon-determinism matters for the activity: pairs will get different outputs from the same prompt. That’s expected, and it’s another reason to verify."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#tokens-how-the-model-reads-text",
+    "href": "materials/slides/prompting-fundamentals.html#tokens-how-the-model-reads-text",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Tokens: how the model reads text",
+    "text": "Tokens: how the model reads text\nModels don’t read words or characters. They read tokens.\n\nThesquirrelranuptheoaktree.\n\n\nIllustrative split. The exact tokens depend on each model’s tokenizer.\n\n\n\nRules of thumb (English text)\n\nOne token is roughly ¾ of a word\nCommon words are one token; rare words, numbers and code split into several\nTools limit and bill usage in tokens\n\n\nWhy it matters for data work\n\nA pasted CSV costs tokens for every value\nglimpse() + 5 rows: a few hundred tokens\nA full dataset can fill most of the window, leaving less room for your instructions"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#the-context-window",
+    "href": "materials/slides/prompting-fundamentals.html#the-context-window",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "The context window",
+    "text": "The context window\nThe model’s working memory for one request, measured in tokens. Everything below shares it:\n\nSystem promptAttached filesChat historyYour promptResponse\n\n\n\nWhat happens as it fills\n\nThe response has to fit too\nOlder messages may be summarized or dropped\nDetails buried in a long chat get less attention\n\n\nWhat to do\n\nSend structure, not raw data\nOne task per chat; start fresh when it drifts\nRestate key constraints in the new chat\n\n\n\n\n\n\n\n\nNote\n\n\nWindow sizes vary widely by model and tool, and change often. Check the docs for the one you use."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#whats-in-the-context-window",
+    "href": "materials/slides/prompting-fundamentals.html#whats-in-the-context-window",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "What’s in the context window?",
+    "text": "What’s in the context window?\nThe model answers using only what’s in its context window for this request.\n\n\nUsually in context\n\nYour prompt and the chat so far\nFiles or selections your IDE assistant attaches (open editor, @-mentioned files)\nOutput you paste in (errors, glimpse())\n\n\nUsually not in context\n\nThe actual values in your data frame\nYour project’s goals, field conventions, data-collection quirks\nWhat you decided in a different chat\n\n\n\n\n\n\n\n\n\nTip\n\n\nLong chats drift. When the model starts forgetting constraints, start a fresh chat with a short summary of what matters.\n\n\n\n\nShow where your IDE (Positron Assistant, Copilot) shows which files are attached. What gets sent varies by tool and settings, so check yours."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#what-the-model-knows-and-doesnt",
+    "href": "materials/slides/prompting-fundamentals.html#what-the-model-knows-and-doesnt",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "What the model knows (and doesn’t)",
+    "text": "What the model knows (and doesn’t)\n\n\nIt only knows what’s in context\n\nIt hasn’t seen your data unless you show it\nPaste glimpse() output, column names, a few sample rows\nSay what the data is: source, units, one row = ?\n\n\nIt predicts plausible text, not truth\n\nCode that runs ≠ code that’s correct\nIt fills gaps with assumptions, silently\nIt tends to agree with your framing, even when it’s wrong\n\n\n\n\n\n\n\n\n\nFour Tips\n\n\n\nGive context: data, goal, audience\nBe specific: tools, constraints, output format\nIterate in small steps: one task per prompt, then review\nVerify: run it, check the data, ask for its assumptions\n\n\n\n\n\nCore idea: the model’s output is only as good as the context it gets. Everything that follows is a way of supplying better context or checking the output."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#the-model-tends-to-agree-with-you",
+    "href": "materials/slides/prompting-fundamentals.html#the-model-tends-to-agree-with-you",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "The model tends to agree with you",
+    "text": "The model tends to agree with you\nModels are trained to be helpful, which can tip into sycophancy: following your framing even when it’s wrong (Sharma et al., 2023).\n\n\nLeading prompt\n\n“Why is fur color such a strong predictor of how squirrels react to people?”\n\nAssumes the effect exists. You’ll likely get an explanation, not a check.\n\nNeutral prompt\n\n“Is there evidence in this data that fur color is related to how squirrels react to people? What would make that comparison unreliable?”\n\nAsks for evidence and limitations.\n\n\n\n\n\n\n\n\nImportant\n\n\nAsk questions that the data could answer “no” to.\n\n\n\n\n\n\n\n\n\nSocratic Prompting\n\n\nThe neutral prompt above is an example of Socratic prompting. Instead of telling the model what to find, ask it what the evidence would need to look like."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#section-2",
+    "href": "materials/slides/prompting-fundamentals.html#section-2",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part 2\n\n\nPrompting fundamentals\n\n\n\n\n\nContext · specificity · iteration · verification"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#anatomy-of-a-good-prompt",
+    "href": "materials/slides/prompting-fundamentals.html#anatomy-of-a-good-prompt",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Anatomy of a good prompt",
+    "text": "Anatomy of a good prompt\n\nContext I’m working with the 2020 NYC Park Squirrel Census in R. One row = one squirrel sighting. Columns include fur color, location, height and free-text activities.\nTask Write a cleaning script for the activities column.\nConstraints Use tidyverse. Don’t drop or overwrite any original values; put derived columns next to the originals.\nOutput One R chunk, then a list of every value you couldn’t parse.\nCheck Before writing code, list your assumptions and ask me about anything ambiguous.\n\n\n\n\n\n\n\nNote\n\n\nContext doesn’t have to live in every prompt. Recall from our last workshop that a system prompt or project pre prompt can carry context so you don’t have to repeat it each time.\n\n\n\n\nFive parts. Not every prompt needs all five, but the first one (context) and the last one (check) are the ones people skip."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#prompting-fundamentals",
+    "href": "materials/slides/prompting-fundamentals.html#prompting-fundamentals",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Prompting fundamentals",
+    "text": "Prompting fundamentals\n\n\n\n\n\n\n\n\nFundamental\nWeak prompt\nStronger prompt\n\n\n\n\nContext\n“Clean this data”\n“This is the 2020 NYC Park Squirrel Census, one row per squirrel sighting”\n\n\nRole / audience\n(none)\n“I’m a data manager preparing this for a public archive”\n\n\nTask + constraints\n“Make a plot”\n“Use ggplot2, colorblind-safe palette, one plot per park”\n\n\nOutput format\nNot specifying\n“Return a single R chunk plus 3 bullet caveats”\n\n\nSurface assumptions\n(none)\n“Before writing code, list your assumptions about each column”\n\n\nInvite pushback\n(none)\n“If my approach is flawed, say so before writing code”\n\n\n\n\n\n\n\n\n\n\nThe last two rows matter most\n\n\nModels fill gaps silently. Asking for assumptions and pushback is how you catch data loss before it happens."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#show-the-model-your-data-safely",
+    "href": "materials/slides/prompting-fundamentals.html#show-the-model-your-data-safely",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Show the model your data (safely)",
+    "text": "Show the model your data (safely)\nThe model can’t see your data frame. Give it the structure, not the whole dataset.\n\ndplyr::glimpse(squirrels)          # column names, types, first values\nhead(squirrels, 5) |&gt; knitr::kable() # a few example rows\ndput(head(squirrels, 5))           # reproducible snippet it can run\n\n\n\nDo\n\nPaste schema + a few rows\nDescribe units and how the data was collected\nMention known messiness\n\n\nDon’t\n\nPaste sensitive or restricted data into tools your institution hasn’t approved\nAssume the model knows your column meanings"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#iterate-in-small-steps",
+    "href": "materials/slides/prompting-fundamentals.html#iterate-in-small-steps",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Iterate in small steps",
+    "text": "Iterate in small steps\n\n1 · Plan → 2 · Code one step → 3 · Run → 4 · Review → repeat\n\n\n\nInstead of…\n\n“Clean the data, fit a model and make five plots.”\n\n\nTry…\n\n“First, propose a plan in 4–6 steps. Don’t write code yet.”\n\n\n\n\n\n\n\n\n\nTip\n\n\nEach step should be small enough that you can check it."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#verify-before-you-trust",
+    "href": "materials/slides/prompting-fundamentals.html#verify-before-you-trust",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Verify before you trust",
+    "text": "Verify before you trust\nAI-written cleaning code can run perfectly and still lose data. Check it.\n\nn_before &lt;- nrow(squirrels)\nclean    &lt;- clean_squirrels(squirrels)   # AI-written function\n\nstopifnot(nrow(clean) == n_before)       # no rows silently dropped\n\n# how many new NAs did cleaning create in a column?\nna_added &lt;- function(before, after, col) {\n  sum(is.na(after[[col]])) - sum(is.na(before[[col]]))\n}\n\nPrompts that help\n\n“Which values does this code turn into NA?”\n“Write tests that would fail if this code dropped data.”\n“Explain this function line by line.”"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#does-being-mean-help",
+    "href": "materials/slides/prompting-fundamentals.html#does-being-mean-help",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Does being mean help?",
+    "text": "Does being mean help?\n\n\nDobariya & Kumar (2025), Mind Your Tone\n\n50 multiple-choice questions (math, science, history)\nEach rewritten in 5 tones → 250 prompts\nModel: ChatGPT-4o\n\n\n\n\nTone\nAccuracy\n\n\n\n\nVery polite\n~80.8%\n\n\nVery rude\n~84.8%\n\n\n\nRude prompts scored ~4 points higher.\n\nBefore you start insulting Copilot…\n\nOne model, one version, 50 questions\nMultiple choice ≠ writing your analysis code\nEarlier work (Yin et al., 2024) found impolite prompts often hurt performance on older models\nOpen question: is it rudeness, or that rude prompts are shorter and more direct?\n\n\n\n\n\n\n\n\n\nNote\n\n\nTakeaway: Tone is a variable. Directness beats deference. Hostility isn’t the skill — clarity is.\n\n\n\n\nGood discussion prompt: how would you design a study to separate “rude” from “concise”? This is a reproducibility lesson too: a single-model, single-run result is a hypothesis, not a rule."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#section-3",
+    "href": "materials/slides/prompting-fundamentals.html#section-3",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part 3\n\n\nSame data, three roles\n\n\n\n\n\nThe 2020 NYC Park Squirrel Census"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#meet-the-data-nyc-park-squirrels",
+    "href": "materials/slides/prompting-fundamentals.html#meet-the-data-nyc-park-squirrels",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Meet the data: NYC park squirrels",
+    "text": "Meet the data: NYC park squirrels\n\n\n72 volunteer “Squirrel Sighters”\n\n\n433 squirrel sightings\n\n\n24 parks in Manhattan and Brooklyn\n\n\n\n2020 Park Squirrel Census: counted on a single afternoon in early March 2020\nTwo linked tables: one row per squirrel sighting, one row per park (conditions, litter, other animals)\nRecords fur color, location, height above ground, activities and reactions to humans\nReal-world messy: free-text notes, inconsistent heights, values like “‘Cool’ - Hank”\n\n\nSource: The Squirrel Census / NYC Open Data, 2020 Park Squirrel Census"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#same-data-three-roles",
+    "href": "materials/slides/prompting-fundamentals.html#same-data-three-roles",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Same data, three roles",
+    "text": "Same data, three roles\n2020 Park Squirrel Census (433 sightings, 24 parks) · “I am [role]. Clean this dataset for me.”\nDifferent roles yielded different methods to to clean the data.\nThe four methods used were:\n\n\n\nPreserved: script left the data intact without removing anything\nTransformed: values were simplified or normalized, but original meaning kept\n\n\n\nInterpreted: data changed shape (e.g. one column split into many), steering it toward a specific analysis\nDiscarded: values present in the raw data were silently dropped"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#what-each-role-did-to-the-data",
+    "href": "materials/slides/prompting-fundamentals.html#what-each-role-did-to-the-data",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "What each role did to the data",
+    "text": "What each role did to the data\n\n  \n    preserved\n    transformed\n    interpreted\n    discarded\n  \n\n  Height: corrupted ranges(e.g. '6–18')\n  Coerced to NA (data lost)\n  Fixed encoding → kept as '6-18'\n  Extracted lower bound → numeric 6\n\n  Activities column(e.g. 'Foraging, Running')\n  Kept as-is\n  Kept as-is\n  Split into 7 TRUE/FALSE cols, dropped original\n\n  Park conditions(e.g. 'Calm, pick-up game')\n  Extracted core category + saved note separately\n  Extracted first word only\n  Hard-coded 3 categories; anything else → NA\n\n  Unusual value(\"'Cool' - Hank\")\n  Preserved as 'Cool'\n  Silently dropped → NA\n  Silently dropped → NA\n\n  Extra detail in text(e.g. 'Some, in trees')\n  Kept in separate _notes column\n  Discarded\n  Discarded\n\n  \n  DM\n  DS\n  ENV\n\n\nAdapted from A. Dillman, Yes, And… AI in Your IDE, posit::conf(2026)\n\n\nAdvance three times: data manager, then data science student, then environmental researcher. Same prompt, same data. The role decided what survived."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#what-the-squirrels-taught-us",
+    "href": "materials/slides/prompting-fundamentals.html#what-the-squirrels-taught-us",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "What the squirrels taught us",
+    "text": "What the squirrels taught us\n\n\nWhat happened\n\nSame prompt, same data → three different datasets\nEach role’s choices were reasonable for that role\nThe worst losses were silent: values became NA with no warning\n\n\nHow to prevent it\n\nState your goal and what must be preserved\nAsk for a list of every value that was changed or dropped\nCompare row counts and NA counts before and after\nKeep original columns; add derived ones beside them"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#activity-prompt-makeover",
+    "href": "materials/slides/prompting-fundamentals.html#activity-prompt-makeover",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Activity: Prompt makeover",
+    "text": "Activity: Prompt makeover\nGoal: turn a weak prompt into a strong one, and measure the difference.\nTask: create a numeric height column from the squirrel census’s messy height values (ranges like ‘6–18’, free text, blanks).\n\n\nRound 1 · 3 min\nWeak prompt\nBaseline: see what you get\n\n\nRound 2 · 5 min\nAdd context + constraints\nObjective 1: write a complete prompt\n\n\nRound 3 · 5 min\nAssumptions first\nObjective 2: make the model show its assumptions\n\n\nRound 4 · 5 min\nVerify\nObjective 3: check the code against the data\n\n\nPairs · ~20 minutes · start a fresh chat for each round · use claude.ai in your browser or the Claude desktop app\n\nPairs: one person types, one keeps score. Fresh chat each round so earlier rounds don’t leak context. Download activity-starter.R before starting."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#the-prompts",
+    "href": "materials/slides/prompting-fundamentals.html#the-prompts",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "The prompts",
+    "text": "The prompts\n\nSetupRound 1Round 2Round 3Round 4\n\n\nDo this before Round 1:\n\nDownload the2020 Park Squirrel Census: Squirrel Data from thesquirrelcensus.com/data\nDownload activity-starter.R from the workshop page at ucsb-meds.github.io/AI-for-EDS\nOpen activity-starter.R in RStudio or Positron — it loads the data and defines check_cleaning()\nUpdate the file path at the top to point to your downloaded CSV, then run the setup chunk\nOpen claude.ai in your browser (or the Claude desktop app).\n\nYou’re ready when glimpse(squirrels) runs without error.\n\n\nSteps:\n\nIn R, run dplyr::glimpse(squirrels) and copy the output\nStart a fresh chat in Claude\nPaste the following prompt into Claude: &gt; Here is my data: [paste glimpse() output.] Clean the above_ground_height_in_feet column.\nPaste Claude’s code into the clean_r1 variable assignment section of activity-starter.R and run it\nFill in your Round 1 scorecard row based on the output\n\n\n\nSteps:\n\nStart a fresh chat\nRun dplyr::glimpse(squirrels) and copy the output\nPaste the following prompt into Claude:\n\n\nI’m analyzing the 2020 NYC Park Squirrel Census in R with the tidyverse. One row = one squirrel sighting. Here is the glimpse() output: [paste]\nThe above_ground_height_in_feet column records how far above ground each squirrel was observed, but values are messy — some are ranges (e.g. ‘6–18’), some are text, some are blank.\nWrite code that adds a new numeric column. Keep the original column unchanged. Return one R chunk.\n\n\nPaste Claude’s code into the clean_r2 variable assignment section of activity-starter.R and run it\nFill in your Round 2 scorecard row\n\n\n\nSteps:\n\nStart a fresh chat\nSend the Round 2 prompt plus the addition below\n\n\nPrompt: Round 2 prompt +:\n\n\nBefore writing any code, list every distinct kind of value in the above_ground_height_in_feet column, how you plan to convert each one, and anything you’re unsure about. Wait for my answer.\n\n\nRead the model’s list of assumptions and answer any questions it asks before it writes code (e.g. “For ranges like ‘6–18’, should I take the lower bound, upper bound, or midpoint?”)\nOnce you’ve answered, tell Claude: “Now write the code.”\nPaste Claude’s code into the clean_r3 variable assignment section of activity-starter.R and run it\nFill in your Round 3 scorecard row\n\n\n\nSteps:\n\nIn activity-starter.R, run the check on your Round 1 and Round 3 outputs, using the cleaned data frame:\n\n\ncheck_cleaning(squirrels, clean_r1, height_col)\ncheck_cleaning(squirrels, clean_r3, height_col)\n\n\nCompare the two outputs. Which round created more NAs?\nBack in Claude, ask: “Which values in above_ground_height_in_feet does your code turn into NA? List them.”\nDoes its answer match what check_cleaning() showed?\nFill in the Round 4 column on your scorecard"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#verify-the-check-function",
+    "href": "materials/slides/prompting-fundamentals.html#verify-the-check-function",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Verify: the check function",
+    "text": "Verify: the check function\nIn activity-starter.R, and worth keeping for any AI-written cleaning code:\n\ncheck_cleaning &lt;- function(before, after, col) {\n  if (!col %in% names(after)) stop(\"Column '\", col, \"' was renamed or dropped\")\n  tibble::tibble(\n    rows_before   = nrow(before),\n    rows_after    = nrow(after),\n    na_before     = sum(is.na(before[[col]])),\n    na_after      = sum(is.na(after[[col]])),\n    values_before = dplyr::n_distinct(before[[col]]),\n    values_after  = dplyr::n_distinct(after[[col]])\n  )\n}\n\n\n\n\n\n\n\nTip\n\n\nIf na_after &gt; na_before, the code turned real observations into missing data. Did the model warn you?"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#scorecard-debrief",
+    "href": "materials/slides/prompting-fundamentals.html#scorecard-debrief",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Scorecard + debrief",
+    "text": "Scorecard + debrief\n\n\n\n\nRound 1\nRound 2\nRound 3\n\n\n\n\nRows kept?\n\n\n\n\n\nOriginal column kept?\n\n\n\n\n\nNew NAs created\n\n\n\n\n\nModel told you what it changed?\n\n\n\n\n\nCode you’d actually use?\n\n\n\n\n\n\n\n\n\n\n\n\n\nDebrief (5 min)\n\n\n\nWhich round lost the least data, and which fundamental made the difference?\nIn Round 4, did the model’s own answer match the check?\nWhat will you add to your prompts from now on?"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#section-4",
+    "href": "materials/slides/prompting-fundamentals.html#section-4",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "",
+    "text": "Part 4\n\n\nFrom prompts to agents\n\n\n\n\n\nWrite it down once: agentic coding and skills"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#you-just-did-the-same-work-four-times",
+    "href": "materials/slides/prompting-fundamentals.html#you-just-did-the-same-work-four-times",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "You just did the same work four times",
+    "text": "You just did the same work four times\nIn the activity, every round you:\n\n\n\npasted the same glimpse() output\nretyped “keep the original column”\ncopied code from chat into R\nran the check yourself\n\n\n\n\n\n\n\n\nTwo questions\n\n\n\nWhat if the assistant could run the code and the check itself?\nWhat if you wrote your context and rules once, and it reused them every time?\n\n\n\n\n\n\nThat’s agentic coding (1) and skills (2)."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#chat-assistant-vs.-coding-agent",
+    "href": "materials/slides/prompting-fundamentals.html#chat-assistant-vs.-coding-agent",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Chat assistant vs. coding agent",
+    "text": "Chat assistant vs. coding agent\n\n\n\nChat assistant\n\nYou write a prompt\nIt suggests code\nYou copy, run and check it\nYou paste back errors\n\nYou run the loop.\n\n\n\nCoding agent (e.g. Claude Code)\n\nYou describe the goal\nIt reads your files and data\nIt writes code, runs it, sees errors, fixes them\nYou review and approve changes\n\nIt runs the loop. You stay the reviewer.\n\n\n\n\n\n\n\n\n\nTip\n\n\nAn agent can act on your files, so the fundamentals matter more, not less."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#same-fundamentals-new-home",
+    "href": "materials/slides/prompting-fundamentals.html#same-fundamentals-new-home",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Same fundamentals, new home",
+    "text": "Same fundamentals, new home\n\n\n\n\n\n\n\n\nFundamental\nIn a chat\nIn Claude Code\n\n\n\n\nContext\nPaste glimpse() every time\nIt reads your repo; project notes live in CLAUDE.md\n\n\nBe specific\nRetype constraints\nWrite rules once in a skill\n\n\nSmall steps\n“Do step 1 only”\nAsk for a plan first, approve it, then let it work\n\n\nSurface assumptions\n“List your assumptions”\nBuilt into the skill: before writing code…\n\n\nVerify\nYou run the check\nIt runs the check script; you review the diff"
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#what-is-a-skill",
+    "href": "materials/slides/prompting-fundamentals.html#what-is-a-skill",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "What is a skill?",
+    "text": "What is a skill?\n\n\nA skill is a folder with a SKILL.md file: written instructions Claude follows for a specific kind of task.\n\nFrontmatter: a name and a description of when to use it\nBody: the steps and rules, in plain Markdown\nClaude sees every skill’s description, and loads the full instructions only when a task matches\nOr run one yourself: /safe-data-cleaning\nCan bundle scripts, like our check function\n\n\nmy-project/\n└── .claude/\n    └── skills/\n        └── safe-data-cleaning/\n            ├── SKILL.md\n            └── scripts/\n                └── check_cleaning.R\nProject skills live in .claude/skills/ and are shared through git. Personal ones go in ~/.claude/skills/."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#todays-prompts-as-a-skill",
+    "href": "materials/slides/prompting-fundamentals.html#todays-prompts-as-a-skill",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Today’s prompts, as a skill",
+    "text": "Today’s prompts, as a skill\n---\nname: safe-data-cleaning\ndescription: &gt;\n  Clean or recode a column in an environmental dataset\n  without losing data. Use when asked to clean, tidy,\n  recode or parse a column.\n---\n\n## Before writing code\n1. Run `glimpse()` and `count()` on the target column.\n2. List each kind of value and how you'll convert it.\n3. Ask about anything ambiguous; wait for my answers.\n\n## Rules\n- Never overwrite or drop original columns; add new ones.\n- Never drop rows. Use the tidyverse.\n\n## After writing code\n- Run `scripts/check_cleaning.R`; report rows and NAs.\n- List every original value that became NA.\n\nRounds 2–4 of the activity, written down once. It’s in this repo at .claude/skills/safe-data-cleaning/."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#key-takeaways",
+    "href": "materials/slides/prompting-fundamentals.html#key-takeaways",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\n\n1 Context is everything. The model only knows what you show it.\n\n\n2 Be specific. Tools, constraints, output format.\n\n\n3 Go step by step. Plan first, then one task at a time.\n\n\n4 Ask neutral questions. Let the data say “no.”\n\n\n5 Surface assumptions. Ask what it changed or dropped.\n\n\n6 Verify. Row counts, NA counts, tests. You’re the scientist."
+  },
+  {
+    "objectID": "materials/slides/prompting-fundamentals.html#references",
+    "href": "materials/slides/prompting-fundamentals.html#references",
+    "title": "MEDS Career & Professional Develoment",
+    "section": "References",
+    "text": "References\n\nDobariya, O., & Kumar, A. (2025). Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy. arXiv:2510.04950. https://arxiv.org/abs/2510.04950\nYin, Z., et al. (2024). Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance. arXiv:2402.14531. https://arxiv.org/abs/2402.14531\nThe Squirrel Census & NYC Open Data. 2020 Park Squirrel Census (Squirrel Data and Park Data). https://data.cityofnewyork.us\nWNYC (2022). The NYC Squirrel Census is back with new results. https://wnyc.org/story/nyc-squirrel-census-back-new-results-and-toll-free-number/\nSharma, M., et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548. https://arxiv.org/abs/2310.13548\nAnthropic. Extend Claude with skills. Claude Code documentation. https://code.claude.com/docs/en/skills\nDillman, A. Being an Informed and Savvy AI User session, posit::conf(2026). https://posit.co/blog/posit-conf-2026-agenda-breakdown"
   }
 ]

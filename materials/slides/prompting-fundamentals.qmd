@@ -1,0 +1,958 @@
+---
+pagetitle: "AI for Environmental Data Science: Prompting Fundamentals"
+author: "Annie Adams, Kat Le"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    incremental: false
+    code-overflow: wrap
+    footer: "AI for EDS · Prompting Fundamentals"
+execute:
+  echo: true
+  eval: false
+---
+
+## {.meds-title background-color="#003660"}
+
+::: {.mt-title}
+AI for Environmental Data Science
+:::
+
+::: {.mt-subtitle}
+Prompting Fundamentals
+:::
+
+::: {.mt-rule}
+:::
+
+::: {.mt-series}
+MEDS AI Workshop Series | #2 (2026-11-09)
+:::
+
+::: {.mt-authors}
+Annie Adams, Kat Le
+:::
+
+::: {.mt-link}
+<https://ucsb-meds.github.io/AI-for-EDS/>
+:::
+
+
+## Today's plan {.agenda}
+
+::: {.columns}
+::: {.column width="55%"}
+**Part 1 · How the model reads your prompt**\
+[Tokens, context windows and other LLM vocabulary]{.agenda-sub}
+
+**Part 2 · Prompting fundamentals**\
+[Context, specificity, iteration, verification]{.agenda-sub}
+
+**Part 3 · Same data, three roles**\
+[The 2020 NYC Park Squirrel Census under three roles]{.agenda-sub}
+
+**Activity · Prompt makeover**\
+[Four rounds: weak prompt → strong prompt → verified code]{.agenda-sub}
+
+**Part 4 · From prompts to agents**\
+[Agentic coding and `SKILL.md` in Claude Code]{.agenda-sub}
+:::
+
+::: {.column width="45%"}
+::: {.callout-note}
+## By the end you can…
+- Write a prompt with context, constraints and an output format
+- Get the model to state its assumptions
+- Check AI-written code against the data before you trust it
+:::
+:::
+:::
+
+## {.meds-section background-color="#003660"}
+
+::: {.ms-num}
+Part 1
+:::
+
+::: {.ms-title}
+How the model reads your prompt
+:::
+
+::: {.mt-rule}
+:::
+
+::: {.ms-sub}
+LLM vocabulary, and what an AI assistant can and can't see
+:::
+
+## LLM vocabulary {.smaller}
+
+::: {.vocab-grid}
+::: {.vc}
+**LLM**
+
+Large language model: predicts the next piece of text from patterns in its training data
+:::
+::: {.vc}
+**Prompt**
+
+Everything you send the model: your question, pasted data, instructions
+:::
+::: {.vc}
+**Token**
+
+The unit a model reads and writes; a word or part of a word
+:::
+::: {.vc}
+**Context window**
+
+The maximum number of tokens the model can work with at once
+:::
+::: {.vc}
+**System prompt**
+
+Hidden instructions the tool gives the model before your prompt
+:::
+::: {.vc}
+**Hallucination**
+
+Confident output that is false: a made-up function, column or citation
+:::
+::: {.vc}
+**Non-determinism**
+
+The same prompt can give different answers each time you run it
+:::
+::: {.vc}
+**Agent**
+
+A model that can use tools (read files, run code) in a loop toward a goal
+:::
+:::
+
+::: {.notes}
+Non-determinism matters for the activity: pairs will get different outputs from the same prompt. That's expected, and it's another reason to verify.
+:::
+
+## Tokens: how the model reads text {.smaller .roomy}
+
+Models don't read words or characters. They read **tokens**.
+
+::: {.token-demo}
+[The]{.tok}[ squ]{.tok}[irrel]{.tok}[ ran]{.tok}[ up]{.tok}[ the]{.tok}[ oak]{.tok}[ tree]{.tok}[.]{.tok}
+:::
+
+::: {.token-caption}
+Illustrative split. The exact tokens depend on each model's tokenizer.
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+**Rules of thumb (English text)**
+
+- One token is roughly ¾ of a word
+- Common words are one token; rare words, numbers and code split into several
+- Tools limit and bill usage in tokens
+:::
+
+::: {.column width="50%"}
+**Why it matters for data work**
+
+- A pasted CSV costs tokens for **every** value
+- `glimpse()` + 5 rows: a few hundred tokens
+- A full dataset can fill most of the window, leaving less room for your instructions
+:::
+:::
+
+## The context window {.smaller .roomy}
+
+The model's **working memory** for one request, measured in tokens. Everything below shares it:
+
+::: {.ctx-bar}
+[System prompt]{.ctx-seg .s1}[Attached files]{.ctx-seg .s2}[Chat history]{.ctx-seg .s3}[Your prompt]{.ctx-seg .s4}[Response]{.ctx-seg .s5}
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+**What happens as it fills**
+
+- The response has to fit too
+- Older messages may be summarized or dropped
+- Details buried in a long chat get less attention
+:::
+
+::: {.column width="50%"}
+**What to do**
+
+- Send structure, not raw data
+- One task per chat; start fresh when it drifts
+- Restate key constraints in the new chat
+:::
+:::
+
+::: {.callout-note}
+Window sizes vary widely by model and tool, and change often. Check the docs for the one you use.
+:::
+
+## What's in the context window? {.smaller}
+
+The model answers using **only** what's in its context window for this request.
+
+::: {.columns}
+::: {.column width="50%"}
+**Usually in context**
+
+- Your prompt and the chat so far
+- Files or selections your IDE assistant attaches (open editor, `@`-mentioned files)
+- Output you paste in (errors, `glimpse()`)
+:::
+
+::: {.column width="50%"}
+**Usually *not* in context**
+
+- The actual values in your data frame
+- Your project's goals, field conventions, data-collection quirks
+- What you decided in a different chat
+:::
+:::
+
+. . .
+
+::: {.callout-tip}
+Long chats drift. When the model starts forgetting constraints, **start a fresh chat** with a short summary of what matters.
+:::
+
+::: {.notes}
+Show where your IDE (Positron Assistant, Copilot) shows which files are attached. What gets sent varies by tool and settings, so check yours.
+:::
+
+## What the model knows (and doesn't) {.smaller .habits}
+
+::: {.columns}
+::: {.column width="50%"}
+**It only knows what's in context**
+
+- It hasn't seen your data unless you show it
+- Paste `glimpse()` output, column names, a few sample rows
+- Say what the data *is*: source, units, one row = ?
+:::
+
+::: {.column width="50%"}
+**It predicts plausible text, not truth**
+
+- Code that runs ≠ code that's correct
+- It fills gaps with assumptions, silently
+- It tends to agree with your framing, even when it's wrong
+:::
+:::
+
+. . .
+
+::: {.callout-important}
+## Four Tips
+1. **Give context**: data, goal, audience
+2. **Be specific**: tools, constraints, output format
+3. **Iterate in small steps**: one task per prompt, then review
+4. **Verify**: run it, check the data, ask for its assumptions
+:::
+
+::: {.notes}
+Core idea: the model's output is only as good as the context it gets. Everything that follows is a way of supplying better context or checking the output.
+:::
+
+## The model tends to agree with you {.smaller}
+
+Models are trained to be helpful, which can tip into **sycophancy**: following your framing even when it's wrong (Sharma et al., 2023).
+
+::: {.columns}
+::: {.column width="50%"}
+**Leading prompt**
+
+> "Why is fur color such a strong predictor of how squirrels react to people?"
+
+Assumes the effect exists. You'll likely get an explanation, not a check.
+:::
+
+::: {.column width="50%"}
+**Neutral prompt**
+
+> "Is there evidence in this data that fur color is related to how squirrels react to people? What would make that comparison unreliable?"
+
+Asks for evidence *and* limitations.
+:::
+:::
+
+. . .
+
+::: {.callout-important}
+Ask questions that the data could answer **"no"** to.
+:::
+
+::: {.callout-tip}
+## Socratic Prompting
+The neutral prompt above is an example of **Socratic prompting**. Instead of telling the model what to find, ask it what the evidence would need to look like.
+:::
+
+## {.meds-section background-color="#003660"}
+
+::: {.ms-num}
+Part 2
+:::
+
+::: {.ms-title}
+Prompting fundamentals
+:::
+
+::: {.mt-rule}
+:::
+
+::: {.ms-sub}
+Context · specificity · iteration · verification
+:::
+
+## Anatomy of a good prompt {.smaller}
+
+::: {.prompt-anatomy}
+[**Context**]{.pa-tag .pa-context} I'm working with the 2020 NYC Park Squirrel Census in R. One row = one squirrel sighting. Columns include fur color, location, height and free-text activities.
+
+[**Task**]{.pa-tag .pa-task} Write a cleaning script for the activities column.
+
+[**Constraints**]{.pa-tag .pa-constraints} Use tidyverse. Don't drop or overwrite any original values; put derived columns next to the originals.
+
+[**Output**]{.pa-tag .pa-output} One R chunk, then a list of every value you couldn't parse.
+
+[**Check**]{.pa-tag .pa-check} Before writing code, list your assumptions and ask me about anything ambiguous.
+:::
+
+::: {.callout-note}
+Context doesn't have to live in every prompt. Recall from our last workshop that a **system prompt** or **project pre prompt** can carry context so you don't have to repeat it each time. 
+:::
+
+::: {.notes}
+Five parts. Not every prompt needs all five, but the first one (context) and the last one (check) are the ones people skip.
+:::
+
+## Prompting fundamentals {.smaller .fund}
+
+| Fundamental | Weak prompt | Stronger prompt |
+|---|---|---|
+| **Context** | "Clean this data" | "This is the 2020 NYC Park Squirrel Census, one row per squirrel sighting" |
+| **Role / audience** | *(none)* | "I'm a data manager preparing this for a public archive" |
+| **Task + constraints** | "Make a plot" | "Use ggplot2, colorblind-safe palette, one plot per park" |
+| **Output format** | *Not specifying* | "Return a single R chunk plus 3 bullet caveats" |
+| **Surface assumptions** | *(none)* | "Before writing code, list your assumptions about each column" |
+| **Invite pushback** | *(none)* | "If my approach is flawed, say so before writing code" |
+
+. . .
+
+::: {.callout-tip}
+## The last two rows matter most
+Models fill gaps silently. Asking for assumptions and pushback is how you catch data loss **before** it happens.
+:::
+
+## Show the model your data (safely)
+
+The model can't see your data frame. Give it the **structure**, not the whole dataset.
+
+```{r}
+dplyr::glimpse(squirrels)          # column names, types, first values
+head(squirrels, 5) |> knitr::kable() # a few example rows
+dput(head(squirrels, 5))           # reproducible snippet it can run
+```
+
+::: {.columns}
+::: {.column width="50%"}
+**Do**
+
+- Paste schema + a few rows
+- Describe units and how the data was collected
+- Mention known messiness
+:::
+
+::: {.column width="50%"}
+**Don't**
+
+- Paste sensitive or restricted data into tools your institution hasn't approved
+- Assume the model knows your column meanings
+:::
+:::
+
+## Iterate in small steps
+
+::: {.loop}
+[1 · Plan]{.loop-step} → [2 · Code one step]{.loop-step} → [3 · Run]{.loop-step} → [4 · Review]{.loop-step} → [repeat]{.loop-step .loop-repeat}
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+**Instead of…**
+
+> "Clean the data, fit a model and make five plots."
+
+:::
+
+::: {.column width="50%"}
+**Try…**
+
+> "First, propose a plan in 4–6 steps. Don't write code yet."
+
+:::
+:::
+
+. . .
+
+::: {.callout-tip}
+Each step should be small enough that **you** can check it.
+:::
+
+## Verify before you trust {.smaller}
+
+AI-written cleaning code can **run perfectly and still lose data**. Check it.
+
+```{r}
+n_before <- nrow(squirrels)
+clean    <- clean_squirrels(squirrels)   # AI-written function
+
+stopifnot(nrow(clean) == n_before)       # no rows silently dropped
+
+# how many new NAs did cleaning create in a column?
+na_added <- function(before, after, col) {
+  sum(is.na(after[[col]])) - sum(is.na(before[[col]]))
+}
+```
+
+**Prompts that help**
+
+- *"Which values does this code turn into NA?"*
+- *"Write tests that would fail if this code dropped data."*
+- *"Explain this function line by line."*
+
+## Does being *mean* help? {.smaller}
+
+::: {.columns}
+::: {.column width="55%"}
+**Dobariya & Kumar (2025), *Mind Your Tone***
+
+- 50 multiple-choice questions (math, science, history)
+- Each rewritten in 5 tones → **250 prompts**
+- Model: ChatGPT-4o
+
+| Tone | Accuracy |
+|---|---|
+| Very polite | ~80.8% |
+| Very rude | ~84.8% |
+
+Rude prompts scored ~4 points higher.
+:::
+
+::: {.column width="45%"}
+**Before you start insulting Copilot…**
+
+- One model, one version, 50 questions
+- Multiple choice ≠ writing your analysis code
+- Earlier work (Yin et al., 2024) found **impolite prompts often hurt** performance on older models
+- Open question: is it rudeness, or that rude prompts are **shorter and more direct**?
+
+:::
+:::
+
+. . .
+
+::: {.callout-note}
+**Takeaway:** Tone is a variable. Directness beats deference. Hostility isn't the skill — *clarity* is.
+:::
+
+::: {.notes}
+Good discussion prompt: how would you design a study to separate "rude" from "concise"? This is a reproducibility lesson too: a single-model, single-run result is a hypothesis, not a rule.
+:::
+
+## {.meds-section background-color="#003660"}
+
+::: {.ms-num}
+Part 3
+:::
+
+::: {.ms-title}
+Same data, three roles
+:::
+
+::: {.mt-rule}
+:::
+
+::: {.ms-sub}
+The 2020 NYC Park Squirrel Census
+:::
+
+## Meet the data: NYC park squirrels {.smaller}
+
+::: {.squirrel-stats}
+::: {.stat}
+[72]{.stat-num}
+[volunteer "Squirrel Sighters"]{.stat-label}
+:::
+::: {.stat}
+[433]{.stat-num}
+[squirrel sightings]{.stat-label}
+:::
+::: {.stat}
+[24]{.stat-num}
+[parks in Manhattan and Brooklyn]{.stat-label}
+:::
+:::
+
+- **2020 Park Squirrel Census:** counted on a single afternoon in early March 2020
+- Two linked tables: one row per **squirrel** sighting, one row per **park** (conditions, litter, other animals)
+- Records fur color, location, height above ground, activities and reactions to humans
+- Real-world messy: free-text notes, inconsistent heights, values like "'Cool' - Hank"
+
+::: {.footer-note}
+Source: The Squirrel Census / NYC Open Data, *2020 Park Squirrel Census*
+:::
+
+## Same data, three roles {.roles}
+
+**2020 Park Squirrel Census** (433 sightings, 24 parks) · "I am [role]. Clean this dataset for me."
+
+Different roles yielded different methods to to clean the data. 
+
+The four methods used were: 
+
+::: {.columns}
+::: {.column width="50%"}
+- **Preserved:** script left the data intact without removing anything
+- **Transformed:**  values were simplified or normalized, but original meaning kept
+:::
+::: {.column width="50%"}
+- **Interpreted:**  data changed shape (e.g. one column split into many), steering it toward a specific analysis
+- **Discarded:** values present in the raw data were silently dropped
+:::
+:::
+
+
+
+## What each role did to the data {.smaller}
+
+```{=html}
+<div class="role-grid">
+  <div class="rg-legend">
+    <span><i class="dot preserved"></i>preserved</span>
+    <span><i class="dot transformed"></i>transformed</span>
+    <span><i class="dot interpreted"></i>interpreted</span>
+    <span><i class="dot discarded"></i>discarded</span>
+  </div>
+
+  <div class="rg-label">Height: corrupted ranges<br>(e.g. '6–18')</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="1">Coerced to NA (data lost)</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="2">Fixed encoding → kept as '6-18'</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Extracted lower bound → numeric 6</div>
+
+  <div class="rg-label">Activities column<br>(e.g. 'Foraging, Running')</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1">Kept as-is</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="2">Kept as-is</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Split into 7 TRUE/FALSE cols, dropped original</div>
+
+  <div class="rg-label">Park conditions<br>(e.g. 'Calm, pick-up game')</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="1">Extracted core category + saved note separately</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="2">Extracted first word only</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Hard-coded 3 categories; anything else → NA</div>
+
+  <div class="rg-label">Unusual value<br>("'Cool' - Hank")</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1">Preserved as 'Cool'</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="2">Silently dropped → NA</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="3">Silently dropped → NA</div>
+
+  <div class="rg-label">Extra detail in text<br>(e.g. 'Some, in trees')</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1"><span>Kept in separate <em>_notes</em> column</span></div>
+  <div class="rg-cell discarded fragment" data-fragment-index="2">Discarded</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="3">Discarded</div>
+
+  <div></div>
+  <div class="rg-role dm fragment" data-fragment-index="1">DM</div>
+  <div class="rg-role ds fragment" data-fragment-index="2">DS</div>
+  <div class="rg-role env fragment" data-fragment-index="3">ENV</div>
+</div>
+```
+
+::: {.footer-note}
+Adapted from A. Dillman, *Yes, And… AI in Your IDE*, posit::conf(2026)
+:::
+
+::: {.notes}
+Advance three times: data manager, then data science student, then environmental researcher. Same prompt, same data. The role decided what survived.
+:::
+
+## What the squirrels taught us {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+**What happened**
+
+- Same prompt, same data → **three different datasets**
+- Each role's choices were reasonable *for that role*
+- The worst losses were **silent**: values became NA with no warning
+:::
+
+::: {.column width="50%"}
+**How to prevent it**
+
+- State your goal *and* what must be preserved
+- Ask for a list of every value that was changed or dropped
+- Compare row counts and NA counts before and after
+- Keep original columns; add derived ones beside them
+:::
+:::
+
+. . .
+
+
+## Activity: Prompt makeover
+
+**Goal:** turn a weak prompt into a strong one, and *measure* the difference.
+
+**Task:** create a numeric height column from the squirrel census's messy height values (ranges like '6–18', free text, blanks).
+
+::: {.round-grid}
+::: {.round}
+[Round 1 · 3 min]{.round-tag}
+
+**Weak prompt**
+
+Baseline: see what you get
+:::
+::: {.round}
+[Round 2 · 5 min]{.round-tag .r2}
+
+**Add context + constraints**
+
+Objective 1: write a complete prompt
+:::
+::: {.round}
+[Round 3 · 5 min]{.round-tag .r3}
+
+**Assumptions first**
+
+Objective 2: make the model show its assumptions
+:::
+::: {.round}
+[Round 4 · 5 min]{.round-tag .r4}
+
+**Verify**
+
+Objective 3: check the code against the data
+:::
+:::
+
+[Pairs · ~20 minutes · start a **fresh chat** for each round · use **claude.ai** in your browser or the Claude desktop app]{.activity-time}
+
+::: {.notes}
+Pairs: one person types, one keeps score. Fresh chat each round so earlier rounds don't leak context. Download activity-starter.R before starting.
+:::
+
+## The prompts {.act-prompts .smaller}
+
+::: {.panel-tabset}
+
+### Setup
+
+Do this before Round 1:
+
+1. **Download the2020 Park Squirrel Census: Squirrel Data** from [thesquirrelcensus.com/data](https://www.thesquirrelcensus.com/data)
+2. **Download `activity-starter.R`** from the workshop page at [ucsb-meds.github.io/AI-for-EDS](https://ucsb-meds.github.io/AI-for-EDS)
+3. **Open `activity-starter.R`** in RStudio or Positron — it loads the data and defines `check_cleaning()`
+4. Update the file path at the top to point to your downloaded CSV, then run the setup chunk
+5. **Open [claude.ai](https://claude.ai) in your browser** (or the Claude desktop app). 
+
+You're ready when `glimpse(squirrels)` runs without error.
+
+### Round 1
+
+**Steps:**
+
+1. In R, run `dplyr::glimpse(squirrels)` and copy the output
+2. Start a **fresh chat** in Claude
+3. Paste the following prompt into Claude: 
+> Here is my data: **[paste glimpse() output.]** Clean the `above_ground_height_in_feet` column.
+4. Paste Claude's code into the `clean_r1` variable assignment section of `activity-starter.R` and run it
+5. Fill in your Round 1 scorecard row based on the output
+
+
+### Round 2
+
+**Steps:**
+
+1. Start a **fresh chat**
+2. Run `dplyr::glimpse(squirrels)` and copy the output
+3. Paste the following prompt into Claude:
+
+> I'm analyzing the 2020 NYC Park Squirrel Census in R with the tidyverse. One row = one squirrel sighting. Here is the `glimpse()` output: **[paste]**
+>
+> The `above_ground_height_in_feet` column records how far above ground each squirrel was observed, but values are messy — some are ranges (e.g. '6–18'), some are text, some are blank.
+>
+> Write code that adds a **new** numeric column. **Keep the original column unchanged.** Return one R chunk.
+
+4. Paste Claude's code into the `clean_r2` variable assignment section of `activity-starter.R` and run it
+5. Fill in your Round 2 scorecard row
+
+
+### Round 3
+
+**Steps:**
+
+1. Start a **fresh chat**
+2. Send the Round 2 prompt plus the addition below
+
+  > Prompt: **Round 2 prompt +:**
+
+> **Before writing any code**, list every distinct kind of value in the `above_ground_height_in_feet` column, how you plan to convert each one, and anything you're unsure about. Wait for my answer.
+
+3. Read the model's list of assumptions and answer any questions it asks before it writes code (e.g. *"For ranges like '6–18', should I take the lower bound, upper bound, or midpoint?"*)
+4. Once you've answered, tell Claude: *"Now write the code."*
+5. Paste Claude's code into the `clean_r3` variable assignment section of `activity-starter.R` and run it
+6. Fill in your Round 3 scorecard row
+
+
+
+### Round 4
+
+**Steps:**
+
+1. In `activity-starter.R`, run the check on your Round 1 and Round 3 outputs, using  the cleaned data frame:
+
+```{r}
+check_cleaning(squirrels, clean_r1, height_col)
+check_cleaning(squirrels, clean_r3, height_col)
+```
+
+2. Compare the two outputs. Which round created more NAs?
+3. Back in Claude, ask: *"Which values in `above_ground_height_in_feet` does your code turn into NA? List them."*
+4. Does its answer match what `check_cleaning()` showed?
+5. Fill in the Round 4 column on your scorecard
+
+:::
+
+
+## Verify: the check function {.smaller}
+
+In `activity-starter.R`, and worth keeping for any AI-written cleaning code:
+
+```{r}
+check_cleaning <- function(before, after, col) {
+  if (!col %in% names(after)) stop("Column '", col, "' was renamed or dropped")
+  tibble::tibble(
+    rows_before   = nrow(before),
+    rows_after    = nrow(after),
+    na_before     = sum(is.na(before[[col]])),
+    na_after      = sum(is.na(after[[col]])),
+    values_before = dplyr::n_distinct(before[[col]]),
+    values_after  = dplyr::n_distinct(after[[col]])
+  )
+}
+```
+
+::: {.callout-tip}
+If `na_after > na_before`, the code turned real observations into missing data. Did the model warn you?
+:::
+
+## Scorecard + debrief {.scorecard}
+
+| | Round 1 | Round 2 | Round 3 |
+|---|:-:|:-:|:-:|
+| Rows kept? | | | |
+| Original column kept? | | | |
+| New NAs created | | | |
+| Model told you what it changed? | | | |
+| Code you'd actually use? | | | |
+
+. . .
+
+::: {.callout-note}
+## Debrief (5 min)
+1. Which round lost the least data, and **which fundamental** made the difference?
+2. In Round 4, did the model's own answer match the check?
+3. What will you add to your prompts from now on?
+:::
+
+## {.meds-section background-color="#003660"}
+
+::: {.ms-num}
+Part 4
+:::
+
+::: {.ms-title}
+From prompts to agents
+:::
+
+::: {.mt-rule}
+:::
+
+::: {.ms-sub}
+Write it down once: agentic coding and skills
+:::
+
+## You just did the same work four times
+
+In the activity, every round you:
+
+::: {.columns}
+::: {.column width="50%"}
+- pasted the same `glimpse()` output
+- retyped "keep the original column"
+- copied code from chat into R
+- ran the check yourself
+:::
+
+::: {.column width="50%"}
+::: {.callout-important}
+## Two questions
+1. What if the assistant could **run the code and the check itself**?
+2. What if you wrote your context and rules **once**, and it reused them every time?
+:::
+:::
+:::
+
+. . .
+
+That's **agentic coding** (1) and **skills** (2).
+
+## Chat assistant vs. coding agent
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.mode-card}
+**Chat assistant**
+
+1. You write a prompt
+2. It suggests code
+3. **You** copy, run and check it
+4. **You** paste back errors
+
+You run the loop.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.mode-card .agent}
+**Coding agent** (e.g. Claude Code)
+
+1. You describe the goal
+2. It reads your files and data
+3. It writes code, **runs it**, sees errors, fixes them
+4. You review and approve changes
+
+It runs the loop. **You stay the reviewer.**
+:::
+:::
+:::
+
+. . .
+
+::: {.callout-tip}
+An agent can act on your files, so the fundamentals matter **more**, not less.
+:::
+
+## Same fundamentals, new home {.smaller .map}
+
+| Fundamental | In a chat | In Claude Code |
+|---|---|---|
+| **Context** | Paste `glimpse()` every time | It reads your repo; project notes live in `CLAUDE.md` |
+| **Be specific** | Retype constraints | Write rules once in a **skill** |
+| **Small steps** | "Do step 1 only" | Ask for a plan first, approve it, then let it work |
+| **Surface assumptions** | "List your assumptions" | Built into the skill: *before writing code…* |
+| **Verify** | You run the check | It runs the check script; you review the diff |
+
+## What is a skill? {.smaller}
+
+::: {.columns}
+::: {.column width="55%"}
+A **skill** is a folder with a `SKILL.md` file: written instructions Claude follows for a specific kind of task.
+
+- **Frontmatter:** a `name` and a `description` of when to use it
+- **Body:** the steps and rules, in plain Markdown
+- Claude sees every skill's description, and loads the full instructions **only when a task matches**
+- Or run one yourself: `/safe-data-cleaning`
+- Can bundle scripts, like our check function
+:::
+
+::: {.column width="45%"}
+```text
+my-project/
+└── .claude/
+    └── skills/
+        └── safe-data-cleaning/
+            ├── SKILL.md
+            └── scripts/
+                └── check_cleaning.R
+```
+
+Project skills live in `.claude/skills/` and are shared through git. Personal ones go in `~/.claude/skills/`.
+:::
+:::
+
+## Today's prompts, as a skill {.smaller .skill-slide}
+
+```markdown
+---
+name: safe-data-cleaning
+description: >
+  Clean or recode a column in an environmental dataset
+  without losing data. Use when asked to clean, tidy,
+  recode or parse a column.
+---
+
+## Before writing code
+1. Run `glimpse()` and `count()` on the target column.
+2. List each kind of value and how you'll convert it.
+3. Ask about anything ambiguous; wait for my answers.
+
+## Rules
+- Never overwrite or drop original columns; add new ones.
+- Never drop rows. Use the tidyverse.
+
+## After writing code
+- Run `scripts/check_cleaning.R`; report rows and NAs.
+- List every original value that became NA.
+```
+
+::: {.footer-note}
+Rounds 2–4 of the activity, written down once. It's in this repo at `.claude/skills/safe-data-cleaning/`.
+:::
+
+## Key takeaways {.smaller}
+
+::: {.takeaway-grid}
+::: {.tk}
+[1]{.tk-num}
+**Context is everything.** The model only knows what you show it.
+:::
+::: {.tk}
+[2]{.tk-num}
+**Be specific.** Tools, constraints, output format.
+:::
+::: {.tk}
+[3]{.tk-num}
+**Go step by step.** Plan first, then one task at a time.
+:::
+::: {.tk}
+[4]{.tk-num}
+**Ask neutral questions.** Let the data say "no."
+:::
+::: {.tk}
+[5]{.tk-num}
+**Surface assumptions.** Ask what it changed or dropped.
+:::
+::: {.tk}
+[6]{.tk-num}
+**Verify.** Row counts, NA counts, tests. You're the scientist.
+:::
+:::
+
+## References {.smaller}
+
+- Dobariya, O., & Kumar, A. (2025). *Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy.* arXiv:2510.04950. <https://arxiv.org/abs/2510.04950>
+- Yin, Z., et al. (2024). *Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance.* arXiv:2402.14531. <https://arxiv.org/abs/2402.14531>
+- The Squirrel Census & NYC Open Data. *2020 Park Squirrel Census* (Squirrel Data and Park Data). <https://data.cityofnewyork.us>
+- WNYC (2022). *The NYC Squirrel Census is back with new results.* <https://wnyc.org/story/nyc-squirrel-census-back-new-results-and-toll-free-number/>
+- Sharma, M., et al. (2023). *Towards Understanding Sycophancy in Language Models.* arXiv:2310.13548. <https://arxiv.org/abs/2310.13548>
+- Anthropic. *Extend Claude with skills.* Claude Code documentation. <https://code.claude.com/docs/en/skills>
+- Dillman, A. *Being an Informed and Savvy AI User* session, posit::conf(2026). <https://posit.co/blog/posit-conf-2026-agenda-breakdown>

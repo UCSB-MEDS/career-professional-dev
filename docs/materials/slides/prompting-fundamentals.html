@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<link href="../../images/bren-meds-hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Annie Adams, Kat Le">
+  <title>MEDS Career &amp; Professional Develoment – AI for Environmental Data Science: Prompting Fundamentals</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2205480f3545cc1e1c2827f4366838c3.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="section" class="slide level2 meds-title" data-background-color="#003660">
+<h2></h2>
+<div class="mt-title">
+<p>AI for Environmental Data Science</p>
+</div>
+<div class="mt-subtitle">
+<p>Prompting Fundamentals</p>
+</div>
+<div class="mt-rule">
+
+</div>
+<div class="mt-series">
+<p>MEDS AI Workshop Series | #2 (2026-11-09)</p>
+</div>
+<div class="mt-authors">
+<p>Annie Adams, Kat Le</p>
+</div>
+<div class="mt-link">
+<p><a href="https://ucsb-meds.github.io/AI-for-EDS/" class="uri">https://ucsb-meds.github.io/AI-for-EDS/</a></p>
+</div>
+</section>
+<section id="todays-plan" class="slide level2 agenda">
+<h2>Today’s plan</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><strong>Part 1 · How the model reads your prompt</strong><br>
+<span class="agenda-sub">Tokens, context windows and other LLM vocabulary</span></p>
+<p><strong>Part 2 · Prompting fundamentals</strong><br>
+<span class="agenda-sub">Context, specificity, iteration, verification</span></p>
+<p><strong>Part 3 · Same data, three roles</strong><br>
+<span class="agenda-sub">The 2020 NYC Park Squirrel Census under three roles</span></p>
+<p><strong>Activity · Prompt makeover</strong><br>
+<span class="agenda-sub">Four rounds: weak prompt → strong prompt → verified code</span></p>
+<p><strong>Part 4 · From prompts to agents</strong><br>
+<span class="agenda-sub">Agentic coding and <code>SKILL.md</code> in Claude Code</span></p>
+</div><div class="column" style="width:45%;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>By the end you can…</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Write a prompt with context, constraints and an output format</li>
+<li>Get the model to state its assumptions</li>
+<li>Check AI-written code against the data before you trust it</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="section-1" class="slide level2 meds-section" data-background-color="#003660">
+<h2></h2>
+<div class="ms-num">
+<p>Part 1</p>
+</div>
+<div class="ms-title">
+<p>How the model reads your prompt</p>
+</div>
+<div class="mt-rule">
+
+</div>
+<div class="ms-sub">
+<p>LLM vocabulary, and what an AI assistant can and can’t see</p>
+</div>
+</section>
+<section id="llm-vocabulary" class="slide level2 smaller">
+<h2>LLM vocabulary</h2>
+<div class="vocab-grid">
+<div class="vc">
+<p><strong>LLM</strong></p>
+<p>Large language model: predicts the next piece of text from patterns in its training data</p>
+</div>
+<div class="vc">
+<p><strong>Prompt</strong></p>
+<p>Everything you send the model: your question, pasted data, instructions</p>
+</div>
+<div class="vc">
+<p><strong>Token</strong></p>
+<p>The unit a model reads and writes; a word or part of a word</p>
+</div>
+<div class="vc">
+<p><strong>Context window</strong></p>
+<p>The maximum number of tokens the model can work with at once</p>
+</div>
+<div class="vc">
+<p><strong>System prompt</strong></p>
+<p>Hidden instructions the tool gives the model before your prompt</p>
+</div>
+<div class="vc">
+<p><strong>Hallucination</strong></p>
+<p>Confident output that is false: a made-up function, column or citation</p>
+</div>
+<div class="vc">
+<p><strong>Non-determinism</strong></p>
+<p>The same prompt can give different answers each time you run it</p>
+</div>
+<div class="vc">
+<p><strong>Agent</strong></p>
+<p>A model that can use tools (read files, run code) in a loop toward a goal</p>
+</div>
+</div>
+<aside class="notes">
+<p>Non-determinism matters for the activity: pairs will get different outputs from the same prompt. That’s expected, and it’s another reason to verify.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tokens-how-the-model-reads-text" class="slide level2 smaller roomy">
+<h2>Tokens: how the model reads text</h2>
+<p>Models don’t read words or characters. They read <strong>tokens</strong>.</p>
+<div class="token-demo">
+<p><span class="tok">The</span><span class="tok">squ</span><span class="tok">irrel</span><span class="tok">ran</span><span class="tok">up</span><span class="tok">the</span><span class="tok">oak</span><span class="tok">tree</span><span class="tok">.</span></p>
+</div>
+<div class="token-caption">
+<p>Illustrative split. The exact tokens depend on each model’s tokenizer.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Rules of thumb (English text)</strong></p>
+<ul>
+<li>One token is roughly ¾ of a word</li>
+<li>Common words are one token; rare words, numbers and code split into several</li>
+<li>Tools limit and bill usage in tokens</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Why it matters for data work</strong></p>
+<ul>
+<li>A pasted CSV costs tokens for <strong>every</strong> value</li>
+<li><code>glimpse()</code> + 5 rows: a few hundred tokens</li>
+<li>A full dataset can fill most of the window, leaving less room for your instructions</li>
+</ul>
+</div></div>
+</section>
+<section id="the-context-window" class="slide level2 smaller roomy">
+<h2>The context window</h2>
+<p>The model’s <strong>working memory</strong> for one request, measured in tokens. Everything below shares it:</p>
+<div class="ctx-bar">
+<p><span class="ctx-seg s1">System prompt</span><span class="ctx-seg s2">Attached files</span><span class="ctx-seg s3">Chat history</span><span class="ctx-seg s4">Your prompt</span><span class="ctx-seg s5">Response</span></p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>What happens as it fills</strong></p>
+<ul>
+<li>The response has to fit too</li>
+<li>Older messages may be summarized or dropped</li>
+<li>Details buried in a long chat get less attention</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>What to do</strong></p>
+<ul>
+<li>Send structure, not raw data</li>
+<li>One task per chat; start fresh when it drifts</li>
+<li>Restate key constraints in the new chat</li>
+</ul>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Window sizes vary widely by model and tool, and change often. Check the docs for the one you use.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="whats-in-the-context-window" class="slide level2 smaller">
+<h2>What’s in the context window?</h2>
+<p>The model answers using <strong>only</strong> what’s in its context window for this request.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Usually in context</strong></p>
+<ul>
+<li>Your prompt and the chat so far</li>
+<li>Files or selections your IDE assistant attaches (open editor, <code>@</code>-mentioned files)</li>
+<li>Output you paste in (errors, <code>glimpse()</code>)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Usually <em>not</em> in context</strong></p>
+<ul>
+<li>The actual values in your data frame</li>
+<li>Your project’s goals, field conventions, data-collection quirks</li>
+<li>What you decided in a different chat</li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Long chats drift. When the model starts forgetting constraints, <strong>start a fresh chat</strong> with a short summary of what matters.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Show where your IDE (Positron Assistant, Copilot) shows which files are attached. What gets sent varies by tool and settings, so check yours.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="what-the-model-knows-and-doesnt" class="slide level2 smaller habits">
+<h2>What the model knows (and doesn’t)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>It only knows what’s in context</strong></p>
+<ul>
+<li>It hasn’t seen your data unless you show it</li>
+<li>Paste <code>glimpse()</code> output, column names, a few sample rows</li>
+<li>Say what the data <em>is</em>: source, units, one row = ?</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>It predicts plausible text, not truth</strong></p>
+<ul>
+<li>Code that runs ≠ code that’s correct</li>
+<li>It fills gaps with assumptions, silently</li>
+<li>It tends to agree with your framing, even when it’s wrong</li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Four Tips</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li><strong>Give context</strong>: data, goal, audience</li>
+<li><strong>Be specific</strong>: tools, constraints, output format</li>
+<li><strong>Iterate in small steps</strong>: one task per prompt, then review</li>
+<li><strong>Verify</strong>: run it, check the data, ask for its assumptions</li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Core idea: the model’s output is only as good as the context it gets. Everything that follows is a way of supplying better context or checking the output.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="the-model-tends-to-agree-with-you" class="slide level2 smaller">
+<h2>The model tends to agree with you</h2>
+<p>Models are trained to be helpful, which can tip into <strong>sycophancy</strong>: following your framing even when it’s wrong (Sharma et al., 2023).</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Leading prompt</strong></p>
+<blockquote>
+<p>“Why is fur color such a strong predictor of how squirrels react to people?”</p>
+</blockquote>
+<p>Assumes the effect exists. You’ll likely get an explanation, not a check.</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Neutral prompt</strong></p>
+<blockquote>
+<p>“Is there evidence in this data that fur color is related to how squirrels react to people? What would make that comparison unreliable?”</p>
+</blockquote>
+<p>Asks for evidence <em>and</em> limitations.</p>
+</div></div>
+<div class="fragment">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Ask questions that the data could answer <strong>“no”</strong> to.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Socratic Prompting</strong></p>
+</div>
+<div class="callout-content">
+<p>The neutral prompt above is an example of <strong>Socratic prompting</strong>. Instead of telling the model what to find, ask it what the evidence would need to look like.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2 meds-section" data-background-color="#003660">
+<h2></h2>
+<div class="ms-num">
+<p>Part 2</p>
+</div>
+<div class="ms-title">
+<p>Prompting fundamentals</p>
+</div>
+<div class="mt-rule">
+
+</div>
+<div class="ms-sub">
+<p>Context · specificity · iteration · verification</p>
+</div>
+</section>
+<section id="anatomy-of-a-good-prompt" class="slide level2 smaller">
+<h2>Anatomy of a good prompt</h2>
+<div class="prompt-anatomy">
+<p><span class="pa-tag pa-context"><strong>Context</strong></span> I’m working with the 2020 NYC Park Squirrel Census in R. One row = one squirrel sighting. Columns include fur color, location, height and free-text activities.</p>
+<p><span class="pa-tag pa-task"><strong>Task</strong></span> Write a cleaning script for the activities column.</p>
+<p><span class="pa-tag pa-constraints"><strong>Constraints</strong></span> Use tidyverse. Don’t drop or overwrite any original values; put derived columns next to the originals.</p>
+<p><span class="pa-tag pa-output"><strong>Output</strong></span> One R chunk, then a list of every value you couldn’t parse.</p>
+<p><span class="pa-tag pa-check"><strong>Check</strong></span> Before writing code, list your assumptions and ask me about anything ambiguous.</p>
+</div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Context doesn’t have to live in every prompt. Recall from our last workshop that a <strong>system prompt</strong> or <strong>project pre prompt</strong> can carry context so you don’t have to repeat it each time.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Five parts. Not every prompt needs all five, but the first one (context) and the last one (check) are the ones people skip.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="prompting-fundamentals" class="slide level2 smaller fund">
+<h2>Prompting fundamentals</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fundamental</th>
+<th>Weak prompt</th>
+<th>Stronger prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Context</strong></td>
+<td>“Clean this data”</td>
+<td>“This is the 2020 NYC Park Squirrel Census, one row per squirrel sighting”</td>
+</tr>
+<tr class="even">
+<td><strong>Role / audience</strong></td>
+<td><em>(none)</em></td>
+<td>“I’m a data manager preparing this for a public archive”</td>
+</tr>
+<tr class="odd">
+<td><strong>Task + constraints</strong></td>
+<td>“Make a plot”</td>
+<td>“Use ggplot2, colorblind-safe palette, one plot per park”</td>
+</tr>
+<tr class="even">
+<td><strong>Output format</strong></td>
+<td><em>Not specifying</em></td>
+<td>“Return a single R chunk plus 3 bullet caveats”</td>
+</tr>
+<tr class="odd">
+<td><strong>Surface assumptions</strong></td>
+<td><em>(none)</em></td>
+<td>“Before writing code, list your assumptions about each column”</td>
+</tr>
+<tr class="even">
+<td><strong>Invite pushback</strong></td>
+<td><em>(none)</em></td>
+<td>“If my approach is flawed, say so before writing code”</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>The last two rows matter most</strong></p>
+</div>
+<div class="callout-content">
+<p>Models fill gaps silently. Asking for assumptions and pushback is how you catch data loss <strong>before</strong> it happens.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="show-the-model-your-data-safely" class="slide level2">
+<h2>Show the model your data (safely)</h2>
+<p>The model can’t see your data frame. Give it the <strong>structure</strong>, not the whole dataset.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-label="1"></a>dplyr<span class="sc">::</span><span class="fu">glimpse</span>(squirrels)          <span class="co"># column names, types, first values</span></span>
+<span id="cb1-2"><a aria-label="2"></a><span class="fu">head</span>(squirrels, <span class="dv">5</span>) <span class="sc">|&gt;</span> knitr<span class="sc">::</span><span class="fu">kable</span>() <span class="co"># a few example rows</span></span>
+<span id="cb1-3"><a aria-label="3"></a><span class="fu">dput</span>(<span class="fu">head</span>(squirrels, <span class="dv">5</span>))           <span class="co"># reproducible snippet it can run</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Do</strong></p>
+<ul>
+<li>Paste schema + a few rows</li>
+<li>Describe units and how the data was collected</li>
+<li>Mention known messiness</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Don’t</strong></p>
+<ul>
+<li>Paste sensitive or restricted data into tools your institution hasn’t approved</li>
+<li>Assume the model knows your column meanings</li>
+</ul>
+</div></div>
+</section>
+<section id="iterate-in-small-steps" class="slide level2">
+<h2>Iterate in small steps</h2>
+<div class="loop">
+<p><span class="loop-step">1 · Plan</span> → <span class="loop-step">2 · Code one step</span> → <span class="loop-step">3 · Run</span> → <span class="loop-step">4 · Review</span> → <span class="loop-step loop-repeat">repeat</span></p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Instead of…</strong></p>
+<blockquote>
+<p>“Clean the data, fit a model and make five plots.”</p>
+</blockquote>
+</div><div class="column" style="width:50%;">
+<p><strong>Try…</strong></p>
+<blockquote>
+<p>“First, propose a plan in 4–6 steps. Don’t write code yet.”</p>
+</blockquote>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Each step should be small enough that <strong>you</strong> can check it.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="verify-before-you-trust" class="slide level2 smaller">
+<h2>Verify before you trust</h2>
+<p>AI-written cleaning code can <strong>run perfectly and still lose data</strong>. Check it.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-label="1"></a>n_before <span class="ot">&lt;-</span> <span class="fu">nrow</span>(squirrels)</span>
+<span id="cb2-2"><a aria-label="2"></a>clean    <span class="ot">&lt;-</span> <span class="fu">clean_squirrels</span>(squirrels)   <span class="co"># AI-written function</span></span>
+<span id="cb2-3"><a aria-label="3"></a></span>
+<span id="cb2-4"><a aria-label="4"></a><span class="fu">stopifnot</span>(<span class="fu">nrow</span>(clean) <span class="sc">==</span> n_before)       <span class="co"># no rows silently dropped</span></span>
+<span id="cb2-5"><a aria-label="5"></a></span>
+<span id="cb2-6"><a aria-label="6"></a><span class="co"># how many new NAs did cleaning create in a column?</span></span>
+<span id="cb2-7"><a aria-label="7"></a>na_added <span class="ot">&lt;-</span> <span class="cf">function</span>(before, after, col) {</span>
+<span id="cb2-8"><a aria-label="8"></a>  <span class="fu">sum</span>(<span class="fu">is.na</span>(after[[col]])) <span class="sc">-</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(before[[col]]))</span>
+<span id="cb2-9"><a aria-label="9"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><strong>Prompts that help</strong></p>
+<ul>
+<li><em>“Which values does this code turn into NA?”</em></li>
+<li><em>“Write tests that would fail if this code dropped data.”</em></li>
+<li><em>“Explain this function line by line.”</em></li>
+</ul>
+</section>
+<section id="does-being-mean-help" class="slide level2 smaller">
+<h2>Does being <em>mean</em> help?</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><strong>Dobariya &amp; Kumar (2025), <em>Mind Your Tone</em></strong></p>
+<ul>
+<li>50 multiple-choice questions (math, science, history)</li>
+<li>Each rewritten in 5 tones → <strong>250 prompts</strong></li>
+<li>Model: ChatGPT-4o</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Tone</th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Very polite</td>
+<td>~80.8%</td>
+</tr>
+<tr class="even">
+<td>Very rude</td>
+<td>~84.8%</td>
+</tr>
+</tbody>
+</table>
+<p>Rude prompts scored ~4 points higher.</p>
+</div><div class="column" style="width:45%;">
+<p><strong>Before you start insulting Copilot…</strong></p>
+<ul>
+<li>One model, one version, 50 questions</li>
+<li>Multiple choice ≠ writing your analysis code</li>
+<li>Earlier work (Yin et al., 2024) found <strong>impolite prompts often hurt</strong> performance on older models</li>
+<li>Open question: is it rudeness, or that rude prompts are <strong>shorter and more direct</strong>?</li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Takeaway:</strong> Tone is a variable. Directness beats deference. Hostility isn’t the skill — <em>clarity</em> is.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Good discussion prompt: how would you design a study to separate “rude” from “concise”? This is a reproducibility lesson too: a single-model, single-run result is a hypothesis, not a rule.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="section-3" class="slide level2 meds-section" data-background-color="#003660">
+<h2></h2>
+<div class="ms-num">
+<p>Part 3</p>
+</div>
+<div class="ms-title">
+<p>Same data, three roles</p>
+</div>
+<div class="mt-rule">
+
+</div>
+<div class="ms-sub">
+<p>The 2020 NYC Park Squirrel Census</p>
+</div>
+</section>
+<section id="meet-the-data-nyc-park-squirrels" class="slide level2 smaller">
+<h2>Meet the data: NYC park squirrels</h2>
+<div class="squirrel-stats">
+<div class="stat">
+<p><span class="stat-num">72</span> <span class="stat-label">volunteer “Squirrel Sighters”</span></p>
+</div>
+<div class="stat">
+<p><span class="stat-num">433</span> <span class="stat-label">squirrel sightings</span></p>
+</div>
+<div class="stat">
+<p><span class="stat-num">24</span> <span class="stat-label">parks in Manhattan and Brooklyn</span></p>
+</div>
+</div>
+<ul>
+<li><strong>2020 Park Squirrel Census:</strong> counted on a single afternoon in early March 2020</li>
+<li>Two linked tables: one row per <strong>squirrel</strong> sighting, one row per <strong>park</strong> (conditions, litter, other animals)</li>
+<li>Records fur color, location, height above ground, activities and reactions to humans</li>
+<li>Real-world messy: free-text notes, inconsistent heights, values like “‘Cool’ - Hank”</li>
+</ul>
+<div class="footer-note">
+<p>Source: The Squirrel Census / NYC Open Data, <em>2020 Park Squirrel Census</em></p>
+</div>
+</section>
+<section id="same-data-three-roles" class="slide level2 roles">
+<h2>Same data, three roles</h2>
+<p><strong>2020 Park Squirrel Census</strong> (433 sightings, 24 parks) · “I am [role]. Clean this dataset for me.”</p>
+<p>Different roles yielded different methods to to clean the data.</p>
+<p>The four methods used were:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Preserved:</strong> script left the data intact without removing anything</li>
+<li><strong>Transformed:</strong> values were simplified or normalized, but original meaning kept</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong>Interpreted:</strong> data changed shape (e.g.&nbsp;one column split into many), steering it toward a specific analysis</li>
+<li><strong>Discarded:</strong> values present in the raw data were silently dropped</li>
+</ul>
+</div></div>
+</section>
+<section id="what-each-role-did-to-the-data" class="slide level2 smaller">
+<h2>What each role did to the data</h2>
+<div class="role-grid">
+  <div class="rg-legend">
+    <span><i class="dot preserved"></i>preserved</span>
+    <span><i class="dot transformed"></i>transformed</span>
+    <span><i class="dot interpreted"></i>interpreted</span>
+    <span><i class="dot discarded"></i>discarded</span>
+  </div>
+
+  <div class="rg-label">Height: corrupted ranges<br>(e.g. '6–18')</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="1">Coerced to NA (data lost)</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="2">Fixed encoding → kept as '6-18'</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Extracted lower bound → numeric 6</div>
+
+  <div class="rg-label">Activities column<br>(e.g. 'Foraging, Running')</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1">Kept as-is</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="2">Kept as-is</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Split into 7 TRUE/FALSE cols, dropped original</div>
+
+  <div class="rg-label">Park conditions<br>(e.g. 'Calm, pick-up game')</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="1">Extracted core category + saved note separately</div>
+  <div class="rg-cell transformed fragment" data-fragment-index="2">Extracted first word only</div>
+  <div class="rg-cell interpreted fragment" data-fragment-index="3">Hard-coded 3 categories; anything else → NA</div>
+
+  <div class="rg-label">Unusual value<br>("'Cool' - Hank")</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1">Preserved as 'Cool'</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="2">Silently dropped → NA</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="3">Silently dropped → NA</div>
+
+  <div class="rg-label">Extra detail in text<br>(e.g. 'Some, in trees')</div>
+  <div class="rg-cell preserved fragment" data-fragment-index="1"><span>Kept in separate <em>_notes</em> column</span></div>
+  <div class="rg-cell discarded fragment" data-fragment-index="2">Discarded</div>
+  <div class="rg-cell discarded fragment" data-fragment-index="3">Discarded</div>
+
+  <div></div>
+  <div class="rg-role dm fragment" data-fragment-index="1">DM</div>
+  <div class="rg-role ds fragment" data-fragment-index="2">DS</div>
+  <div class="rg-role env fragment" data-fragment-index="3">ENV</div>
+</div>
+<div class="footer-note">
+<p>Adapted from A. Dillman, <em>Yes, And… AI in Your IDE</em>, posit::conf(2026)</p>
+</div>
+<aside class="notes">
+<p>Advance three times: data manager, then data science student, then environmental researcher. Same prompt, same data. The role decided what survived.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-the-squirrels-taught-us" class="slide level2 smaller">
+<h2>What the squirrels taught us</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>What happened</strong></p>
+<ul>
+<li>Same prompt, same data → <strong>three different datasets</strong></li>
+<li>Each role’s choices were reasonable <em>for that role</em></li>
+<li>The worst losses were <strong>silent</strong>: values became NA with no warning</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>How to prevent it</strong></p>
+<ul>
+<li>State your goal <em>and</em> what must be preserved</li>
+<li>Ask for a list of every value that was changed or dropped</li>
+<li>Compare row counts and NA counts before and after</li>
+<li>Keep original columns; add derived ones beside them</li>
+</ul>
+</div></div>
+</section>
+<section id="activity-prompt-makeover" class="slide level2">
+<h2>Activity: Prompt makeover</h2>
+<p><strong>Goal:</strong> turn a weak prompt into a strong one, and <em>measure</em> the difference.</p>
+<p><strong>Task:</strong> create a numeric height column from the squirrel census’s messy height values (ranges like ‘6–18’, free text, blanks).</p>
+<div class="round-grid">
+<div class="round">
+<p><span class="round-tag">Round 1 · 3 min</span></p>
+<p><strong>Weak prompt</strong></p>
+<p>Baseline: see what you get</p>
+</div>
+<div class="round">
+<p><span class="round-tag r2">Round 2 · 5 min</span></p>
+<p><strong>Add context + constraints</strong></p>
+<p>Objective 1: write a complete prompt</p>
+</div>
+<div class="round">
+<p><span class="round-tag r3">Round 3 · 5 min</span></p>
+<p><strong>Assumptions first</strong></p>
+<p>Objective 2: make the model show its assumptions</p>
+</div>
+<div class="round">
+<p><span class="round-tag r4">Round 4 · 5 min</span></p>
+<p><strong>Verify</strong></p>
+<p>Objective 3: check the code against the data</p>
+</div>
+</div>
+<p><span class="activity-time">Pairs · ~20 minutes · start a <strong>fresh chat</strong> for each round · use <strong>claude.ai</strong> in your browser or the Claude desktop app</span></p>
+<aside class="notes">
+<p>Pairs: one person types, one keeps score. Fresh chat each round so earlier rounds don’t leak context. Download activity-starter.R before starting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-prompts" class="slide level2 act-prompts smaller">
+<h2>The prompts</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Setup</a></li><li><a href="#tabset-1-2">Round 1</a></li><li><a href="#tabset-1-3">Round 2</a></li><li><a href="#tabset-1-4">Round 3</a></li><li><a href="#tabset-1-5">Round 4</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p>Do this before Round 1:</p>
+<ol type="1">
+<li><strong>Download the2020 Park Squirrel Census: Squirrel Data</strong> from <a href="https://www.thesquirrelcensus.com/data">thesquirrelcensus.com/data</a></li>
+<li><strong>Download <code>activity-starter.R</code></strong> from the workshop page at <a href="https://ucsb-meds.github.io/AI-for-EDS">ucsb-meds.github.io/AI-for-EDS</a></li>
+<li><strong>Open <code>activity-starter.R</code></strong> in RStudio or Positron — it loads the data and defines <code>check_cleaning()</code></li>
+<li>Update the file path at the top to point to your downloaded CSV, then run the setup chunk</li>
+<li><strong>Open <a href="https://claude.ai">claude.ai</a> in your browser</strong> (or the Claude desktop app).</li>
+</ol>
+<p>You’re ready when <code>glimpse(squirrels)</code> runs without error.</p>
+</div>
+<div id="tabset-1-2">
+<p><strong>Steps:</strong></p>
+<ol type="1">
+<li>In R, run <code>dplyr::glimpse(squirrels)</code> and copy the output</li>
+<li>Start a <strong>fresh chat</strong> in Claude</li>
+<li>Paste the following prompt into Claude: &gt; Here is my data: <strong>[paste glimpse() output.]</strong> Clean the <code>above_ground_height_in_feet</code> column.</li>
+<li>Paste Claude’s code into the <code>clean_r1</code> variable assignment section of <code>activity-starter.R</code> and run it</li>
+<li>Fill in your Round 1 scorecard row based on the output</li>
+</ol>
+</div>
+<div id="tabset-1-3">
+<p><strong>Steps:</strong></p>
+<ol type="1">
+<li>Start a <strong>fresh chat</strong></li>
+<li>Run <code>dplyr::glimpse(squirrels)</code> and copy the output</li>
+<li>Paste the following prompt into Claude:</li>
+</ol>
+<blockquote>
+<p>I’m analyzing the 2020 NYC Park Squirrel Census in R with the tidyverse. One row = one squirrel sighting. Here is the <code>glimpse()</code> output: <strong>[paste]</strong></p>
+<p>The <code>above_ground_height_in_feet</code> column records how far above ground each squirrel was observed, but values are messy — some are ranges (e.g.&nbsp;‘6–18’), some are text, some are blank.</p>
+<p>Write code that adds a <strong>new</strong> numeric column. <strong>Keep the original column unchanged.</strong> Return one R chunk.</p>
+</blockquote>
+<ol start="4" type="1">
+<li>Paste Claude’s code into the <code>clean_r2</code> variable assignment section of <code>activity-starter.R</code> and run it</li>
+<li>Fill in your Round 2 scorecard row</li>
+</ol>
+</div>
+<div id="tabset-1-4">
+<p><strong>Steps:</strong></p>
+<ol type="1">
+<li>Start a <strong>fresh chat</strong></li>
+<li>Send the Round 2 prompt plus the addition below</li>
+</ol>
+<blockquote>
+<p>Prompt: <strong>Round 2 prompt +:</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Before writing any code</strong>, list every distinct kind of value in the <code>above_ground_height_in_feet</code> column, how you plan to convert each one, and anything you’re unsure about. Wait for my answer.</p>
+</blockquote>
+<ol start="3" type="1">
+<li>Read the model’s list of assumptions and answer any questions it asks before it writes code (e.g.&nbsp;<em>“For ranges like ‘6–18’, should I take the lower bound, upper bound, or midpoint?”</em>)</li>
+<li>Once you’ve answered, tell Claude: <em>“Now write the code.”</em></li>
+<li>Paste Claude’s code into the <code>clean_r3</code> variable assignment section of <code>activity-starter.R</code> and run it</li>
+<li>Fill in your Round 3 scorecard row</li>
+</ol>
+</div>
+<div id="tabset-1-5">
+<p><strong>Steps:</strong></p>
+<ol type="1">
+<li>In <code>activity-starter.R</code>, run the check on your Round 1 and Round 3 outputs, using the cleaned data frame:</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-label="1"></a><span class="fu">check_cleaning</span>(squirrels, clean_r1, height_col)</span>
+<span id="cb3-2"><a aria-label="2"></a><span class="fu">check_cleaning</span>(squirrels, clean_r3, height_col)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol start="2" type="1">
+<li>Compare the two outputs. Which round created more NAs?</li>
+<li>Back in Claude, ask: <em>“Which values in <code>above_ground_height_in_feet</code> does your code turn into NA? List them.”</em></li>
+<li>Does its answer match what <code>check_cleaning()</code> showed?</li>
+<li>Fill in the Round 4 column on your scorecard</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="verify-the-check-function" class="slide level2 smaller">
+<h2>Verify: the check function</h2>
+<p>In <code>activity-starter.R</code>, and worth keeping for any AI-written cleaning code:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a aria-label="1"></a>check_cleaning <span class="ot">&lt;-</span> <span class="cf">function</span>(before, after, col) {</span>
+<span id="cb4-2"><a aria-label="2"></a>  <span class="cf">if</span> (<span class="sc">!</span>col <span class="sc">%in%</span> <span class="fu">names</span>(after)) <span class="fu">stop</span>(<span class="st">"Column '"</span>, col, <span class="st">"' was renamed or dropped"</span>)</span>
+<span id="cb4-3"><a aria-label="3"></a>  tibble<span class="sc">::</span><span class="fu">tibble</span>(</span>
+<span id="cb4-4"><a aria-label="4"></a>    <span class="at">rows_before   =</span> <span class="fu">nrow</span>(before),</span>
+<span id="cb4-5"><a aria-label="5"></a>    <span class="at">rows_after    =</span> <span class="fu">nrow</span>(after),</span>
+<span id="cb4-6"><a aria-label="6"></a>    <span class="at">na_before     =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(before[[col]])),</span>
+<span id="cb4-7"><a aria-label="7"></a>    <span class="at">na_after      =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(after[[col]])),</span>
+<span id="cb4-8"><a aria-label="8"></a>    <span class="at">values_before =</span> dplyr<span class="sc">::</span><span class="fu">n_distinct</span>(before[[col]]),</span>
+<span id="cb4-9"><a aria-label="9"></a>    <span class="at">values_after  =</span> dplyr<span class="sc">::</span><span class="fu">n_distinct</span>(after[[col]])</span>
+<span id="cb4-10"><a aria-label="10"></a>  )</span>
+<span id="cb4-11"><a aria-label="11"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>If <code>na_after &gt; na_before</code>, the code turned real observations into missing data. Did the model warn you?</p>
+</div>
+</div>
+</div>
+</section>
+<section id="scorecard-debrief" class="slide level2 scorecard">
+<h2>Scorecard + debrief</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Round 1</th>
+<th style="text-align: center;">Round 2</th>
+<th style="text-align: center;">Round 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rows kept?</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Original column kept?</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>New NAs created</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Model told you what it changed?</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Code you’d actually use?</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Debrief (5 min)</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li>Which round lost the least data, and <strong>which fundamental</strong> made the difference?</li>
+<li>In Round 4, did the model’s own answer match the check?</li>
+<li>What will you add to your prompts from now on?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section-4" class="slide level2 meds-section" data-background-color="#003660">
+<h2></h2>
+<div class="ms-num">
+<p>Part 4</p>
+</div>
+<div class="ms-title">
+<p>From prompts to agents</p>
+</div>
+<div class="mt-rule">
+
+</div>
+<div class="ms-sub">
+<p>Write it down once: agentic coding and skills</p>
+</div>
+</section>
+<section id="you-just-did-the-same-work-four-times" class="slide level2">
+<h2>You just did the same work four times</h2>
+<p>In the activity, every round you:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>pasted the same <code>glimpse()</code> output</li>
+<li>retyped “keep the original column”</li>
+<li>copied code from chat into R</li>
+<li>ran the check yourself</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Two questions</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li>What if the assistant could <strong>run the code and the check itself</strong>?</li>
+<li>What if you wrote your context and rules <strong>once</strong>, and it reused them every time?</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<p>That’s <strong>agentic coding</strong> (1) and <strong>skills</strong> (2).</p>
+</div>
+</section>
+<section id="chat-assistant-vs.-coding-agent" class="slide level2">
+<h2>Chat assistant vs.&nbsp;coding agent</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="mode-card">
+<p><strong>Chat assistant</strong></p>
+<ol type="1">
+<li>You write a prompt</li>
+<li>It suggests code</li>
+<li><strong>You</strong> copy, run and check it</li>
+<li><strong>You</strong> paste back errors</li>
+</ol>
+<p>You run the loop.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="mode-card agent">
+<p><strong>Coding agent</strong> (e.g.&nbsp;Claude Code)</p>
+<ol type="1">
+<li>You describe the goal</li>
+<li>It reads your files and data</li>
+<li>It writes code, <strong>runs it</strong>, sees errors, fixes them</li>
+<li>You review and approve changes</li>
+</ol>
+<p>It runs the loop. <strong>You stay the reviewer.</strong></p>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>An agent can act on your files, so the fundamentals matter <strong>more</strong>, not less.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="same-fundamentals-new-home" class="slide level2 smaller map">
+<h2>Same fundamentals, new home</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fundamental</th>
+<th>In a chat</th>
+<th>In Claude Code</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Context</strong></td>
+<td>Paste <code>glimpse()</code> every time</td>
+<td>It reads your repo; project notes live in <code>CLAUDE.md</code></td>
+</tr>
+<tr class="even">
+<td><strong>Be specific</strong></td>
+<td>Retype constraints</td>
+<td>Write rules once in a <strong>skill</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Small steps</strong></td>
+<td>“Do step 1 only”</td>
+<td>Ask for a plan first, approve it, then let it work</td>
+</tr>
+<tr class="even">
+<td><strong>Surface assumptions</strong></td>
+<td>“List your assumptions”</td>
+<td>Built into the skill: <em>before writing code…</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Verify</strong></td>
+<td>You run the check</td>
+<td>It runs the check script; you review the diff</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-is-a-skill" class="slide level2 smaller">
+<h2>What is a skill?</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p>A <strong>skill</strong> is a folder with a <code>SKILL.md</code> file: written instructions Claude follows for a specific kind of task.</p>
+<ul>
+<li><strong>Frontmatter:</strong> a <code>name</code> and a <code>description</code> of when to use it</li>
+<li><strong>Body:</strong> the steps and rules, in plain Markdown</li>
+<li>Claude sees every skill’s description, and loads the full instructions <strong>only when a task matches</strong></li>
+<li>Or run one yourself: <code>/safe-data-cleaning</code></li>
+<li>Can bundle scripts, like our check function</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a aria-label="1"></a>my-project/</span>
+<span id="cb5-2"><a aria-label="2"></a>└── .claude/</span>
+<span id="cb5-3"><a aria-label="3"></a>    └── skills/</span>
+<span id="cb5-4"><a aria-label="4"></a>        └── safe-data-cleaning/</span>
+<span id="cb5-5"><a aria-label="5"></a>            ├── SKILL.md</span>
+<span id="cb5-6"><a aria-label="6"></a>            └── scripts/</span>
+<span id="cb5-7"><a aria-label="7"></a>                └── check_cleaning.R</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Project skills live in <code>.claude/skills/</code> and are shared through git. Personal ones go in <code>~/.claude/skills/</code>.</p>
+</div></div>
+</section>
+<section id="todays-prompts-as-a-skill" class="slide level2 smaller skill-slide">
+<h2>Today’s prompts, as a skill</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a aria-label="1"></a><span class="co">---</span></span>
+<span id="cb6-2"><a aria-label="2"></a><span class="an">name:</span><span class="co"> safe-data-cleaning</span></span>
+<span id="cb6-3"><a aria-label="3"></a><span class="an">description:</span><span class="co"> &gt;</span></span>
+<span id="cb6-4"><a aria-label="4"></a><span class="co">  Clean or recode a column in an environmental dataset</span></span>
+<span id="cb6-5"><a aria-label="5"></a><span class="co">  without losing data. Use when asked to clean, tidy,</span></span>
+<span id="cb6-6"><a aria-label="6"></a><span class="co">  recode or parse a column.</span></span>
+<span id="cb6-7"><a aria-label="7"></a><span class="co">---</span></span>
+<span id="cb6-8"><a aria-label="8"></a></span>
+<span id="cb6-9"><a aria-label="9"></a><span class="fu">## Before writing code</span></span>
+<span id="cb6-10"><a aria-label="10"></a><span class="ss">1. </span>Run <span class="in">`glimpse()`</span> and <span class="in">`count()`</span> on the target column.</span>
+<span id="cb6-11"><a aria-label="11"></a><span class="ss">2. </span>List each kind of value and how you'll convert it.</span>
+<span id="cb6-12"><a aria-label="12"></a><span class="ss">3. </span>Ask about anything ambiguous; wait for my answers.</span>
+<span id="cb6-13"><a aria-label="13"></a></span>
+<span id="cb6-14"><a aria-label="14"></a><span class="fu">## Rules</span></span>
+<span id="cb6-15"><a aria-label="15"></a><span class="ss">- </span>Never overwrite or drop original columns; add new ones.</span>
+<span id="cb6-16"><a aria-label="16"></a><span class="ss">- </span>Never drop rows. Use the tidyverse.</span>
+<span id="cb6-17"><a aria-label="17"></a></span>
+<span id="cb6-18"><a aria-label="18"></a><span class="fu">## After writing code</span></span>
+<span id="cb6-19"><a aria-label="19"></a><span class="ss">- </span>Run <span class="in">`scripts/check_cleaning.R`</span>; report rows and NAs.</span>
+<span id="cb6-20"><a aria-label="20"></a><span class="ss">- </span>List every original value that became NA.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="footer-note">
+<p>Rounds 2–4 of the activity, written down once. It’s in this repo at <code>.claude/skills/safe-data-cleaning/</code>.</p>
+</div>
+</section>
+<section id="key-takeaways" class="slide level2 smaller">
+<h2>Key takeaways</h2>
+<div class="takeaway-grid">
+<div class="tk">
+<p><span class="tk-num">1</span> <strong>Context is everything.</strong> The model only knows what you show it.</p>
+</div>
+<div class="tk">
+<p><span class="tk-num">2</span> <strong>Be specific.</strong> Tools, constraints, output format.</p>
+</div>
+<div class="tk">
+<p><span class="tk-num">3</span> <strong>Go step by step.</strong> Plan first, then one task at a time.</p>
+</div>
+<div class="tk">
+<p><span class="tk-num">4</span> <strong>Ask neutral questions.</strong> Let the data say “no.”</p>
+</div>
+<div class="tk">
+<p><span class="tk-num">5</span> <strong>Surface assumptions.</strong> Ask what it changed or dropped.</p>
+</div>
+<div class="tk">
+<p><span class="tk-num">6</span> <strong>Verify.</strong> Row counts, NA counts, tests. You’re the scientist.</p>
+</div>
+</div>
+</section>
+<section id="references" class="slide level2 smaller">
+<h2>References</h2>
+<ul>
+<li>Dobariya, O., &amp; Kumar, A. (2025). <em>Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy.</em> arXiv:2510.04950. <a href="https://arxiv.org/abs/2510.04950" class="uri">https://arxiv.org/abs/2510.04950</a></li>
+<li>Yin, Z., et al.&nbsp;(2024). <em>Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance.</em> arXiv:2402.14531. <a href="https://arxiv.org/abs/2402.14531" class="uri">https://arxiv.org/abs/2402.14531</a></li>
+<li>The Squirrel Census &amp; NYC Open Data. <em>2020 Park Squirrel Census</em> (Squirrel Data and Park Data). <a href="https://data.cityofnewyork.us" class="uri">https://data.cityofnewyork.us</a></li>
+<li>WNYC (2022). <em>The NYC Squirrel Census is back with new results.</em> <a href="https://wnyc.org/story/nyc-squirrel-census-back-new-results-and-toll-free-number/" class="uri">https://wnyc.org/story/nyc-squirrel-census-back-new-results-and-toll-free-number/</a></li>
+<li>Sharma, M., et al.&nbsp;(2023). <em>Towards Understanding Sycophancy in Language Models.</em> arXiv:2310.13548. <a href="https://arxiv.org/abs/2310.13548" class="uri">https://arxiv.org/abs/2310.13548</a></li>
+<li>Anthropic. <em>Extend Claude with skills.</em> Claude Code documentation. <a href="https://code.claude.com/docs/en/skills" class="uri">https://code.claude.com/docs/en/skills</a></li>
+<li>Dillman, A. <em>Being an Informed and Savvy AI User</em> session, posit::conf(2026). <a href="https://posit.co/blog/posit-conf-2026-agenda-breakdown" class="uri">https://posit.co/blog/posit-conf-2026-agenda-breakdown</a></li>
+</ul>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>AI for EDS · Prompting Fundamentals</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
