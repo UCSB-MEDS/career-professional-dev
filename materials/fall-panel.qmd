@@ -38,10 +38,10 @@ If you haven't already, please read or review the following BrenConnect article:
 **Recording:** 
 
 
-<!-- | Content Type | Materials              | Notes |
+| Content Type | Materials              | Notes |
 |--------------|------------------------|-------|
-| Slides | [Using Informational Meetings to Grow, Get Advice, & Build Intentional Connections](https://ucsb.app.box.com/s/l00jyhp4ziqzlkeehqsfpxmlu1spnb5d){target="_blank"}  | NA |
-: {.hover .bordered tbl-colwidths="[20,50,30]"}  -->
+| Recording | [Fall EDS Career Panel](https://ucsb.box.com/s/h1kry7581xuxw6rfp7tc20un62mftfit){target="_blank"}  | Login to Box to access the recording and audio file |
+: {.hover .bordered tbl-colwidths="[20,50,30]"}  
 
 ## {{< fa plus title="plus" >}} What should I continue working on? {#continue-working}
 
