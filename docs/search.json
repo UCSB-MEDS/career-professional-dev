@@ -711,7 +711,7 @@
     "href": "materials/GenAI2.html",
     "title": "AI for EDS: Prompting Fundamentals",
     "section": "",
-    "text": "coming soon!"
+    "text": "Materials for this workshop are maintained on the AI for EDS website. You can find slides, links, and additional resources for all workshops in the series there."
   },
   {
     "objectID": "materials/resume-cover-letter.html",
@@ -1279,5 +1279,12 @@
     "title": "MEDS Career & Professional Develoment",
     "section": "References",
     "text": "References\n\nDobariya, O., & Kumar, A. (2025). Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy. arXiv:2510.04950. https://arxiv.org/abs/2510.04950\nYin, Z., et al. (2024). Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance. arXiv:2402.14531. https://arxiv.org/abs/2402.14531\nThe Squirrel Census & NYC Open Data. 2020 Park Squirrel Census (Squirrel Data and Park Data). https://data.cityofnewyork.us\nWNYC (2022). The NYC Squirrel Census is back with new results. https://wnyc.org/story/nyc-squirrel-census-back-new-results-and-toll-free-number/\nSharma, M., et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548. https://arxiv.org/abs/2310.13548\nAnthropic. Extend Claude with skills. Claude Code documentation. https://code.claude.com/docs/en/skills\nDillman, A. Being an Informed and Savvy AI User session, posit::conf(2026). https://posit.co/blog/posit-conf-2026-agenda-breakdown"
+  },
+  {
+    "objectID": "materials/GenAI2.html#workshop-materials",
+    "href": "materials/GenAI2.html#workshop-materials",
+    "title": "AI for EDS: Prompting Fundamentals",
+    "section": " Workshop Materials",
+    "text": "Workshop Materials\n\n\n\n\n\n\n\n\nContent Type\nMaterials\nNotes\n\n\n\n\nSlides\nAI for EDS: Prompting Fundamentals\nNA"
   }
 ]

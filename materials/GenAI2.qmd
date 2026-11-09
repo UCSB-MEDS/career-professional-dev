@@ -1,9 +1,17 @@
 ---
 title: "AI for EDS: Prompting Fundamentals"
 subtitle: "Fall | Week 7"
-description: "Wednesday, November 09^th^, 2026"
+description: "Monday, November 09^th^, 2026"
 ---
 
-*coming soon!*
+Materials for this workshop are maintained on the [AI for EDS website](https://ucsb-meds.github.io/AI-for-EDS/). You can find slides, links, and additional resources for all workshops in the series there.
+
+## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Workshop Materials {#workshop-materials}
+
+| Content Type | Materials              | Notes |
+|--------------|------------------------|-------|
+| Slides |  [AI for EDS: Prompting Fundamentals](https://ucsb-meds.github.io/AI-for-EDS/slides/prompting-fundamentals/prompting-fundamentals.html#/section){target="_blank"} | *NA* |
+: {.hover .bordered tbl-colwidths="[20,50,30]"} 
+
 
 <!-- NOTE: continue to maintain the AI for EDS website (https://ucsb-meds.github.io/AI-for-EDS/); Add description of that website somewhere on this page and point to materials there -->
